@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from "react";
-import { useInView } from "react-intersection-observer";
 
 export function ObservedItem(props) {
   // const { ref: containerRef, inView: isVisible, entry } = useInView(options);
@@ -14,7 +13,7 @@ export function ObservedItem(props) {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: 1.0,
+    threshold: 1,
   };
 
   useEffect(() => {
@@ -30,8 +29,11 @@ export function ObservedItem(props) {
     <div className="app">
       <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div>
       <div className="section"></div>
-      <span className={`"box" ${isVisible ? "box-animate" : "box"}`}>
-        <div ref={containerRef}>Observe me you filthy voyeur :S</div>
+      <span className={` ${isVisible ? "box-animate" : "box"}`}>
+        <div ref={containerRef}>
+          {props.textContent}
+          {props.children}
+        </div>
       </span>
     </div>
   );

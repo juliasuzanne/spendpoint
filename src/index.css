@@ -74,7 +74,7 @@ button:focus-visible {
 .spendpoint-transition {
   display: grid;
   place-items: center;
-  min-height: 100vh;
+  min-height: 20vh;
   transition: all 1s;
   background-color: red;
 }
@@ -83,7 +83,7 @@ button:focus-visible {
 .spendpoint-transition2 {
   display: grid;
   place-items: center;
-  min-height: 100vh;
+  min-height: 20vh;
   transition: all 1s;
 
 }
