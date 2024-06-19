@@ -13,7 +13,7 @@ export function ObservedItem(props) {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: 1,
+    threshold: 0.7,
   };
 
   useEffect(() => {
@@ -21,14 +21,14 @@ export function ObservedItem(props) {
     if (containerRef.current) observer.observe(containerRef.current);
 
     return () => {
-      if (containerRef.current) observer.unobserve(containerRef.current);
+      // if (containerRef.current) observer.unobserve(containerRef.current);
     };
   }, [containerRef, options]);
 
   return (
-    <div className="app">
+    <div className="">
       <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div>
-      <div className="section"></div>
+      <div className=""></div>
       <span className={` ${isVisible ? "box-animate" : "box"}`}>
         <div ref={containerRef}>
           {props.textContent}

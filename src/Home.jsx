@@ -1,9 +1,21 @@
 import { useState, useRef, useEffect } from "react";
 import { ObservedItem } from "./ObservedItem";
+import { Right } from "./Right";
+import { Geofences } from "./Geofences";
+import { Customer } from "./Customer";
+import { ContactForm } from "./ContactForm";
 
 export function Home() {
   return (
     <div className="app">
+      <img
+        className="spendpointLogoTop"
+        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808894/SpendPointimage-10_wivase.png"
+      ></img>
+      <Right></Right>
+      <Geofences></Geofences>
+      <Customer></Customer>
+      <ContactForm></ContactForm>
       <ObservedItem
         name="item1"
         textContent="SpendPoint transforms today's inefficient mobile display advertising into must-have, high ROAS marketing."
@@ -24,17 +36,10 @@ export function Home() {
           src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718119414/cnc_zhxtmk_gloljy.png"
         ></img>
       </ObservedItem>
-      <ObservedItem
-        name="item2"
-        textContent="
-          Let's Connect"
-      >
-        <p>testing paragraph</p>
-        <img
-          height="100px"
-          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718119414/cnc_zhxtmk_gloljy.png"
-        ></img>
+      <ObservedItem name="item2" textContent="Let's Connect">
+        <p>test paragraph</p>
       </ObservedItem>
+      <br></br>
     </div>
   );
 

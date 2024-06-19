@@ -1,0 +1,47 @@
+
+.largeP{
+  position: absolute;
+  right: -25vw;
+  width: 100vw;
+  top: -65vw;
+  z-index: -5;
+}
+
+
+.right{
+  margin: auto;
+  width: 80vw;
+}
+
+
+.timePersonPlace img{
+  width: 15vw;
+
+
+}
+
+.timePersonPlace{
+  display: block;
+  
+
+  text-align: center;
+  padding-right: 4vw;
+
+}
+
+.timePersonPlaceContainer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80vw;
+}
+
+
+.ROAS{
+  font-size: 2em;
+}
+
+.spentPointP{
+  font-size: 1.7em;
+}
