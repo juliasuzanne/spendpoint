@@ -79,13 +79,14 @@ export function ContactForm() {
             </ul>
             <div className="row">
               <button className="submitbutton btn btn-secondary mt-3 submit ">CONTACT</button>
+              <p>Your information will only be used to contact you about a follow-up meeting.</p>
             </div>
           </div>
         </form>
 
         <img
           className="bottom-logo"
-          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718858113/logobottom-2_zydwtv.png"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718898397/SpendPointL_pn5zt0.png"
         ></img>
       </div>
     </>

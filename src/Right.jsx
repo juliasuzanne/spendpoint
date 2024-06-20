@@ -11,8 +11,7 @@ export function Right() {
       ></img>
       <div className="timePP">
         <p className="spentPointP">
-          SpendPoint transforms today's inefficient mobile display advertising into
-          <br></br>
+          SpendPoint transforms today's inefficient mobile display advertising into{" "}
           <span className="ROAS">must-have, high ROAS marketing.</span>
         </p>
       </div>

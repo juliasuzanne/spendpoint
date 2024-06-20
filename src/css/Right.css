@@ -39,13 +39,15 @@
 
 
 .ROAS{
-  font-size: 3.7vw;
+  font-size: 4.2vw;
   font-weight: 700;
 
 }
 
 .spentPointP{
-  font-size: 1.6vw;
+  font-size: 3vw;
   z-index: 2;
   position: relative;
+  padding: 2vh;
+  text-align: center;
 }
