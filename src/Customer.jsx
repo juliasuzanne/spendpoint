@@ -7,10 +7,6 @@ export function Customer() {
   return (
     <div className="app">
       <div className="customer">
-        <p>
-          Ads delivered to the right person, at the right time, at the right place dramatically increases clicks, store
-          visits and sales.
-        </p>
         <div className="timePP">
           <div className="timePersonPlaceContainer">
             <div className="timePersonPlace">

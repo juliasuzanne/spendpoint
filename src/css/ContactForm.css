@@ -2,22 +2,24 @@
 
   
   .submitbutton{
-    background: transparent;
     border-radius: 10px;
-    text-decoration: underline;
-    float: right;
-    width: 10%;
-    color: rgb(52,56,76);
-    font-size: 20px;
-    font-family: "NibPro-Bold";
-    border-width: 0px;
+  margin-left: 10px;
+  width: 100px;
+  -webkit-border-radius: 8px;
+  padding-left: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-right: 2em;
+  border-width: 0px;
+  font-family: 'NeuzeitGro-Bol';
+  background-color: #041c20;
+  border-color: #041c20;
+  color: rgb(255, 255, 255);
 
   }
 
   .submitbutton:hover{
-    color: rgb(94, 98, 121);
-    font-family: "NibPro-BoldItalic";
-    background: transparent;
+    background-color: blue;
 
   
   }
@@ -28,23 +30,22 @@
 
 
   .submitbutton{
-    background: transparent;
-    border-radius: 10px;
-    text-decoration: underline;
-    float: right;
-    width: 30%;
-    color: rgb(52,56,76);
-    font-size: 15px;
-    font-family: "NibPro-Bold";
-    border-width: 0px;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 100px;
+  -webkit-border-radius: 8px;
+  padding-left: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-right: 2em;
+  border-width: 0px;
+  font-family: 'NeuzeitGro-Bol';
+  background-color: #041c20;
+  border-color: #041c20;
+  color: rgb(255, 255, 255);
 
   }
 
-  .submitbutton:hover{
-    color: rgb(94, 98, 121);
-    font-family: "NibPro-BoldItalic";
-  
-  }
   
 }
 
@@ -87,8 +88,6 @@ textarea {
   transform: translateY(-12vh);
   color: black; 
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.842);
-
-
 }
 
 input:focus {

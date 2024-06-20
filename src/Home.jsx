@@ -14,15 +14,17 @@ export function Home() {
         src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808894/SpendPointimage-10_wivase.png"
       ></img>
       <Right></Right>
-      <br></br>
-      <br></br>
+      <div className="content-breathe"></div>
 
       <Geofences></Geofences>
+      <br></br>
+
       <Customer></Customer>
+      <div className="content-breathe2"></div>
       <ContactForm></ContactForm>
       <Footer></Footer>
 
-      <ObservedItem
+      {/* <ObservedItem
         name="item1"
         textContent="SpendPoint transforms today's inefficient mobile display advertising into must-have, high ROAS marketing."
       ></ObservedItem>
@@ -45,7 +47,7 @@ export function Home() {
       <ObservedItem name="item2" textContent="Let's Connect">
         <p>test paragraph</p>
       </ObservedItem>
-      <br></br>
+      <br></br> */}
     </div>
   );
 

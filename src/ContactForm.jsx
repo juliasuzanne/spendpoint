@@ -32,62 +32,59 @@ export function ContactForm() {
   };
 
   return (
-    <div id="login">
-      <form onSubmit={handleSubmit}>
-        <div className="container">
-          <div className="row">
-            <div className="email-outsides">
-              <h2 className="headertitle">
-                <span className="heading">Let's Connect</span>
-              </h2>
+    <>
+      <div id="login">
+        <form onSubmit={handleSubmit}>
+          <div className="container">
+            <div className="row">
+              <div className="email-outsides">
+                <h2 className="heading">Let's Connect</h2>
+              </div>
             </div>
-          </div>
-          <div className="break2"> </div>
-          <div className="row">
-            <div>
-              <input name="email" className="form-control" type="email" placeholder="E-mail" />
-            </div>
-          </div>
-          <div className="row">
-            <div>
-              <input name="company" className="form-control" type="string" placeholder="Company Name" />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-6">
-              <input name="name" className="form-control" type="string" placeholder="First Name" />
-            </div>
-            <div className="col-sm-6">
-              <input name="last_name" className="form-control" type="string" placeholder="Last Name" />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-12">
-              <textarea name="message" type="text" className="textarea" placeholder="Message"></textarea>
+            <div className="break2"> </div>
 
-              {/* <input name="message" className="textarea form-control" type="text" /> */}
+            <div className="row">
+              <div className="col-sm-6">
+                <input name="name" className="form-control" type="string" placeholder="First Name" />
+              </div>
+              <div className="col-sm-6">
+                <input name="last_name" className="form-control" type="string" placeholder="Last Name" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-6">
+                <input name="email" className="form-control" type="email" placeholder="E-mail" />
+              </div>
+
+              <div className="col-sm-6">
+                <input name="company" className="form-control" type="string" placeholder="Company Name" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-12">
+                <textarea name="message" type="text" className="textarea" placeholder="Message"></textarea>
+
+                {/* <input name="message" className="textarea form-control" type="text" /> */}
+              </div>
+            </div>
+            <ul hidden={successMessageShow} className="success">
+              {successMessage.map((successMessage) => (
+                <li key={successMessage}>{successMessage}</li>
+              ))}
+            </ul>
+            <ul hidden={errorShow} className="errors">
+              {errors.map((error) => (
+                <li key={error}>{error}</li>
+              ))}
+            </ul>
+            <div className="row">
+              <button className="submitbutton btn btn-secondary mt-3 submit ">CONTACT</button>
             </div>
           </div>
-          <ul hidden={successMessageShow} className="success">
-            {successMessage.map((successMessage) => (
-              <li key={successMessage}>{successMessage}</li>
-            ))}
-          </ul>
-          <ul hidden={errorShow} className="errors">
-            {errors.map((error) => (
-              <li key={error}>{error}</li>
-            ))}
-          </ul>
-          <div className="row">
-            <button className="submitbutton btn btn-secondary mt-3 submit ">SEND</button>
-          </div>
-        </div>
-      </form>
+        </form>
 
-      <br></br>
-      <br></br>
-
-      <br></br>
-    </div>
+        <br></br>
+      </div>
+    </>
   );
 }

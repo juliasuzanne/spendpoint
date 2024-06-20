@@ -3,9 +3,10 @@
   color: black;
   padding-left: 5vw;
   padding-right: 5vw;
-  padding-top: 2vw;
-  padding-bottom: 25vh;
+  padding-top: 3vh;
   width: 90vw;
+  padding-bottom: 5vh;
+
   margin: auto;
   border-radius: 2vw;
   z-index: 1;
@@ -14,28 +15,35 @@
 
 }
 
+.geofencesText {
+  color: black;
+  padding-top: 35vh;
+  align-items: end;
+}
+
 .bluebox {
   background-color: #0073cf;
-  height: 25vh;
+  height: 50vh;
   transform: translateY(10vh);
   z-index: 0;
-  width: 100vw;
+  width: 130vw;
   position: absolute;
 }
 
 .blueCustomer{
   padding-top: 25vh;
   padding-bottom: 2vh;
-  transform: translateY(-18vh);
+  transform: translate(.6vw,-18vh);
   z-index: 0;
+  width: 102vw;
   position: asbolute;
 }
 
 .box1{
   background-color: #041c20;
   color: white;
-  min-height: 20vh;
-  width: 37.5vw;
+  min-height: 30vh;
+  width: 43.5vw;
   z-index: 5;
   position: absolute;
   border-top-right-radius:3cqb;
@@ -46,8 +54,8 @@
 .box2{
   background-color: #2891a1;
   color: white;
-  min-height: 20vh;
-  width: 62.5vw;
+  min-height: 30vh;
+  width: 72.5vw;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
   z-index: 4;
@@ -57,8 +65,8 @@
 .box3{
   background-color: #1efbd3;
   color: white;
-  min-height: 20vh;
-  width: 75vw;
+  min-height: 30vh;
+  width: 87vw;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
   z-index: 3;
