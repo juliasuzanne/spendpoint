@@ -26,7 +26,7 @@
   height: 50vh;
   transform: translateY(10vh);
   z-index: 0;
-  width: 130vw;
+  width: 100vw;
   position: absolute;
 }
 
@@ -35,7 +35,7 @@
   padding-bottom: 2vh;
   transform: translate(.6vw,-18vh);
   z-index: 0;
-  width: 102vw;
+  width: 100vw;
   position: asbolute;
 }
 

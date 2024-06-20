@@ -83,7 +83,10 @@ export function ContactForm() {
           </div>
         </form>
 
-        <br></br>
+        <img
+          className="bottom-logo"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718858113/logobottom-2_zydwtv.png"
+        ></img>
       </div>
     </>
   );

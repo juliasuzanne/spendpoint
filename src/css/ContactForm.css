@@ -23,11 +23,37 @@
 
   
   }
+  #login{
+    width: 90vw;
+    margin: auto;
+    background-color: #B3DDFF;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 0vw;
+    border-radius: 2vw;
+    transform: translateY(-6vh);
+    color: black; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.842);
+  }
   
 }
 
 @media screen and (max-width: 768px){
 
+  #login{
+    width: 90vw;
+    margin: auto;
+    background-color: #B3DDFF;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 10vw;
+    border-radius: 2vw;
+    transform: translateY(-2vh);
+    color: black; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.842);
+  }
 
   .submitbutton{
   border-radius: 10px;
@@ -79,16 +105,7 @@ textarea {
 }
 
 
-#login{
-  width: 75%;
-  margin: auto;
-  background-color: #B3DDFF;
-  padding: 5vw;
-  border-radius: 2em;
-  transform: translateY(-12vh);
-  color: black; 
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.842);
-}
+
 
 input:focus {
   outline:none;

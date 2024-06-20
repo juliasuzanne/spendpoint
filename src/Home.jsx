@@ -20,11 +20,16 @@ export function Home() {
       <br></br>
 
       <Customer></Customer>
-      <div className="content-breathe2"></div>
+      {/* <div className="content-breathe2"></div> */}
       <ContactForm></ContactForm>
-      <Footer></Footer>
+    </div>
+  );
+  {
+    /* <Footer></Footer> */
+  }
 
-      {/* <ObservedItem
+  {
+    /* <ObservedItem
         name="item1"
         textContent="SpendPoint transforms today's inefficient mobile display advertising into must-have, high ROAS marketing."
       ></ObservedItem>
@@ -47,9 +52,8 @@ export function Home() {
       <ObservedItem name="item2" textContent="Let's Connect">
         <p>test paragraph</p>
       </ObservedItem>
-      <br></br> */}
-    </div>
-  );
+      <br></br> */
+  }
 
   // return (
   //   <div ref={containerRef}>

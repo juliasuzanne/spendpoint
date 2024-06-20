@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -14,7 +15,10 @@ code {
 
 
 .app{
- 
+ padding: 0;
+ margin: 0;
+ height: auto;
+
 }
 
 .box {
@@ -79,7 +83,7 @@ code {
   align-items: center;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   color: rgb(17, 16, 20);
   font-size: 20px;
   font-weight: 900;
