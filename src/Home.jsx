@@ -4,6 +4,7 @@ import { Right } from "./Right";
 import { Geofences } from "./Geofences";
 import { Customer } from "./Customer";
 import { ContactForm } from "./ContactForm";
+import { Footer } from "./Footer";
 
 export function Home() {
   return (
@@ -13,9 +14,14 @@ export function Home() {
         src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808894/SpendPointimage-10_wivase.png"
       ></img>
       <Right></Right>
+      <br></br>
+      <br></br>
+
       <Geofences></Geofences>
       <Customer></Customer>
       <ContactForm></ContactForm>
+      <Footer></Footer>
+
       <ObservedItem
         name="item1"
         textContent="SpendPoint transforms today's inefficient mobile display advertising into must-have, high ROAS marketing."

@@ -1,8 +1,74 @@
 .geofences{
   background-color: white;
   color: black;
-  padding: 5vw;
-  width: 70vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 25vh;
+  width: 90vw;
   margin: auto;
   border-radius: 2vw;
+  z-index: 1;
+  position:relative;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.366);
+
+}
+
+.bluebox {
+  background-color: #0073cf;
+  height: 25vh;
+  transform: translateY(10vh);
+  z-index: 0;
+  width: 100vw;
+  position: absolute;
+}
+
+.blueCustomer{
+  padding-top: 25vh;
+  padding-bottom: 2vh;
+  transform: translateY(-18vh);
+  z-index: 0;
+  position: asbolute;
+}
+
+.box1{
+  background-color: #041c20;
+  color: white;
+  min-height: 20vh;
+  width: 37.5vw;
+  z-index: 5;
+  position: absolute;
+  border-top-right-radius:3cqb;
+  border-bottom-right-radius:3cqb;
+
+}
+
+.box2{
+  background-color: #2891a1;
+  color: white;
+  min-height: 20vh;
+  width: 62.5vw;
+  border-top-right-radius:3cqb;
+  border-bottom-right-radius:3cqb;
+  z-index: 4;
+  position: absolute;
+
+}
+.box3{
+  background-color: #1efbd3;
+  color: white;
+  min-height: 20vh;
+  width: 75vw;
+  border-top-right-radius:3cqb;
+  border-bottom-right-radius:3cqb;
+  z-index: 3;
+  position: absolute;
+
+
+}
+
+.boxes{
+  position:absolute;
+  transform: translateX(-5vw);
+  text-align: right;
 }

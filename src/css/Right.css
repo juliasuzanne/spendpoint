@@ -4,13 +4,14 @@
   right: -25vw;
   width: 100vw;
   top: -65vw;
-  z-index: -5;
+  z-index: 1;
 }
 
 
 .right{
   margin: auto;
   width: 80vw;
+
 }
 
 
@@ -22,7 +23,6 @@
 
 .timePersonPlace{
   display: block;
-  
 
   text-align: center;
   padding-right: 4vw;
@@ -34,6 +34,7 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+
   width: 80vw;
 }
 
@@ -44,4 +45,6 @@
 
 .spentPointP{
   font-size: 1.7em;
+  z-index: 2;
+  position: relative;
 }

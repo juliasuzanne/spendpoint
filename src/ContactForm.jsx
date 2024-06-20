@@ -38,7 +38,7 @@ export function ContactForm() {
           <div className="row">
             <div className="email-outsides">
               <h2 className="headertitle">
-                <span className="connector">Let's Connect</span>
+                <span className="heading">Let's Connect</span>
               </h2>
             </div>
           </div>
@@ -46,6 +46,11 @@ export function ContactForm() {
           <div className="row">
             <div>
               <input name="email" className="form-control" type="email" placeholder="E-mail" />
+            </div>
+          </div>
+          <div className="row">
+            <div>
+              <input name="company" className="form-control" type="string" placeholder="Company Name" />
             </div>
           </div>
           <div className="row">
@@ -78,6 +83,7 @@ export function ContactForm() {
           </div>
         </div>
       </form>
+
       <br></br>
       <br></br>
 

@@ -57,6 +57,7 @@
   padding-top: 30vh;
   text-align: left;
   color:rgb(0, 0, 0);
+
 }
 
 .contactwrapper{
@@ -76,13 +77,17 @@ textarea {
 
 }
 
+
 #login{
   width: 75%;
   margin: auto;
   background-color: #B3DDFF;
   padding: 5vw;
   border-radius: 2em;
-  color: black;
+  transform: translateY(-12vh);
+  color: black; 
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.842);
+
 
 }
 
@@ -102,5 +107,5 @@ input:focus {
 }
 
 .email-outsides{
-  padding-top: 5vh;
+  padding-top: 0vh;
 }
