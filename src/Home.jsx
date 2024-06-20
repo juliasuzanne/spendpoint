@@ -5,8 +5,6 @@ import { Geofences } from "./Geofences";
 import { Customer } from "./Customer";
 import { ContactForm } from "./ContactForm";
 import { Footer } from "./Footer";
-import Form from "./Form";
-import { EmailJSForm } from "./EmailJSForm";
 
 export function Home() {
   return (
@@ -17,7 +15,6 @@ export function Home() {
       ></img>
 
       <Right></Right>
-      {/* <Form></Form> */}
 
       <div className="content-breathe"></div>
 
