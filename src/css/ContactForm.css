@@ -125,3 +125,23 @@ input:focus {
 .email-outsides{
   padding-top: 0vh;
 }
+
+.success {
+  padding-left: 40px;
+  color: rgb(19, 92, 19);
+  background-color:rgba(119, 226, 111, 0.571);
+  margin-bottom: 15px;
+  border-radius: 20px;
+  list-style: none;
+}
+
+
+.errors {
+  padding-left: 40px;
+  color: red;
+  border-radius: 20px;
+  background-color:rgb(234, 222, 222);
+  margin-bottom: 15px;
+  list-style: none;
+
+}

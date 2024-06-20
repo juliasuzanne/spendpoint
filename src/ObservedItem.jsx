@@ -27,7 +27,7 @@ export function ObservedItem(props) {
 
   return (
     <div className="">
-      <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div>
+      {/* <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div> */}
       <div className=""></div>
       <span className={` ${isVisible ? "box-animate" : "box"}`}>
         <div ref={containerRef}>

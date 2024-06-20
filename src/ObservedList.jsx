@@ -27,7 +27,7 @@ export function ObservedList(props) {
 
   return (
     <div className="">
-      <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div>
+      {/* <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div> */}
       <div className=""></div>
       <span className={` ${isVisible ? "box-animate-delay" : "box"}`}>
         <div ref={containerRef}>

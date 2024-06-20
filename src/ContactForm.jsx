@@ -1,40 +1,47 @@
 import axios from "axios";
-import { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./css/ContactForm.css";
+import emailjs from "@emailjs/browser";
 
 export function ContactForm() {
+  const form = useRef();
   const [errors, setErrors] = useState([]);
   const [errorShow, setErrorShow] = useState(true);
   const [successMessageShow, setSuccessMessageShow] = useState(true);
   const [successMessage, setSuccessMessage] = useState([]);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const params = new FormData(event.target);
+  const sendEmail = (e) => {
+    e.preventDefault();
+    const params = new FormData(e.target);
     setErrors([]);
-    axios
-      .post("https://gtsemailbackend.fly.dev/contact_form", params)
-      .then((response) => {
-        console.log(response.data);
-        event.target.reset();
-        setSuccessMessage(["E-mail sent successfully!"]);
-        setSuccessMessageShow(false);
-        setErrorShow(true);
-        setErrors([]);
+
+    emailjs
+      .sendForm("service_372suhv", "template_mhj2x7o", form.current, {
+        publicKey: "wtqlY2oQZE-VvZPjG",
       })
-      .catch((errors) => {
-        console.log(errors.response);
-        setSuccessMessage([]);
-        setErrorShow(false);
-        setSuccessMessageShow(true);
-        setErrors(["Please fill out all fields"]);
-      });
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          e.target.reset();
+          setSuccessMessage(["E-mail sent successfully!"]);
+          setSuccessMessageShow(false);
+          setErrorShow(true);
+          setErrors([]);
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          setSuccessMessage([]);
+          setErrorShow(false);
+          setSuccessMessageShow(true);
+          setErrors(["Please fill out all fields"]);
+        }
+      );
   };
 
   return (
     <>
       <div id="login">
-        <form onSubmit={handleSubmit}>
+        <form ref={form} onSubmit={sendEmail}>
           <div className="container">
             <div className="row">
               <div className="email-outsides">
@@ -45,25 +52,24 @@ export function ContactForm() {
 
             <div className="row">
               <div className="col-sm-6">
-                <input name="name" className="form-control" type="string" placeholder="First Name" />
+                <input type="text" className="form-control" name="name" placeholder="First Name" required />
               </div>
               <div className="col-sm-6">
-                <input name="last_name" className="form-control" type="string" placeholder="Last Name" />
+                <input type="text" placeholder="Last Name" className="form-control" name="last_name" required />
               </div>
             </div>
             <div className="row">
               <div className="col-sm-6">
-                <input name="email" className="form-control" type="email" placeholder="E-mail" />
+                <input type="email" placeholder="E-mail" className="form-control" name="user_email" required />
               </div>
 
               <div className="col-sm-6">
-                <input name="company" className="form-control" type="string" placeholder="Company Name" />
+                <input type="text" className="form-control" placeholder="Company Name" name="company" required />
               </div>
             </div>
             <div className="row">
               <div className="col-sm-12">
-                <textarea name="message" type="text" className="textarea" placeholder="Message"></textarea>
-
+                <textarea className="textarea" name="message" placeholder="Message" required />
                 {/* <input name="message" className="textarea form-control" type="text" /> */}
               </div>
             </div>
@@ -78,7 +84,7 @@ export function ContactForm() {
               ))}
             </ul>
             <div className="row">
-              <button className="submitbutton btn btn-secondary mt-3 submit ">CONTACT</button>
+              <input type="submit" value="CONTACT" className="submitbutton btn btn-secondary mt-3 submit " />
               <p>Your information will only be used to contact you about a follow-up meeting.</p>
             </div>
           </div>

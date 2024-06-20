@@ -5,6 +5,8 @@ import { Geofences } from "./Geofences";
 import { Customer } from "./Customer";
 import { ContactForm } from "./ContactForm";
 import { Footer } from "./Footer";
+import Form from "./Form";
+import { EmailJSForm } from "./EmailJSForm";
 
 export function Home() {
   return (
@@ -13,7 +15,10 @@ export function Home() {
         className="spendpointLogoTop"
         src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808894/SpendPointimage-10_wivase.png"
       ></img>
+
       <Right></Right>
+      {/* <Form></Form> */}
+
       <div className="content-breathe"></div>
 
       <Geofences></Geofences>
