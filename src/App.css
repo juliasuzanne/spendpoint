@@ -23,7 +23,7 @@ code {
 
 .box {
   display: flex;
-  min-height: 50vh;
+
   color: rgba(255, 255, 255, 0.8);
   padding: 2vh;
   align-items: center;
@@ -33,12 +33,10 @@ code {
   font-size: 2em;
   opacity: 0;
   width: 300px;
-  height: 250px;
 }
 
 .testing{
   background-color: rgb(145, 94, 94);
-  height: 20vh;
   position: absolute;
   z-index: 5;
   width: 90vw;
@@ -47,7 +45,6 @@ code {
 }
 .testing2{
   background-color: rgb(238, 201, 201);
-  height: 20vh;
   position: absolute;
   width: 60vw;
   z-index: 6;
@@ -63,7 +60,6 @@ code {
   font-weight: 900;
   width: 80vwpx;
   transform: translateX(0%);
-  height: 250px;
   animation-duration: 1.5s;
   animation-name: animate-box; 
 }
@@ -78,14 +74,12 @@ code {
   font-weight: 900;
   /* width: 80vwpx; */
   transform: translateX(0%);
-  height: 250px;
   animation-duration: 1.5s;
   animation-name: animate-box-delay2; 
 }
 
 .box-animate-delay2{
   display: flex;
-  min-height: 50vh;
   color: rgba(255, 255, 255, 0.8);
   padding: 2vh;
   align-items: center;
@@ -94,7 +88,6 @@ code {
   font-weight: 900;
   opacity: 1;
   /* width: 80vw; */
-  height: auto;
   animation-duration: 1.5s;
   animation-name: animate-box-delay3; 
 }
