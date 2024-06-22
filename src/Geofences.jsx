@@ -3,6 +3,7 @@ import { ObservedItem } from "./ObservedItem";
 import "./css/Geofences.css";
 import "./css/animate/GeofenceAnimate.css";
 import { ObservedObject } from "./ObservedObject";
+import { GeofencesThree } from "./GeofencesThree";
 
 export function Geofences() {
   return (
@@ -13,8 +14,8 @@ export function Geofences() {
 
         <div className="boxes">
           <div className="boxes123">
-            <div className="container">
-              <div className="box1">
+            <GeofencesThree>
+              <div className="container">
                 <div className="row">
                   <p className="six-header-wide">Dynamic Geo-Fencing</p>
                 </div>
@@ -22,7 +23,7 @@ export function Geofences() {
                   <h3 className="times-p">3X</h3>
                 </div>
               </div>
-            </div>
+            </GeofencesThree>
           </div>
           <div className="container">
             <div className="box2">

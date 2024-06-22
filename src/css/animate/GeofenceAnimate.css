@@ -1,65 +1,31 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-
-.app{
- padding: 0;
- margin: 0;
- height: auto;
-
-}
-
-.box1{
+.three-fence{
   background-color: #041c20;
   color: #54c8da;
-  min-height: 270px;
+  min-height: 330px;
   height: 40vh;
-  width: 40vw;
+  width: 5vw;
+  opacity: 0;
   z-index: 5;
-  /* position: absolute; */
+  position: absolute;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
-
-  /* transform: translateX(-3.5%); */
-  /* opacity: 0; */
-
-
 }
 
-.box-animate-1{
+
+.three-fence-1{
   background-color: #041c20;
   color: #54c8da;
-  min-height: 270px;
+  min-height: 330px;
   height: 40vh;
-  width: 40vw;
+  opacity: 1;
+  width: 43vw;
   z-index: 5;
-  /* position: absolute; */
+  position: absolute;
   border-top-right-radius:3cqb;
-  border-bottom-right-radius:3cqb;
-  transform: translateX(-3.5%);
-  opacity: 1;
+  border-bottom-right-radius:3cqb; 
   animation-duration: 2s;
-  animation-name: animate-box1; 
-}
-
-
-.box-animate-2{
-  transform: translateX(0%);
-  opacity: 1;
-  animation-duration: 2s;
-  animation-name: animate-box2; 
+  animation-name: animate-fence1; 
 }
 
 .box-animate-3{
@@ -70,19 +36,15 @@ code {
 }
 
 
-@keyframes animate-box1{
+@keyframes animate-fence1{
   0%{
-    opacity: 1;
-    filter: blur(2px);
-    transform: translateX(-20%);
-    z-index: 5;
-
+    width: 25vw;
+    opacity: 0;
   }
+
   100%{
+    width: 43vw;
     opacity: 1;
-    filter: blur(0);
-    transform: translateX(-3.5%);
-    z-index: 5;
 
   }
 }
@@ -181,4 +143,4 @@ code {
   transition: none;
 }
 } */
- */
+ 
