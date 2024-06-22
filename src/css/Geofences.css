@@ -20,8 +20,8 @@
 }
 
 .padding-geofences {
-  min-height: 290px;
-  height: 40vh;
+  min-height: 350px;
+  height: 44vh;
 ;
 }
 
@@ -48,7 +48,7 @@
 .box1{
   background-color: #041c20;
   color: #54c8da;
-  min-height: 270px;
+  min-height: 330px;
   height: 40vh;
   width: 43vw;
   z-index: 5;
@@ -61,7 +61,7 @@
 .box2{
   background-color: #2891a1;
   color: #011315;
-  min-height: 270px;
+  min-height: 330px;
   height: 40vh;
   width: 68vw;
   border-top-right-radius:3cqb;
@@ -73,7 +73,7 @@
 .box3{
   background-color: #1efbd3;
   color: #0a434b;
-  min-height: 270px;
+  min-height: 330px;
   height: 40vh;
   width: 84vw;
   border-top-right-radius:3cqb;
@@ -160,10 +160,9 @@
 }
 
 .times-p{
-  font-size: 9vw;
+  font-size: 8vw;
   padding-top: 2vh;
   padding-right: 4vh;
-
   position: relative;
   text-align: right;
 
