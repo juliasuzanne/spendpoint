@@ -1,7 +1,7 @@
 
 .three-fence{
   background-color: #041c20;
-  color: #54c8da;
+  color: #54c8da00;
   min-height: 330px;
   height: 40vh;
   width: 25vw;
@@ -14,6 +14,7 @@
 
 .three-fence p{
   font-size: 2px;
+  color:#01131500;
 
 }
 
@@ -28,13 +29,14 @@
   position: absolute;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb; 
-  animation-duration: 2s;
+  animation-duration: 4.5s;
   animation-name: animate-fence1; 
 }
 
 .three-fence-1 p{
   font-size: 2vw;
-  animation-duration: 2s;
+  color: #54c8da;
+  animation-duration: 4.5s;
   animation-name: animate-fence1; 
 }
 
@@ -43,13 +45,22 @@
 @keyframes animate-fence1{
   0%{
     width: 25vw;
+    color:#01131500;
+
     font-size: 2px;
 
   }
+  /* 20%{
+    width: 25vw;
+    font-size: 2px;
+
+  } */
 
   100%{
     width: 43vw;
     font-size: 2vw;
+    color: #54c8da;
+
 
 
   }
@@ -58,7 +69,7 @@
 
 .three-fence-second{
   background-color: #2891a1;
-  color: #011315;
+  color: #01131500;
   min-height: 330px;
   height: 40vh;
   width: 40vw;
@@ -80,7 +91,7 @@
   border-bottom-right-radius:3cqb;
   z-index: 4;
   position: absolute;
-  animation-duration: 3s;
+  animation-duration: 3.5s;
   animation-name: animate-fence-2; 
 
 
@@ -88,14 +99,18 @@
 
 .three-fence-second p{
   font-size: 2px;
+  color: #01131500;
+
 
 }
 
 
 .three-fence-2 p{
   font-size: 2vw;
-  animation-duration: 3s;
-  animation-name: animate-fence-2; 
+  animation-duration: 3.5s;
+  animation-name: animate-fence-2;
+  color: #011315;
+
 }
 
 
@@ -103,11 +118,14 @@
   0%{
     width: 40vw;
     font-size: 2px;
+    color: #01131500;
+
   }
 
   100%{
     width: 68vw;
     font-size: 2vw;
+    color: #011315;
 
   }
 }
@@ -115,7 +133,7 @@
 
 .three-fence-third{
   background-color: #1efbd3;
-  color: #0a434b;
+  color: #0a434b00;
   min-height: 330px;
   height: 40vh;
   width: 50vw;
@@ -129,6 +147,7 @@
 
 .three-fence-third p{
   font-size: 2px;
+  color: #0a434b00;
 
 }
 
@@ -144,14 +163,16 @@
   border-bottom-right-radius:3cqb;
   z-index: 3;
   position: absolute;
-  animation-duration: 3.5s;
+  animation-duration: 2.5s;
   animation-name: animate-fence-3; 
 }
 
 .three-fence-3 p{
   font-size: 2vw;
-  animation-duration: 3.5s;
+  animation-duration: 2.5s;
   animation-name: animate-fence-3; 
+  color: #0a434b;
+
 }
 
 
@@ -160,12 +181,8 @@
   0%{
     width: 50vw;
     font-size: 2px;
+    color: #0a434b00;
 
-
-  }
-  10%{
-    width: 50vw;
-    font-size: 2px;
 
 
   }
@@ -174,6 +191,8 @@
   100%{
     width: 85vw;
     font-size: 2vw;
+    color: #0a434b;
+
 
   }
 }
