@@ -4,11 +4,17 @@ export function ObservedList(props) {
   // const { ref: containerRef, inView: isVisible, entry } = useInView(options);
   const containerRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
+  const [isActivated, setIsActivated] = useState(false);
+
   const [name, setName] = useState(props.name);
 
   const callbackFunction = (entries) => {
     const [entry] = entries;
     setIsVisible(entry.isIntersecting);
+    setIsVisible(entry.isIntersecting);
+    if (isVisible == true) {
+      setIsActivated(true);
+    }
   };
   const options = {
     root: null,
@@ -29,7 +35,7 @@ export function ObservedList(props) {
     <div className="">
       {/* <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div> */}
       <div className=""></div>
-      <span className={` ${isVisible ? "box-animate-delay" : "box"}`}>
+      <span className={` ${isActivated ? "box-animate-delay" : "box"}`}>
         <div ref={containerRef}>
           {props.textContent}
           {props.children}

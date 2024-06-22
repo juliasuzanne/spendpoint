@@ -13,7 +13,6 @@ export function Home() {
         className="spendpointLogoTop"
         src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808894/SpendPointimage-10_wivase.png"
       ></img>
-
       <Right></Right>
 
       <div className="content-breathe"></div>

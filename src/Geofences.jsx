@@ -10,19 +10,39 @@ export function Geofences() {
         <h2 className="heading">AI-driven Dynamic Geofences™</h2>
 
         <div className="boxes">
-          <div className="box1">
-            <p>Dynamic Geo-Fencing</p>
-            <h3>3X</h3>
+          <div className="container">
+            <div className="box1">
+              <div className="row">
+                <p className="six-header-wide">Dynamic Geo-Fencing</p>
+              </div>
+              <div className="row">
+                <h3 className="times-p">3X</h3>
+              </div>
+            </div>
           </div>
-          <div className="box2">
-            <p>Spend Data</p>
-            <h3>2X</h3>
+          <div className="container">
+            <div className="box2">
+              <div className="row">
+                <p className="six-header-med">Spend Data</p>
+              </div>
+              <div className="row">
+                <h3 className="times-p">2X</h3>
+              </div>
+            </div>
           </div>
-          <div className="box3">
-            <p>Waste Prevention</p>
-            <h3>1X</h3>
+          <div className="container">
+            <div className="box3">
+              <div className="row">
+                <p className="six-header">Waste</p>
+                <p className="six-header-small"> Prevention</p>
+              </div>
+              <div className="row">
+                <h3 className="times-p">1X</h3>
+              </div>
+            </div>
           </div>
         </div>
+        <div className="padding-geofences"></div>
         <p className="geofencesText">
           AI-driven Dynamic Geofences™ change shape based on time of day, spending data and consumer behavior. Ads
           delivered to the right person, at the right time, at the right place dramatically increases clicks, store
