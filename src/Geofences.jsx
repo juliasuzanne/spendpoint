@@ -13,7 +13,8 @@ export function Geofences() {
       <div className="bluebox"></div>
       <div className="geofences">
         <h2 className="heading">AI-driven Dynamic Geofences™</h2>
-
+        <h2>6X Increase</h2>
+        <p>In Clicks & Visits Per 1000 Ads</p>
         <div className="boxes">
           <div className="boxes123">
             <GeofencesThree>
