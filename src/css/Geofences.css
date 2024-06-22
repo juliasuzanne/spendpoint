@@ -27,7 +27,7 @@
 
 .bluebox {
   background-color: #0073cf;
-  min-height: 420px;
+  min-height: 520px;
   height: 65vh;
   transform: translateY(10vh);
   z-index: 0;
@@ -36,12 +36,12 @@
 }
 
 .blueCustomer{
-  padding-top: 25vh;
+  padding-top: 30vh;
   padding-bottom: 2vh;
   transform: translate(0vw,-18vh);
   z-index: 0;
   width: 105vw;
-  position: asbolute;
+  /* position: absolute; */
 }
 
 .box1{
