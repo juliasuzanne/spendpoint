@@ -22,55 +22,83 @@ code {
 }
 
 .box {
-  /* display: flex;
-  min-height: 50vh; */
+  display: flex;
+  min-height: 50vh;
   color: rgba(255, 255, 255, 0.8);
-  /* padding: 2vh; */
-  /* align-items: center;
-  justify-content: center; */
+  padding: 2vh;
+  align-items: center;
+  justify-content: center;
   transform: translateX(-10%);
   font-weight: 900;
   font-size: 2em;
   opacity: 0;
-  /* width: 80vw; */
-  height: auto;
+  width: 300px;
+  height: 250px;
+}
 
+.testing{
+  background-color: rgb(145, 94, 94);
+  height: 20vh;
+  position: absolute;
+  z-index: 5;
+  width: 90vw;
+
+
+}
+.testing2{
+  background-color: rgb(238, 201, 201);
+  height: 20vh;
+  position: absolute;
+  width: 60vw;
+  z-index: 6;
 
 }
 
 .box-animate{
-
+  display: flex;
   color: rgba(255, 255, 255, 0.8);
-  /* padding: 2vh;
+  padding: 2vh;
   align-items: center;
-  justify-content: center; */
-  transform: translateX(0%);
+  justify-content: center;
   font-weight: 900;
-  font-size: 2em;
-  opacity: 1;
-  /* width: 80vw; */
-  height: auto;
-  animation-duration: 2s;
+  width: 80vwpx;
+  transform: translateX(0%);
+  height: 250px;
+  animation-duration: 1.5s;
   animation-name: animate-box; 
 }
 
 
 .box-animate-delay{
-  /* display: flex;
-  min-height: 50vh; */
+  display: flex;
   color: rgba(255, 255, 255, 0.8);
-  /* padding: 2vh;
+  padding: 2vh;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
+  font-weight: 900;
+  /* width: 80vwpx; */
+  transform: translateX(0%);
+  height: 250px;
+  animation-duration: 1.5s;
+  animation-name: animate-box-delay2; 
+}
+
+.box-animate-delay2{
+  display: flex;
+  min-height: 50vh;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 2vh;
+  align-items: center;
+  justify-content: center;
   transform: translateX(0%);
   font-weight: 900;
-  font-size: 2em;
   opacity: 1;
   /* width: 80vw; */
   height: auto;
-  animation-duration: 2s;
-  animation-name: animate-box-delay2; 
+  animation-duration: 1.5s;
+  animation-name: animate-box-delay3; 
 }
+
 
 
 @keyframes animate-box{
@@ -81,6 +109,15 @@ code {
 
 
   }
+
+  20%{
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-10%);
+
+  }
+
+
   100%{
     opacity: 1;
     filter: blur(0);
@@ -96,7 +133,29 @@ code {
 
   }
 
-  50%{
+  60%{
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-10%);
+
+  }
+
+  100%{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%);
+  }
+}
+
+@keyframes animate-box-delay3{
+  0%{
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-10%);
+
+  }
+
+  80%{
     opacity: 0;
     filter: blur(2px);
     transform: translateX(-10%);
@@ -158,4 +217,14 @@ code {
   transition: none;
 }
 } */
+
+
+
+
+
+
+
+
+
+
 

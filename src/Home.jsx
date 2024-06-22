@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { ObservedAbc } from "./ObservedAbc";
 import { ObservedItem } from "./ObservedItem";
 import { Right } from "./Right";
 import { Geofences } from "./Geofences";
@@ -14,15 +15,14 @@ export function Home() {
         src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808894/SpendPointimage-10_wivase.png"
       ></img>
       <Right></Right>
-
       <div className="content-breathe"></div>
-
       <Geofences></Geofences>
       <br></br>
-
       <Customer></Customer>
       {/* <div className="content-breathe2"></div> */}
       <ContactForm></ContactForm>
+
+      <br></br>
     </div>
   );
   {

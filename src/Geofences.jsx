@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from "react";
 import { ObservedItem } from "./ObservedItem";
 import "./css/Geofences.css";
+import "./css/animate/GeofenceAnimate.css";
+import { ObservedObject } from "./ObservedObject";
 
 export function Geofences() {
   return (
@@ -10,13 +12,15 @@ export function Geofences() {
         <h2 className="heading">AI-driven Dynamic Geofences™</h2>
 
         <div className="boxes">
-          <div className="container">
-            <div className="box1">
-              <div className="row">
-                <p className="six-header-wide">Dynamic Geo-Fencing</p>
-              </div>
-              <div className="row">
-                <h3 className="times-p">3X</h3>
+          <div className="boxes123">
+            <div className="container">
+              <div className="box1">
+                <div className="row">
+                  <p className="six-header-wide">Dynamic Geo-Fencing</p>
+                </div>
+                <div className="row">
+                  <h3 className="times-p">3X</h3>
+                </div>
               </div>
             </div>
           </div>

@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from "react";
 import { ObservedItem } from "./ObservedItem";
 import "./css/Right.css";
+import { ObservedAbc } from "./ObservedAbc";
+import { ObservedObject } from "./ObservedObject";
 
 export function Right() {
   return (
@@ -17,18 +19,24 @@ export function Right() {
       </div>
       <div className="timePP">
         <div className="timePersonPlaceContainer">
-          <div className="timePersonPlace">
-            <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-06_wex5tg.png"></img>
-            <p>Right person.</p>
-          </div>
-          <div className="timePersonPlace">
-            <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-08_dxw7my.png"></img>
-            <p>Right time.</p>
-          </div>
-          <div className="timePersonPlace">
-            <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-07_sf0yob.png"></img>
-            <p>Right place.</p>
-          </div>
+          <ObservedItem>
+            <div className="timePersonPlace">
+              <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-06_wex5tg.png"></img>
+              <p>Right person.</p>
+            </div>
+          </ObservedItem>
+          <ObservedAbc>
+            <div className="timePersonPlace">
+              <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-08_dxw7my.png"></img>
+              <p>Right time.</p>
+            </div>
+          </ObservedAbc>
+          <ObservedObject>
+            <div className="timePersonPlace">
+              <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-07_sf0yob.png"></img>
+              <p>Right place.</p>
+            </div>
+          </ObservedObject>
         </div>
       </div>
     </div>

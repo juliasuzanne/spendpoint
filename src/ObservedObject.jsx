@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-export function ObservedList(props) {
+export function ObservedObject(props) {
   // const { ref: containerRef, inView: isVisible, entry } = useInView(options);
   const containerRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -10,7 +10,6 @@ export function ObservedList(props) {
 
   const callbackFunction = (entries) => {
     const [entry] = entries;
-    setIsVisible(entry.isIntersecting);
     setIsVisible(entry.isIntersecting);
     if (isVisible == true) {
       setIsActivated(true);
@@ -35,7 +34,7 @@ export function ObservedList(props) {
     <div className="">
       {/* <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div> */}
       <div className=""></div>
-      <span className={` ${isActivated ? "box-animate-delay" : "box"}`}>
+      <span className={` ${isActivated ? "box-animate-delay2" : "box"}`}>
         <div ref={containerRef}>
           {props.textContent}
           {props.children}

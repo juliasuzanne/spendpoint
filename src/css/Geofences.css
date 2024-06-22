@@ -47,10 +47,10 @@
 
 .box1{
   background-color: #041c20;
-  color: white;
+  color: #54c8da;
   min-height: 270px;
   height: 40vh;
-  width: 40vw;
+  width: 43vw;
   z-index: 5;
   position: absolute;
   border-top-right-radius:3cqb;
@@ -60,7 +60,7 @@
 
 .box2{
   background-color: #2891a1;
-  color: white;
+  color: #011315;
   min-height: 270px;
   height: 40vh;
   width: 68vw;
@@ -72,10 +72,10 @@
 }
 .box3{
   background-color: #1efbd3;
-  color: white;
+  color: #0a434b;
   min-height: 270px;
   height: 40vh;
-  width: 87vw;
+  width: 84vw;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
   z-index: 3;
@@ -88,6 +88,8 @@
   position:absolute;
   transform: translateX(-6.5vw);
   text-align: right;
+  display: flex;
+
 
 }
 
