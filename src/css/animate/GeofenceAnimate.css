@@ -4,8 +4,7 @@
   color: #54c8da;
   min-height: 330px;
   height: 40vh;
-  width: 5vw;
-  opacity: 0;
+  width: 25vw;
   z-index: 5;
   position: absolute;
   border-top-right-radius:3cqb;
@@ -18,7 +17,6 @@
   color: #54c8da;
   min-height: 330px;
   height: 40vh;
-  opacity: 1;
   width: 43vw;
   z-index: 5;
   position: absolute;
@@ -28,68 +26,130 @@
   animation-name: animate-fence1; 
 }
 
-.box-animate-3{
-  transform: translateX(0%);
-  opacity: 1;
+.three-fence-1 p{
+  font-size: 2vw;
   animation-duration: 2s;
-  animation-name: animate-box3; 
+  animation-name: animate-fence1; 
 }
+
 
 
 @keyframes animate-fence1{
   0%{
     width: 25vw;
-    opacity: 0;
+    font-size: 2px;
+
   }
 
   100%{
     width: 43vw;
-    opacity: 1;
+    font-size: 2vw;
+
 
   }
 }
 
 
+.three-fence-second{
+  background-color: #2891a1;
+  color: #011315;
+  min-height: 330px;
+  height: 40vh;
+  width: 40vw;
+  border-top-right-radius:3cqb;
+  border-bottom-right-radius:3cqb;
+  z-index: 4;
+  position: absolute;
 
-@keyframes animate-box2{
+}
+
+
+.three-fence-2{
+  background-color: #2891a1;
+  color: #011315;
+  min-height: 330px;
+  height: 40vh;
+  width: 68vw;
+  border-top-right-radius:3cqb;
+  border-bottom-right-radius:3cqb;
+  z-index: 4;
+  position: absolute;
+  animation-duration: 3s;
+  animation-name: animate-fence-2; 
+
+
+}
+
+.three-fence-2 p{
+  font-size: 2vw;
+  animation-duration: 3s;
+  animation-name: animate-fence-2; 
+}
+
+
+@keyframes animate-fence-2{
   0%{
-    opacity: 0;
-    filter: blur(2px);
-    transform: translateX(-10%);
-
+    width: 40vw;
+    font-size: 2px;
   }
 
-  50%{
-    opacity: 0;
-    filter: blur(2px);
-    transform: translateX(-10%);
-
-  }
   100%{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0%);
+    width: 68vw;
+    font-size: 2vw;
+
   }
 }
 
-@keyframes animate-box3{
+
+.three-fence-third{
+  background-color: #1efbd3;
+  color: #0a434b;
+  min-height: 330px;
+  height: 40vh;
+  width: 25vw;
+  border-top-right-radius:3cqb;
+  border-bottom-right-radius:3cqb;
+  z-index: 3;
+  position: absolute;
+
+}
+
+
+.three-fence-3{
+  background-color: #1efbd3;
+  color: #0a434b;
+  min-height: 330px;
+  height: 40vh;
+  width: 90vw;
+  border-top-right-radius:3cqb;
+  border-bottom-right-radius:3cqb;
+  z-index: 3;
+  position: absolute;
+  animation-duration: 4s;
+  animation-name: animate-fence-3; 
+}
+
+.three-fence-3 p{
+  font-size: 2vw;
+  animation-duration: 3s;
+  animation-name: animate-fence-3; 
+}
+
+
+
+@keyframes animate-fence-3{
   0%{
-    opacity: 0;
-    filter: blur(2px);
-    transform: translateX(-10%);
+    width: 25vw;
+    font-size: 2px;
+
 
   }
+  
 
-  50%{
-    opacity: 0;
-    filter: blur(2px);
-    transform: translateX(-10%);
-
-  }
   100%{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0%);
+    width: 90vw;
+    font-size: 2vw;
+
   }
 }
 

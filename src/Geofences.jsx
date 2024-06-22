@@ -4,6 +4,8 @@ import "./css/Geofences.css";
 import "./css/animate/GeofenceAnimate.css";
 import { ObservedObject } from "./ObservedObject";
 import { GeofencesThree } from "./GeofencesThree";
+import { GeofencesTwo } from "./GeofencesTwo";
+import { GeofencesOne } from "./GeofencesOne";
 
 export function Geofences() {
   return (
@@ -25,8 +27,8 @@ export function Geofences() {
               </div>
             </GeofencesThree>
           </div>
-          <div className="container">
-            <div className="box2">
+          <GeofencesTwo>
+            <div className="container">
               <div className="row">
                 <p className="six-header-med">Spend Data</p>
               </div>
@@ -34,9 +36,9 @@ export function Geofences() {
                 <h3 className="times-p">2X</h3>
               </div>
             </div>
-          </div>
-          <div className="container">
-            <div className="box3">
+          </GeofencesTwo>
+          <GeofencesOne>
+            <div className="container">
               <div className="row">
                 <p className="six-header">Waste</p>
                 <p className="six-header-small"> Prevention</p>
@@ -45,8 +47,9 @@ export function Geofences() {
                 <h3 className="times-p">1X</h3>
               </div>
             </div>
-          </div>
+          </GeofencesOne>
         </div>
+
         <div className="padding-geofences"></div>
         <p className="geofencesText">
           AI-driven Dynamic Geofences™ change shape based on time of day, spending data and consumer behavior. Ads
