@@ -85,7 +85,7 @@
 
 .boxes{
   position:absolute;
-  transform: translateX(-6.5vw);
+  transform: translateX(-5vw);
   text-align: right;
   display: flex;
 

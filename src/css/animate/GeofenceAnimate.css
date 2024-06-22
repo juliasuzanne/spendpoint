@@ -5,10 +5,16 @@
   min-height: 330px;
   height: 40vh;
   width: 25vw;
+  
   z-index: 5;
   position: absolute;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
+}
+
+.three-fence p{
+  font-size: 2px;
+
 }
 
 
@@ -80,6 +86,12 @@
 
 }
 
+.three-fence-second p{
+  font-size: 2px;
+
+}
+
+
 .three-fence-2 p{
   font-size: 2vw;
   animation-duration: 3s;
@@ -106,13 +118,20 @@
   color: #0a434b;
   min-height: 330px;
   height: 40vh;
-  width: 25vw;
+  width: 50vw;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
   z-index: 3;
   position: absolute;
 
+
 }
+
+.three-fence-third p{
+  font-size: 2px;
+
+}
+
 
 
 .three-fence-3{
@@ -120,18 +139,18 @@
   color: #0a434b;
   min-height: 330px;
   height: 40vh;
-  width: 90vw;
+  width: 85vw;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
   z-index: 3;
   position: absolute;
-  animation-duration: 4s;
+  animation-duration: 3.5s;
   animation-name: animate-fence-3; 
 }
 
 .three-fence-3 p{
   font-size: 2vw;
-  animation-duration: 3s;
+  animation-duration: 3.5s;
   animation-name: animate-fence-3; 
 }
 
@@ -139,7 +158,13 @@
 
 @keyframes animate-fence-3{
   0%{
-    width: 25vw;
+    width: 50vw;
+    font-size: 2px;
+
+
+  }
+  10%{
+    width: 50vw;
     font-size: 2px;
 
 
@@ -147,7 +172,7 @@
   
 
   100%{
-    width: 90vw;
+    width: 85vw;
     font-size: 2vw;
 
   }
