@@ -1,3 +1,5 @@
+@media screen and (max-width: 5008px){
+
 .blueCustomer {
   background-color: #0073cf;
   z-index: -20;
@@ -13,9 +15,10 @@
 }
 
 .customerText{
-  font-size: 2vw;
+  font-size: 4vw;
   width: 90%;
   padding-bottom: 4vh;
+}
 }
 
 @media screen and (max-width: 768px){
@@ -34,9 +37,14 @@
   }
   
   .customerText{
-    font-size: 4vw;
+    font-size: 5vw;
     width: 90%;
     padding-bottom: 4vh;
+  }
+
+  .customerSubtitle{
+    padding-top: 3vh;
+    
   }
   
 }

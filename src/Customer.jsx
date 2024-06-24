@@ -19,7 +19,7 @@ export function Customer() {
                 <ObservedItem>
                   <div className="timePersonPlace">
                     <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-05_zgv611.png"></img>
-                    <p>QSR Fast Casual</p>
+                    <p className="customerSubtitle">QSR/Fast Casual</p>
                   </div>
                 </ObservedItem>
               </div>
@@ -27,7 +27,7 @@ export function Customer() {
                 <ObservedAbc>
                   <div className="timePersonPlace">
                     <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808893/SpendPointimage-09_ljhu0p.png"></img>
-                    <p>Retail</p>
+                    <p className="customerSubtitle">Retail</p>
                   </div>
                 </ObservedAbc>
               </div>
@@ -35,7 +35,7 @@ export function Customer() {
                 <ObservedObject>
                   <div className="timePersonPlace">
                     <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808891/SpendPointimage-04_bztgwu.png"></img>
-                    <p>Supermarkets CPG</p>
+                    <p className="customerSubtitle">Supermarkets CPG</p>
                   </div>
                 </ObservedObject>
               </div>
