@@ -12,3 +12,31 @@
   width: 80%;
 }
 
+.customerText{
+  font-size: 2vw;
+  width: 90%;
+  padding-bottom: 4vh;
+}
+
+@media screen and (max-width: 768px){
+  .blueCustomer {
+    background-color: #0073cf;
+    z-index: -20;
+    padding-left: 10vw;
+  }
+  
+  .customer{
+    transform: translateY(-18vh);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+  }
+  
+  .customerText{
+    font-size: 4vw;
+    width: 90%;
+    padding-bottom: 4vh;
+  }
+  
+}

@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import "./css/animate/ListAnimate.css";
 
 export function ObservedItem(props) {
   // const { ref: containerRef, inView: isVisible, entry } = useInView(options);

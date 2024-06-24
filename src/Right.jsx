@@ -18,25 +18,33 @@ export function Right() {
         </p>
       </div>
       <div className="timePP">
-        <div className="timePersonPlaceContainer">
-          <ObservedItem>
-            <div className="timePersonPlace">
-              <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-06_wex5tg.png"></img>
-              <p>Right person.</p>
+        <div className="timePersonPlaceContainer container">
+          <div className="row">
+            <div className="col-sm-12 col-md-4">
+              <ObservedItem>
+                <div className="timePersonPlace">
+                  <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-06_wex5tg.png"></img>
+                  <p>Right person.</p>
+                </div>
+              </ObservedItem>
             </div>
-          </ObservedItem>
-          <ObservedAbc>
-            <div className="timePersonPlace">
-              <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-08_dxw7my.png"></img>
-              <p>Right time.</p>
+            <div className="col-sm-12 col-md-4">
+              <ObservedAbc>
+                <div className="timePersonPlace">
+                  <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-08_dxw7my.png"></img>
+                  <p>Right time.</p>
+                </div>
+              </ObservedAbc>
             </div>
-          </ObservedAbc>
-          <ObservedObject>
-            <div className="timePersonPlace">
-              <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-07_sf0yob.png"></img>
-              <p>Right place.</p>
+            <div className="col-sm-12 col-md-4">
+              <ObservedObject>
+                <div className="timePersonPlace">
+                  <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-07_sf0yob.png"></img>
+                  <p>Right place.</p>
+                </div>
+              </ObservedObject>
             </div>
-          </ObservedObject>
+          </div>
         </div>
       </div>
     </div>

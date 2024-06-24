@@ -17,12 +17,26 @@
 .geofencesText {
   color: black;
   align-items: end;
+  font-size: 2vw;
 }
 
 .padding-geofences {
   min-height: 350px;
   height: 44vh;
-;
+
+}
+
+.dramatically {
+  font-size: 4vw;
+
+
+}
+
+#right{
+  font-style: normal;
+  font-size: 3vw;
+  width: 90%;
+
 }
 
 .bluebox {

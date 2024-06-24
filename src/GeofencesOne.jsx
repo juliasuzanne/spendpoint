@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import "./css/animate/GeofenceAnimate.css";
+import "./css/animate/ListAnimate.css";
 
 export function GeofencesOne(props) {
   // const { ref: containerRef, inView: isVisible, entry } = useInView(options);

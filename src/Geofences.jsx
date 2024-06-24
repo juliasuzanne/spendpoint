@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { ObservedItem } from "./ObservedItem";
 import "./css/Geofences.css";
 import "./css/animate/GeofenceAnimate.css";
+import "./css/animate/ListAnimate.css";
 import { ObservedObject } from "./ObservedObject";
 import { GeofencesThree } from "./GeofencesThree";
 import { GeofencesTwo } from "./GeofencesTwo";
@@ -53,14 +54,16 @@ export function Geofences() {
 
         <div className="padding-geofences"></div>
         <p className="geofencesText">
-          AI-driven Dynamic Geofences™ change shape based on time of day, spending data and consumer behavior. Ads
-          delivered to the right person, at the right time, at the right place dramatically increases clicks, store
-          visits, and sales. Proprietary Waste Prevention cuts ads to non-responsive, transitional devices.
+          AI-driven Dynamic Geofences™ change shape based on time of day, spending data and consumer behavior.
+          Proprietary Waste Prevention cuts ads to non-responsive, transitional devices.
         </p>
       </div>
 
       <div className="blueCustomer">
-        <h2 className="heading">Perfect for QSR, retail and supermarkets/CPG.</h2>
+        <h2 className="heading" id="right">
+          Delivering ads to the right person, at the right time, at the right place{" "}
+          <span className="dramatically"> dramatically increases clicks, store visits and sales.</span>
+        </h2>
       </div>
     </div>
   );
