@@ -1,4 +1,7 @@
 
+
+@media screen and (max-width: 5000px){
+
 .largeP{
   position: absolute;
   right: -18vw;
@@ -56,4 +59,56 @@
   margin-bottom: 0;
 
   text-align: center;
+}
+}
+
+@media screen and (max-width: 768px){
+
+  .timePersonPlace img{
+    width: 25vw;
+    float: left;
+  }
+  
+  .timePersonPlace{
+    display: relative;
+
+  
+  }
+
+  .right{
+    margin: auto;
+    width: 90vw;
+  
+  }
+  
+  
+  .timePersonPlace img{
+    width: 15vw;
+  }
+  
+  .timePersonPlace{
+    display: block;
+    text-align: center;
+    padding-right: 4.5vw;
+    padding-left: 4.5vw;
+  
+  }  
+
+  .timePersonPlaceContainer {
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
+    /* margin: auto; */
+    padding-top: 4vh;
+    margin-top: 0;
+    /* width: 80vw; */
+  }
+
+  .rightSubtitle{
+    position: relative;
+    left: 1px;
+    padding-top: 5vh;
+    padding-left: 0vw;
+  }
+  
 }

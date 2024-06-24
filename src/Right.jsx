@@ -24,7 +24,7 @@ export function Right() {
               <ObservedItem>
                 <div className="timePersonPlace">
                   <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-06_wex5tg.png"></img>
-                  <p>Right person.</p>
+                  <p className="rightSubtitle">Right person.</p>
                 </div>
               </ObservedItem>
             </div>
@@ -32,7 +32,7 @@ export function Right() {
               <ObservedAbc>
                 <div className="timePersonPlace">
                   <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-08_dxw7my.png"></img>
-                  <p>Right time.</p>
+                  <p className="rightSubtitle">Right time.</p>
                 </div>
               </ObservedAbc>
             </div>
@@ -40,7 +40,7 @@ export function Right() {
               <ObservedObject>
                 <div className="timePersonPlace">
                   <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-07_sf0yob.png"></img>
-                  <p>Right place.</p>
+                  <p className="rightSubtitle">Right place.</p>
                 </div>
               </ObservedObject>
             </div>
