@@ -46,17 +46,6 @@ html, body {
   position: relative;
 }
 
-@media screen and (max-width: 3008px){
-  .bottom-logo{
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    transform: translate(-10vw, 6vh);
-    overflow-x: hidden;
-  }
-}
-
-@media screen and (max-width: 768px){
   .bottom-logo{
     width: 100vw;
     justify-content: center;
@@ -65,7 +54,7 @@ html, body {
     overflow-x: hidden;
   }
 
-}
+
 
 .heading {
   font-size: 4.5vw;
@@ -133,7 +122,7 @@ footer {
     position: relative;
   }
   
-  @media screen and (max-width: 3008px){
+  
     .bottom-logo{
       width: 100vw;
       justify-content: center;
@@ -141,21 +130,10 @@ footer {
       transform: translate(-10vw, 6vh);
       overflow-x: hidden;
     }
-  }
-  
-  @media screen and (max-width: 768px){
-    .bottom-logo{
-      width: 100vw;
-      justify-content: center;
-      align-items: center;
-      transform: translate(-10vw, 6vh);
-      overflow-x: hidden;
-    }
-  
-  }
+
   
   .heading {
-    font-size: 4.5vw;
+    font-size: 9vw;
     flex-wrap: wrap;
     padding: 10px;
     font-weight: 700;

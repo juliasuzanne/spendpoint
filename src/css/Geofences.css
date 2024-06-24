@@ -19,7 +19,15 @@
 .geofencesText {
   color: black;
   align-items: end;
-  font-size: 2vw;
+  font-size: 4vw;
+  visibility: visible;
+}
+
+.geofencesTextTop {
+  color: black;
+  align-items: end;
+  font-size: 4vw;
+  visibility: hidden;
 }
 
 .padding-geofences {
@@ -208,6 +216,14 @@
     color: black;
     align-items: end;
     font-size: 4vw;
+    visibility: visible;
+  }
+
+  .geofencesTextTop {
+    color: black;
+    align-items: end;
+    font-size: 4vw;
+    visibility: hidden;
   }
   
   .padding-geofences {
