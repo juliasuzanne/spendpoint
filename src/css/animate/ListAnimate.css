@@ -190,7 +190,7 @@
   .box {
     display: block;
     color: rgba(255, 255, 255, 0.8);
-    padding: 2vh;
+    padding-left: 2vh;
     align-items: center;
     justify-content: center;
     transform: translateX(-10%);
@@ -203,7 +203,8 @@
   .box-animate{
     display: block;
     color: rgba(255, 255, 255, 0.8);
-    padding: 2vh;
+    padding: 0;
+    padding-left: 2vh;
     align-items: center;
     justify-content: center;
     font-weight: 900;
@@ -215,7 +216,8 @@
   .box-animate-delay{
     display: block;
     color: rgba(255, 255, 255, 0.8);
-    padding: 2vh;
+    padding: 0;
+    padding-left: 2vh;
     align-items: center;
     justify-content: center;
     font-weight: 900;
@@ -228,7 +230,8 @@
   .box-animate-delay2{
     display: block;
     color: rgba(255, 255, 255, 0.8);
-    padding: 2vh;
+    padding: 0;
+    padding-left: 2vh;
     align-items: center;
     justify-content: center;
     transform: translateX(0%);
