@@ -12,12 +12,15 @@
   justify-content: center;
   margin: auto;
   width: 80%;
+  color: #bfecf4;
+
 }
 
 .customerText{
-  font-size: 2.5vw;
+  font-size: 3vw;
   width: 90%;
   padding-bottom: 4vh;
+  font-style: oblique;
 }
 }
 
@@ -33,13 +36,14 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 80%;
+    width: 70%;
+    color: #bfecf4;
+
   }
   
   .customerText{
     font-size: 5vw;
-    width: 90%;
-    padding-bottom: 4vh;
+    width: 105%;
   }
 
   .customerSubtitle{

@@ -66,15 +66,16 @@
 }
 
 .dramatically {
-  font-size: 4vw;
-
-
+  text-decoration: underline;
+  text-decoration-color: #1efbd3;
 }
 
 #right{
   font-style: normal;
-  font-size: 3vw;
-  width: 90%;
+  font-size: 5.5vw;
+  width: 80%;
+  line-height: 8vw;
+  color: #bfecf4;
 
 }
 
@@ -280,14 +281,14 @@
   }
   
   .dramatically {
-    font-size: 4vw;
   }
   
   #right{
     font-style: normal;
-    font-size: 3vw;
-    width: 90%;
-  
+    font-size: 6vw;
+    width: 80%;
+    line-height: 10vw;
+    color: #bfecf4;
   }
   
   .bluebox {
