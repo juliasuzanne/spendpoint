@@ -34,6 +34,7 @@
 }
 
 .increaseHeader{
+  color: #4d4f52;
   text-align: center;
   font-weight: 700;
   font-size: 3.8vw;
@@ -224,6 +225,23 @@
 
 @media screen and (max-width: 768px){
 
+  .inClicksSubHeader{
+    text-align: center;
+    font-size: 5vw;
+    color: #2891a1;
+  
+  }
+  
+  .increaseHeader{
+    color: #2891a1;
+    text-align: center;
+    font-weight: 700;
+    font-size: 6.4vw;
+    line-height: 2vw;
+    padding-top: 3vh;
+  
+  }
+
   .geofences{
     background-color: white;
     color: black;
@@ -244,6 +262,7 @@
     color: black;
     align-items: end;
     font-size: 4vw;
+    line-height: 7.6vw;
     visibility: visible;
   }
 
