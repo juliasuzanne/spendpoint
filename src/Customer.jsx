@@ -17,7 +17,7 @@ export function Customer() {
               <div className="col-sm-12 col-md-4">
                 <ObservedItem>
                   <div className="timePersonPlace">
-                    <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-05_zgv611.png"></img>
+                    <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719349890/SpendPointHamburger_usf5x6.png"></img>
                     <p className="rightSubtitle">QSR / Fast Casual</p>
                   </div>
                 </ObservedItem>
@@ -25,7 +25,7 @@ export function Customer() {
               <div className="col-sm-12 col-md-4">
                 <ObservedAbc>
                   <div className="timePersonPlace">
-                    <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808893/SpendPointimage-09_ljhu0p.png"></img>
+                    <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719349898/SpendPointShop_p0b3nm.png"></img>
                     <p className="rightSubtitle">Retail</p>
                   </div>
                 </ObservedAbc>
@@ -33,7 +33,7 @@ export function Customer() {
               <div className="col-sm-12 col-md-4">
                 <ObservedObject>
                   <div className="timePersonPlace">
-                    <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808891/SpendPointimage-04_bztgwu.png"></img>
+                    <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719349890/SpendPointCart_pe4ntb.png"></img>
                     <p className="rightSubtitle">Supermarkets / CPG</p>
                   </div>
                 </ObservedObject>

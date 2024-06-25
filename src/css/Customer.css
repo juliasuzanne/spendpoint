@@ -20,6 +20,7 @@
   font-size: 3vw;
   width: 90%;
   padding-bottom: 4vh;
+  
   font-style: oblique;
 }
 
@@ -35,7 +36,8 @@
   position: relative;
   left: 1px;
   font-size: 3vw;
-  padding-top: 4vh;
+  padding-top: 4vh;    
+  color: #1efbd3;
   padding-left: 0vw;
   font-weight: 700;
 }
@@ -48,7 +50,7 @@
 
 
 .timePersonPlace img{
-  width: 20vw;
+  width: 25vw;
 }
 
 .timePersonPlace{
@@ -114,7 +116,9 @@
   
   .customerText{
     font-size: 5vw;
-    width: 105%;
+    width: 70vw;
+    padding: 0;
+    margin: 0;
   }
 
   .customerSubtitle{
@@ -129,6 +133,10 @@
   
   .timePersonPlace{
     display: relative;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+
+
 
   
   }
