@@ -1,22 +1,20 @@
 
 
-
 @media screen and (max-width: 5000px){
+  #rightSubtitleLeft{
+    color: white;
+    text-align: center;
+  }
+  #floatLeft{
+    float: center;
+  }
 
-.largeP{
-  position: absolute;
-  right: -18vw;
-  width: 100vw;
-  top: -65vw;
-  z-index: 1;
-}
-.rightSubtitle{
-  position: relative;
-  left: 1px;
-  font-size: 3vw;
-  padding-top: 4vh;
-  padding-left: 0vw;
-  font-weight: 700;
+
+
+#rightSubtitle{
+  color: white;
+  font-weight: 600;
+
 }
 
 .right{
@@ -85,12 +83,23 @@
 
 @media screen and (max-width: 768px){
 
+  
+  #rightSubtitleLeft{
+    color: white;
+    text-align: left;
+    font-weight: 500;
+  }
+  #floatLeft{
+    float: left;
+  }
+
   .timePersonPlace img{
     width: 22vw;
     float: left;
     padding-right: 2vw;
   }
-  
+
+
   .timePersonPlace{
     display: relative;
 
@@ -139,6 +148,7 @@
     font-size: 5vw;
     padding-top: 4vh;
     padding-left: 0vw;
+    color: white;
     font-weight: 500;
   }
 

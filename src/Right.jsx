@@ -27,24 +27,39 @@ export function Right() {
             <div className="col-sm-12 col-md-4">
               <ObservedItem>
                 <div className="timePersonPlace">
-                  <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-06_wex5tg.png"></img>
-                  <p className="rightSubtitle">Right person.</p>
+                  <img
+                    id="floatLeft"
+                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-06_wex5tg.png"
+                  ></img>
+                  <p className="rightSubtitle" id="rightSubtitleLeft">
+                    Right person.
+                  </p>
                 </div>
               </ObservedItem>
             </div>
             <div className="col-sm-12 col-md-4">
               <ObservedAbc>
                 <div className="timePersonPlace">
-                  <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-08_dxw7my.png"></img>
-                  <p className="rightSubtitle">Right time.</p>
+                  <img
+                    id="floatLeft"
+                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-08_dxw7my.png"
+                  ></img>
+                  <p className="rightSubtitle" id="rightSubtitleLeft">
+                    Right time.
+                  </p>
                 </div>
               </ObservedAbc>
             </div>
             <div className="col-sm-12 col-md-4">
               <ObservedObject>
                 <div className="timePersonPlace">
-                  <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-07_sf0yob.png"></img>
-                  <p className="rightSubtitle">Right place.</p>
+                  <img
+                    id="floatLeft"
+                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-07_sf0yob.png"
+                  ></img>
+                  <p className="rightSubtitle" id="rightSubtitleLeft">
+                    Right place.
+                  </p>
                 </div>
               </ObservedObject>
             </div>

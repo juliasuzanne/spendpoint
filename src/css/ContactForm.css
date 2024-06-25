@@ -1,5 +1,57 @@
+input::placeholder {
+  color: #299ffd;
+  
+}
+input::-webkit-input-placeholder{
+  color: #299ffd;
+}
+input::-moz-placeholder {
+  color: #299ffd;
+}
+
+.lineBreak{
+  height: 5vh;
+}
+
+
+.form-styling{
+  float: right;
+  margin-bottom: 30px;
+  font-family: "Arial";
+  border-radius: .375rem;
+  width: 100%;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  font-size: 1em;
+  border: none;
+  background: white;
+  border-width: 0;
+  color: #299ffd;
+  display: block;
+}
+
 
 @media screen and (max-width: 5008px){
+  .blueLine{
+    background-color: #299ffd;
+    height: .3vh;
+    margin-bottom: 4vh;
+    z-index: 4;
+    width: 50vw;
+    position: absolute;
+
+    transform: translatex(-125px);
+  }
+  .blueLine2{
+    background-color: #041C20;
+    height: 10vh;
+    margin-bottom: 4vh;
+    z-index: 5;
+    width: 5.2vw;
+    transform: translatex(-125px);
+    position: absolute;
+    opacity: 1;
+  }
 
   .yourInfo{
     padding-top: 3vh;
@@ -8,6 +60,7 @@
 
   }
   #contactFormHeader{
+    font-size: 7vw;
     padding-top: 5vw;
     padding-bottom: 2vw;
     width: 30%;
@@ -61,6 +114,15 @@
     font-style: oblique;
   }
 
+  .blueLine{
+    background-color: #299ffd;
+    height: .3vh;
+    margin-bottom: 2vh;
+    width: 50vw;
+    transform: translatex(-8vw);
+  }
+  
+
   #login{
     width: 90vw;
     margin: auto;
@@ -75,7 +137,8 @@
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.842);
   }
   #contactFormHeader{
-    padding-top: 10vw;
+    font-size: 10vw;
+    padding-top: 7vw;
     padding-bottom: 2vw;
     width: 30%;
   }
@@ -135,16 +198,6 @@ input:focus {
 
 }
 
-
-.form-control{
-  float: right;
-  margin-bottom: 30px;
-  font-family: "Arial";
-  font-size: 1em;
-  border: none;
-  background: white;
-  border-width: 0;
-}
 
 .email-outsides{
   padding-top: 0vh;

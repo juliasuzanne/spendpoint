@@ -98,6 +98,16 @@
 }
 
 @media screen and (max-width: 768px){
+
+  .largeP{
+    position: absolute;
+    right: -18vw;
+    width: 100vw;
+    top: -49vw;
+    z-index: 1;
+  }
+
+  
   .blueCustomer {
     background-color: #0073cf;
     z-index: -20;

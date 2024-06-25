@@ -50,23 +50,27 @@ export function ContactForm() {
                 </h2>
               </div>
             </div>
+            <div className="blueLine"></div>
+            <div className="blueLine2"></div>
+            <div className="lineBreak"></div>
+
             <div className="break2"> </div>
 
             <div className="row">
               <div className="col-sm-6">
-                <input type="text" className="form-control" name="name" placeholder="First Name" required />
+                <input type="text" className="form-styling" name="name" placeholder="First Name" required />
               </div>
               <div className="col-sm-6">
-                <input type="text" placeholder="Last Name" className="form-control" name="last_name" required />
+                <input type="text" placeholder="Last Name" className="form-styling" name="last_name" required />
               </div>
             </div>
             <div className="row">
               <div className="col-sm-6">
-                <input type="email" placeholder="E-mail" className="form-control" name="user_email" required />
+                <input type="email" placeholder="E-mail" className="form-styling" name="user_email" required />
               </div>
 
               <div className="col-sm-6">
-                <input type="text" className="form-control" placeholder="Company Name" name="company" required />
+                <input type="text" className="form-styling" name="company" placeholder="Company Name" required />
               </div>
             </div>
             <div className="row">
