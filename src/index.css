@@ -1,3 +1,7 @@
+.bold{
+  font-weight: 800;
+}
+
 @media screen and (max-width: 5008px){
 
 :root {
@@ -39,7 +43,7 @@ html, body {
 }
 
 .spendpointLogoTop{
-  width: 65vw;
+  width: 68vw;
   padding-bottom: 10vh;
   padding: 5vw;
   z-index: 2;

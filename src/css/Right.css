@@ -1,5 +1,6 @@
 
 
+
 @media screen and (max-width: 5000px){
 
 .largeP{
@@ -9,7 +10,14 @@
   top: -65vw;
   z-index: 1;
 }
-
+.rightSubtitle{
+  position: relative;
+  left: 1px;
+  font-size: 3vw;
+  padding-top: 4vh;
+  padding-left: 0vw;
+  font-weight: 700;
+}
 
 .right{
   margin: auto;
@@ -19,7 +27,7 @@
 
 
 .timePersonPlace img{
-  width: 15vw;
+  width: 19vw;
 }
 
 .timePersonPlace{
@@ -29,6 +37,17 @@
   padding-left: 4.5vw;
 
 
+}
+
+.sideLine{
+  background-color: #193c4c;
+  color: white;
+  z-index: 10;
+  width: .5vw;
+  height: 45vw;
+  position: absolute;
+  transform: translate(-2vw, 2vw);
+  visibility: visible;
 }
 
 .timePersonPlaceContainer {
@@ -43,8 +62,9 @@
 
 
 .ROAS{
-  font-size: 4.2vw;
+  font-size: 4.4vw;
   font-weight: 700;
+  color: white;
 
 }
 
@@ -55,10 +75,11 @@
   padding-left: 2vh;
   padding-top: 2vh;
   padding-right: 2vh;
-  padding-bottom: 0vh;
+  width: 70%;
+  padding-bottom: 5vh;
   margin-bottom: 0;
-
-  text-align: center;
+  color: #9ebedc;
+  text-align: left;
 }
 }
 
@@ -75,6 +96,18 @@
 
   
   }
+
+  .sideLine{
+    background-color: #193c4c;
+    color: white;
+    z-index: 10;
+    width: 5px;
+    height: 45vw;
+    position: fixed;
+    transform: translate(-2vw, 3vw);
+    visibility: hidden;
+  }
+  
 
   .right{
     margin: auto;
@@ -103,9 +136,31 @@
   .rightSubtitle{
     position: relative;
     left: 1px;
-    padding-top: 4.5vh;
+    font-size: 5vw;
+    padding-top: 4vh;
     padding-left: 0vw;
     font-weight: 500;
+  }
+
+  .ROAS{
+    font-size:6.9vw;
+    font-weight: 700;
+  
+  }
+
+  
+  .spentPointP{
+    font-size: 4.5vw;
+    font-weight: 500;
+    width: 90%;
+    z-index: 2;
+    position: relative;
+    padding-left: 6vw;
+    padding-top: 2vh;
+    padding-right: 2vh;
+    padding-bottom: 0vh;
+    margin-bottom: 0;
+    text-align: left;
   }
 
   

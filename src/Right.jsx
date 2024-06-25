@@ -11,10 +11,14 @@ export function Right() {
         src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-02_u96lbn.png"
         className="largeP"
       ></img>
+      <div className="sideLine"></div>
       <div className="timePP">
         <p className="spentPointP">
-          SpendPoint transforms today's inefficient mobile display advertising into{" "}
-          <span className="ROAS">must-have, high ROAS marketing.</span>
+          <span className="bold">SpendPoint</span> transforms today's inefficient mobile display advertising into{" "}
+          <br></br>
+          <span className="ROAS">
+            must-have, <br></br> high ROAS marketing.
+          </span>
         </p>
       </div>
       <div className="timePP">
