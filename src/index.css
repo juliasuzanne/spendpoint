@@ -50,7 +50,7 @@ html, body {
     width: 100vw;
     justify-content: center;
     align-items: center;
-    transform: translate(-10vw, 6vh);
+    transform: translate(-10vw, 13vh);
     overflow-x: hidden;
   }
 
@@ -127,7 +127,7 @@ footer {
       width: 100vw;
       justify-content: center;
       align-items: center;
-      transform: translate(-10vw, 6vh);
+      transform: translate(-10vw, 5vh);
       overflow-x: hidden;
     }
 

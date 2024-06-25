@@ -1,4 +1,4 @@
-@media screen and (max-width: 3008px){
+@media screen and (max-width: 5008px){
 
   
   .submitbutton{
@@ -48,7 +48,7 @@
     padding-right: 5vw;
     padding-left: 5vw;
     padding-top: 2vw;
-    padding-bottom: 10vw;
+    padding-bottom: 0vw;
     border-radius: 2vw;
     transform: translateY(-2vh);
     color: black; 
