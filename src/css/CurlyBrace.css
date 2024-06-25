@@ -1,0 +1,51 @@
+.curly-brace{
+  border-top-left-radius: 20px;
+  border-color: #2891a1;
+  border-width: 10px;
+  border-top-style: solid;
+  width: 18vw;
+  height: 20px;
+}
+
+.curly-brace2{
+  border-bottom-right-radius: 20px;
+  border-color: #2891a1;
+  border-width: 10px;
+  border-bottom-style: solid;
+  width: 18vw;
+  transform: translateY(-10px);
+
+}
+
+
+.curly-brace3{
+  border-bottom-left-radius: 20px;
+  border-color: #2891a1;
+  border-width: 10px;
+  border-bottom-style: solid;
+  width: 18vw;
+  transform: translateY(-10px);
+
+
+}
+
+
+.curly-brace4{
+  border-top-right-radius: 20px;
+  border-color: #2891a1;
+  border-width: 10px;
+  border-top-style: solid;
+  width: 18vw;
+  height: 20px;
+
+}
+
+
+.curly-braces-container{
+  border-color: #2891a1;
+  padding-bottom: 2vh;
+  margin: auto;
+  width: 100vw;
+  margin-left: 2vw;
+  
+} 

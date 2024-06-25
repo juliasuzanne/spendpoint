@@ -7,6 +7,7 @@ import { ObservedObject } from "./ObservedObject";
 import { GeofencesThree } from "./GeofencesThree";
 import { GeofencesTwo } from "./GeofencesTwo";
 import { GeofencesOne } from "./GeofencesOne";
+import "./css/CurlyBrace.css";
 
 export function Geofences() {
   return (
@@ -14,9 +15,16 @@ export function Geofences() {
       <div className="bluebox"></div>
       <div className="geofences">
         <h2 className="heading">AI-driven Dynamic Geofences™</h2>
-
-        <h2>6X Increase</h2>
-        <p>In Clicks & Visits Per 1000 Ads</p>
+        <h2 className="increaseHeader">6X Increase</h2>
+        <p className="inClicksSubHeader">In Clicks & Visits Per 1000 Ads</p>
+        <div className="curly-braces-container container">
+          <div className="row">
+            <div className="curly-brace col-sm-4"></div>
+            <div className="curly-brace2 col-sm-4"></div>
+            <div className="curly-brace3 col-sm-4"></div>
+            <div className="curly-brace4 col-sm-4"></div>
+          </div>
+        </div>
         <div className="boxes">
           <div className="boxes123">
             <GeofencesThree>
@@ -52,7 +60,6 @@ export function Geofences() {
             </div>
           </GeofencesOne>
         </div>
-
         <div className="padding-geofences"></div>
         <p className="geofencesText">
           AI-driven Dynamic Geofences™ change shape based on time of day, spending data and consumer behavior.
@@ -66,6 +73,7 @@ export function Geofences() {
           <span className="dramatically"> dramatically increases clicks, store visits and sales.</span>
         </h2>
       </div>
+      <div className="greenLine"></div>
     </div>
   );
 }

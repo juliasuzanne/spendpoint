@@ -1,3 +1,13 @@
+.greenLine{
+  width: 40vw;
+  height: 2vh;
+  border-color: #1efbd3;
+  border-width: 10px;
+  border-bottom-style: solid;
+  margin-left: 0;
+  transform: translateY(-19.5vh);
+}
+
 @media screen and (max-width: 5008px){
 
 .geofences{
@@ -16,10 +26,28 @@
 
 }
 
+.inClicksSubHeader{
+  text-align: center;
+  font-size: 3vw;
+  color: #2891a1;
+
+}
+
+.increaseHeader{
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.8vw;
+  line-height: 2vw;
+  padding-top: 3vh;
+
+
+}
+
 .geofencesText {
   color: black;
   align-items: end;
   font-size: 2.5vw;
+  line-height: 4.5vw;
   visibility: visible;
 }
 

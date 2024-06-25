@@ -61,10 +61,11 @@ html, body {
 
 
 .heading {
-  font-size: 4.5vw;
+  font-size: 5.7vw;
   flex-wrap: wrap;
   padding: 10px;
   font-weight: 700;
+  
 }
 
 footer {
