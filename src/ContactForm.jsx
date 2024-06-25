@@ -45,7 +45,9 @@ export function ContactForm() {
           <div className="container">
             <div className="row">
               <div className="email-outsides">
-                <h2 className="heading">Let's Connect</h2>
+                <h2 className="heading" id="contactFormHeader">
+                  Let's Connect
+                </h2>
               </div>
             </div>
             <div className="break2"> </div>
@@ -85,7 +87,7 @@ export function ContactForm() {
             </ul>
             <div className="row">
               <input type="submit" value="CONTACT" className="submitbutton btn btn-secondary mt-3 submit " />
-              <p>Your information will only be used to contact you about a follow-up meeting.</p>
+              <p className="yourInfo">Your information will only be used to contact you about a follow-up meeting.</p>
             </div>
           </div>
         </form>
