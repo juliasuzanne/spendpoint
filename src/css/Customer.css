@@ -7,7 +7,7 @@
 }
 
 .customer{
-  transform: translateY(-18vh);
+  transform: translateY(-15vh);
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -22,6 +22,77 @@
   padding-bottom: 4vh;
   font-style: oblique;
 }
+
+.largeP{
+  position: absolute;
+  right: -18vw;
+  width: 100vw;
+  top: -65vw;
+  z-index: 1;
+}
+
+.rightSubtitle{
+  position: relative;
+  left: 1px;
+  font-size: 3vw;
+  padding-top: 4vh;
+  padding-left: 0vw;
+  font-weight: 700;
+}
+
+.right{
+  margin: auto;
+  width: 80vw;
+
+}
+
+
+.timePersonPlace img{
+  width: 20vw;
+}
+
+.timePersonPlace{
+  display: block;
+  text-align: center;
+  padding-right: 4.5vw;
+  padding-left: 4.5vw;
+
+
+}
+
+
+.timePersonPlaceContainer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 0vh;
+  margin-top: 0;
+  width: 80vw;
+}
+
+
+.ROAS{
+  font-size: 4.4vw;
+  font-weight: 700;
+  color: white;
+
+}
+
+.spentPointP{
+  font-size: 3vw;
+  z-index: 2;
+  position: relative;
+  padding-left: 2vh;
+  padding-top: 2vh;
+  padding-right: 2vh;
+  width: 70%;
+  padding-bottom: 5vh;
+  margin-bottom: 0;
+  color: #9ebedc;
+  text-align: left;
+}
+
 }
 
 @media screen and (max-width: 768px){
@@ -32,7 +103,7 @@
   }
   
   .customer{
-    transform: translateY(-18vh);
+    transform: translateY(-15vh);
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -50,5 +121,71 @@
     padding-top: 3vh;
 
   }
+
+  .timePersonPlace img{
+    width: 30vw;
+    float: right;
+  }
+  
+  .timePersonPlace{
+    display: relative;
+
+  
+  }
+
+
+  .right{
+    margin: auto;
+    width: 90vw;
+  
+  }
+
+  
+  .timePersonPlace{
+    display: block;
+    text-align: right;
+    padding-right: 0vw;
+  
+  }  
+
+  .timePersonPlaceContainer {
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
+    /* margin: auto; */
+    padding-top: 4vh;
+    margin-top: 0;
+    /* width: 80vw; */
+  }
+
+  .rightSubtitle{
+    position: relative;
+    font-size: 5vw;
+    padding-top: 4vh;
+    font-weight: 700;
+    color: #1efbd3;
+  }
+
+  .ROAS{
+    font-size:6.9vw;
+    font-weight: 700;
+  
+  }
+
+  
+  .spentPointP{
+    font-size: 4.5vw;
+    font-weight: 500;
+    width: 90%;
+    z-index: 2;
+    position: relative;
+    padding-left: 6vw;
+    padding-top: 2vh;
+    padding-right: 2vh;
+    padding-bottom: 0vh;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
   
 }
