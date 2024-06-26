@@ -1,4 +1,103 @@
-@media screen and (max-width: 5008px){
+@media screen and (max-width: 6008px){
+
+  .blueCustomer {
+    background-color: #0073cf;
+    z-index: -20;
+    padding-left: 10vw;
+  }
+  
+  .customer{
+    transform: translateY(-15vh);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    color: #bfecf4;
+  
+  }
+  
+  .customerText{
+    font-size: 3.6vw;
+    width: 90%;
+    padding-bottom: 4vh;
+    
+    font-style: oblique;
+  }
+  
+  .largeP{
+    position: absolute;
+    right: -18vw;
+    width: 100vw;
+    top: -65vw;
+    z-index: 1;
+  }
+  
+  .rightSubtitle{
+    position: relative;
+    left: 1px;
+    font-size: 2.5vw;
+    padding-top: .5vh;    
+    color: #1efbd3;
+    padding-left: 0vw;
+    font-weight: 700;
+  }
+  
+  .right{
+    margin: auto;
+    width: 80vw;
+  
+  }
+  
+  
+  .timePersonPlace img{
+    width: 16vw;
+  }
+  
+  .timePersonPlace{
+    display: block;
+    text-align: center;
+    padding-right: 4.5vw;
+    padding-left: 4.5vw;
+  
+  
+  }
+  
+  
+  .timePersonPlaceContainer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 0vh;
+    margin-top: 0;
+    width: 80vw;
+  }
+  
+  
+  .ROAS{
+    font-size: 4.4vw;
+    font-weight: 700;
+    color: white;
+  
+  }
+  
+  .spentPointP{
+    font-size: 3vw;
+    z-index: 2;
+    position: relative;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    padding-right: 2vh;
+    width: 70%;
+    padding-bottom: 5vh;
+    margin-bottom: 0;
+    color: #9ebedc;
+    text-align: left;
+  }
+  
+  }
+
+@media screen and (max-width: 2008px){
 
 .blueCustomer {
   background-color: #0073cf;
@@ -50,7 +149,7 @@
 
 
 .timePersonPlace img{
-  width: 25vw;
+  width: 16vw;
 }
 
 .timePersonPlace{

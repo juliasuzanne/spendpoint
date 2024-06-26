@@ -5,7 +5,81 @@
   overflow-x: hidden;
 
 }
-@media screen and (max-width: 5008px){
+
+@media screen and (max-width: 6008px){
+
+  :root {
+    font-family: Arial, Helvetica, sans-serif, system-ui;
+    line-height: 1.5;
+    font-weight: 400;
+    width: 100vw;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #041c20;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+  
+  html, body {
+    scroll-behavior: smooth;
+    max-width: 100vw;
+    overflow-x: hidden;
+  
+  }
+  
+  #total{
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #041c20;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  .content-breathe{
+    height: 12vw;
+  }
+  
+  .content-breathe2{
+    height: 5vw;
+  
+  }
+  
+  .spendpointLogoTop{
+    width: 68vw;
+    padding-bottom: 10vh;
+    padding: 5vw;
+    z-index: 2;
+    position: relative;
+  }
+  
+    .bottom-logo{
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      transform: translate(-10vw, 13vh);
+      overflow-x: hidden;
+    }
+  
+  
+  
+  .heading {
+    font-size: 5.7vw;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-weight: 700;
+    
+  }
+  
+  footer {
+    position: absolute;
+  
+  }
+  }
+
+  
+@media screen and (max-width: 2008px){
 
 :root {
   font-family: Arial, Helvetica, sans-serif, system-ui;

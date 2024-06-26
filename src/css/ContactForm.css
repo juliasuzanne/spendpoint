@@ -29,9 +29,85 @@ input::-moz-placeholder {
   color: #299ffd;
   display: block;
 }
+@media screen and (max-width: 6008px){
+  .blueLine{
+    background-color: #299ffd;
+    height: .3vh;
+    margin-bottom: 4vh;
+    z-index: 4;
+    width: 50vw;
+    position: absolute;
+    left: 0;
+    transform: translatex(-15px);
+  }
+  .blueLine2{
+    /* background-color: #041C20;
+    height: 10vh;
+    margin-bottom: 4vh;
+    margin-left: 0;
+    left: 0;
+    z-index: 5;
+    width: 10vw;
+    transform: translatex(-125px);
+    position: absolute;
+    opacity: 1; */
+  }
 
+  .yourInfo{
+    padding-top: 3vh;
+    font-size: 1.75vw;
+    font-style: oblique;
 
-@media screen and (max-width: 5008px){
+  }
+  #contactFormHeader{
+    font-size: 7vw;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+    width: 30%;
+  }
+
+  .submitbutton{
+    border-radius: 10px;
+  margin-left: 10px;
+  width: 100px;
+  /* -webkit-border-radius: 8px; */
+  padding-left: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-right: .5em;
+  border-width: 2px;
+  font-family: "Arial";
+  background-color: #041c20;
+  border-color: #041c20;
+  color: rgb(255, 255, 255);
+
+  }
+
+  .submitbutton:hover{
+    background-color: rgba(0, 0, 255, 0);
+    color:#041c20;
+    border-color: #041c20;
+    border-width: 2px;
+
+  
+  }
+  #login{
+    width: 90vw;
+    margin: auto;
+    background-color: #B3DDFF;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 0vw;
+    border-radius: 2vw;
+    transform: translateY(-6vh);
+    color: black; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.842);
+  }
+  
+}
+
+@media screen and (max-width: 2008px){
   .blueLine{
     background-color: #299ffd;
     height: .3vh;

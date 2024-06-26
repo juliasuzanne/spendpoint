@@ -8,7 +8,241 @@
   transform: translateY(-19.5vh);
 }
 
-@media screen and (max-width: 5008px){
+@media screen and (max-width: 6008px){
+
+  .geofences{
+    background-color: white;
+    color: black;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vh;
+    width: 90vw;
+    padding-bottom: 5vh;
+    margin: auto;
+    border-radius: 2vw;
+    z-index: 1;
+    position:relative;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.366);
+  
+  }
+  
+  .inClicksSubHeader{
+    text-align: center;
+    font-size: 3vw;
+    color: #2891a1;
+  
+  }
+  
+  .increaseHeader{
+    color: #4d4f52;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.8vw;
+    line-height: 2vw;
+    padding-top: 3vh;
+  
+  
+  }
+  
+  .geofencesText {
+    color: black;
+    align-items: end;
+    font-size: 2.5vw;
+    line-height: 4.5vw;
+    visibility: visible;
+  }
+  
+  .geofencesTextMobile{
+    color: black;
+    align-items: end;
+    font-size: 0px;
+    line-height: 0vw;
+    visibility: hidden;
+  }
+  
+  .geofencesTextTop {
+    color: black;
+    align-items: end;
+    font-size: 4vw;
+    visibility: hidden;
+  }
+  
+  .padding-geofences {
+    min-height: 350px;
+    height: 28vw;
+  
+  }
+  
+  .padding-geofencesMobile {
+    min-height: 0px;
+    height: 0vh;
+  }
+  
+  .dramatically {
+    text-decoration: underline;
+    text-decoration-color: #1efbd3;
+  }
+  
+  #right{
+    font-style: normal;
+    font-size: 5.5vw;
+    width: 80%;
+    line-height: 8vw;
+    color: #bfecf4;
+  
+  }
+  
+  .bluebox {
+    background-color: #0073cf;
+    min-height: 720px;
+    height: 105vw;
+    transform: translateY(10vh);
+    z-index: 0;
+    width: 100vw;
+    position: absolute;
+  }
+  
+  .blueCustomer{
+    padding-top: 30vh;
+    padding-bottom: 2vh;
+    transform: translate(0vw,-18vh);
+    z-index: 0;
+    width: 100vw;
+    /* position: absolute; */
+  }
+  
+  .box1{
+    background-color: #041c20;
+    color: #54c8da;
+    min-height: 330px;
+    height: 40vh;
+    width: 43vw;
+    z-index: 5;
+    position: absolute;
+    border-top-right-radius:3cqb;
+    border-bottom-right-radius:3cqb;
+  
+  }
+  
+  .box2{
+    background-color: #2891a1;
+    color: #011315;
+    min-height: 330px;
+    height: 40vh;
+    width: 68vw;
+    border-top-right-radius:3cqb;
+    border-bottom-right-radius:3cqb;
+    z-index: 4;
+    position: absolute;
+  
+  }
+  .box3{
+    background-color: #1efbd3;
+    color: #0a434b;
+    min-height: 330px;
+    height: 40vh;
+    width: 84vw;
+    border-top-right-radius:3cqb;
+    border-bottom-right-radius:3cqb;
+    z-index: 3;
+    position: absolute;
+  
+  
+  }
+  
+  .boxes{
+    position:absolute;
+    transform: translateX(-5vw);
+    text-align: right;
+    display: flex;
+  
+  
+  }
+  
+  
+  .six-header{
+    margin: 0;
+    text-align: right;
+    font-size: 3vw;
+    padding-top: 4vw;
+  
+    padding-right: 2vw;
+    font-weight: 700;
+    float: right;
+    justify-content: right;
+    word-wrap: wrap;
+    /* display: block; */
+    bottom: 1em;
+    
+  
+  }
+  
+  
+  
+  .six-header-small{
+    margin: 0;
+    text-align: right;
+    font-size: 3vw;
+    font-weight: 700;
+    padding-right: 2vw;
+  
+    padding-bottom: 2vw;
+    /* max-width: 14.5vw; */
+    float: right;
+    justify-content: right;
+    word-wrap: wrap;
+    /* display: block; */
+    bottom: 1em;
+  
+  
+  }
+  
+  
+  .six-header-med{
+    text-align: right;
+    font-size: 3vw;
+    padding: 4vw;
+    font-weight: 700;
+  
+    /* max-width: 14.5vw; */
+    float: right;
+    justify-content: right;
+    word-wrap: wrap;
+    /* display: block; */
+    bottom: 1em;
+  }
+  
+  
+  .six-header-wide{
+    text-align: right;
+    font-size: 3vw;
+    padding: 4vw;
+    /* max-width: 29vw; */
+    float: right;
+    justify-content: right;
+    word-wrap: wrap;
+    font-weight: 700;
+  
+    /* display: block; */
+    bottom: 1em;
+  
+  }
+  
+  .times-p{
+    font-size: 8vw;
+    padding-top: 2vh;
+    padding-right: 4vw;
+    position: relative;
+    text-align: right;
+  
+  }
+  
+  #small-times-p{
+    padding-right: 2vw;
+  }
+  }
+
+@media screen and (max-width: 2008px){
 
 .geofences{
   background-color: white;
@@ -69,7 +303,7 @@
 
 .padding-geofences {
   min-height: 350px;
-  height: 44vh;
+  height: 28vw;
 
 }
 
@@ -95,7 +329,7 @@
 .bluebox {
   background-color: #0073cf;
   min-height: 720px;
-  height: 115vh;
+  height: 105vw;
   transform: translateY(10vh);
   z-index: 0;
   width: 100vw;

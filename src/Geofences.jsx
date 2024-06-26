@@ -21,12 +21,12 @@ export function Geofences() {
         </p>
         <h2 className="increaseHeader">6X Increase</h2>
         <p className="inClicksSubHeader">In Clicks & Visits Per 1000 Ads</p>
-        <div className="curly-braces-container container">
+        <div className="curly-braces-container container-fluid">
           <div className="row">
-            <div className="curly-brace col-sm-4"></div>
-            <div className="curly-brace2 col-sm-4"></div>
-            <div className="curly-brace3 col-sm-4"></div>
-            <div className="curly-brace4 col-sm-4"></div>
+            <div className="curly-brace col-sm-4 col-lg-4"></div>
+            <div className="curly-brace2 col-sm-4 col-lg-4"></div>
+            <div className="curly-brace3 col-sm-4 col-lg-4"></div>
+            <div className="curly-brace4 col-sm-4 "></div>
           </div>
         </div>
         <div className="padding-geofencesMobile"></div>

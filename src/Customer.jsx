@@ -12,7 +12,7 @@ export function Customer() {
       <div className="customer">
         <div className="timePP">
           <p className="customerText">SpendPoint is delivering excellent results where store visits matter most.</p>
-          <div className="timePersonPlaceContainer container">
+          <div className="timePersonPlaceContainer container-fluid">
             <div className="row">
               <div className="col-sm-12 col-md-4">
                 <ObservedItem>

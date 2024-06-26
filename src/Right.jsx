@@ -22,7 +22,7 @@ export function Right() {
         </p>
       </div>
       <div className="timePP">
-        <div className="timePersonPlaceContainer container">
+        <div className="timePersonPlaceContainer container-fluid">
           <div className="row">
             <div className="col-sm-12 col-md-4">
               <ObservedItem>

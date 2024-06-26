@@ -5,6 +5,7 @@
   border-top-style: solid;
   width: 18vw;
   height: 20px;
+  position: relative;
 }
 
 .curly-brace2{
@@ -14,6 +15,7 @@
   border-bottom-style: solid;
   width: 18vw;
   transform: translateY(-10px);
+  position: relative;
 
 }
 
@@ -25,6 +27,7 @@
   border-bottom-style: solid;
   width: 18vw;
   transform: translateY(-10px);
+  position: relative;
 
 
 }
@@ -37,6 +40,8 @@
   border-top-style: solid;
   width: 18vw;
   height: 20px;
+  position: relative;
+  
 
 }
 
@@ -44,8 +49,7 @@
 .curly-braces-container{
   border-color: #2891a1;
   padding-bottom: 2vh;
-  margin: auto;
   width: 100vw;
   margin-left: 2vw;
-  
+
 } 

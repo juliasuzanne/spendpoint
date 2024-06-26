@@ -1,10 +1,272 @@
-@media screen and (max-width: 5008px){
+@media screen and (max-width: 6008px){
+
+  .three-fence{
+    background-color: #041c20;
+    color: #54c8da00;
+    min-height: 500px;
+    height: 25vw;
+    width: 25vw;
+    
+    z-index: 5;
+    position: absolute;
+    border-top-right-radius:3cqb;
+    border-bottom-right-radius:3cqb;
+    
+  }
+  
+  /* .three-fence p{
+    font-size: 2px;
+    color: #54c8da00;
+  
+  } */
+  
+  
+  .three-fence-1{
+    background-color: #041c20;
+    color: #54c8da;
+    min-height: 330px;
+    height: 25vw;
+    width: 43vw;
+    z-index: 5;
+    position: absolute;
+    border-top-right-radius:3cqb;
+    border-bottom-right-radius:3cqb; 
+    animation-duration: 4.5s;
+    animation-name: animate-fence1; 
+  }
+  
+  /* .three-fence-1 p{
+    font-size: 2vw;
+    color: #54c8da;
+    animation-duration: 4.5s;
+    animation-name: animate-fence1; 
+  } */
+  
+  
+  
+  @keyframes animate-fence1{
+    0%{
+      width: 25vw;
+      color:#01131500;
+  
+      font-size: 2vw;
+  
+    }
+    70%{
+      color:#01131500;
+  
+    }
+  
+    100%{
+      width: 43vw;
+      font-size: 2vw;
+      color: #54c8da;
+  
+  
+  
+    }
+  }
+  
+  
+  .three-fence-second{
+    background-color: #2891a1;
+    color: #01131500;
+    min-height: 330px;
+    height: 25vw;
+    width: 40vw;
+    border-top-right-radius:3cqb;
+    border-bottom-right-radius:3cqb;
+    z-index: 4;
+    position: absolute;
+  
+  }
+  
+  
+  .three-fence-2{
+    background-color: #2891a1;
+    color: #011315;
+    min-height: 330px;
+    height: 25vw;
+    width: 68vw;
+    border-top-right-radius:3cqb;
+    border-bottom-right-radius:3cqb;
+    z-index: 4;
+    position: absolute;
+    animation-duration: 3.5s;
+    animation-name: animate-fence-2; 
+  
+  
+  }
+  
+  /* .three-fence-second p{
+    font-size: 2px;
+    color: #01131500;
+  
+  
+  }
+  
+  
+  .three-fence-2 p{
+    font-size: 2vw;
+    animation-duration: 3.5s;
+    animation-name: animate-fence-2;
+    color: #011315;
+  
+  } */
+  
+  
+  @keyframes animate-fence-2{
+    0%{
+      width: 40vw;
+      font-size: 2px;
+      color: #01131500;
+  
+    }
+  
+  
+  70%{
+    color:#01131500;
+  
+  }
+  
+    100%{
+      width: 68vw;
+      font-size: 2vw;
+      color: #011315;
+  
+    }
+  }
+  
+  
+  .three-fence-third{
+    background-color: #1efbd3;
+    color: #0a434b00;
+    min-height: 330px;
+    height: 25vw;
+    width: 50vw;
+    border-top-right-radius:3cqb;
+    border-bottom-right-radius:3cqb;
+    z-index: 3;
+    position: absolute;
+  
+  
+  }
+  
+  /* .three-fence-third p{
+    font-size: 2px;
+    color: #0a434b00;
+  
+  } */
+  
+  
+  
+  .three-fence-3{
+    background-color: #1efbd3;
+    color: #0a434b;
+    min-height: 330px;
+    height: 25vw;
+    width: 87vw;
+    border-top-right-radius:3cqb;
+    border-bottom-right-radius:3cqb;
+    z-index: 3;
+    position: absolute;
+    animation-duration: 2.5s;
+    margin: 0;
+    padding: 0;
+    animation-name: animate-fence-3; 
+  }
+  
+  /* .three-fence-3 p{
+    font-size: 2vw;
+    animation-duration: 2.5s;
+    animation-name: animate-fence-3; 
+    color: #0a434b;
+  
+  } */
+  
+  
+  
+  @keyframes animate-fence-3{
+    0%{
+      width: 50vw;
+      color: #0a434b00;
+  
+  
+  
+    }
+    
+  
+    70%{
+      color:#01131500;
+    
+    }
+    100%{
+      width: 87vw;
+      color: #0a434b;
+  
+  
+    }
+  }
+  
+  
+  
+  
+  
+  /* .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  
+  .isVisible {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    color: rgb(17, 16, 20);
+    font-size: 20px;
+    font-weight: 900;
+    padding: 40px;
+  }
+  
+  
+  /* @media(prefers-reduced-motion){
+    .box-animate {
+      display: flex;
+      padding: 2vh;
+      color: rgba(255, 255, 255, 0.8);
+      justify-content: center;
+      align-items: center;
+      font-weight: 900;
+      font-size: 2em;
+      opacity: 1;
+      min-height: 50vh;
+      transition: none;
+  }
+  .box {
+    display: flex;
+    padding: 2vh;
+    color: rgba(255, 255, 255, 0.8);
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 2em;
+    opacity: 1;
+    min-height: 50vh;
+    transition: none;
+  }
+  } */
+  }
+
+@media screen and (max-width: 2008px){
 
 .three-fence{
   background-color: #041c20;
   color: #54c8da00;
-  min-height: 330px;
-  height: 40vh;
+  min-height: 500px;
+  height: 25vw;
   width: 25vw;
   
   z-index: 5;
@@ -25,7 +287,7 @@
   background-color: #041c20;
   color: #54c8da;
   min-height: 330px;
-  height: 40vh;
+  height: 25vw;
   width: 43vw;
   z-index: 5;
   position: absolute;
@@ -72,7 +334,7 @@
   background-color: #2891a1;
   color: #01131500;
   min-height: 330px;
-  height: 40vh;
+  height: 25vw;
   width: 40vw;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
@@ -86,7 +348,7 @@
   background-color: #2891a1;
   color: #011315;
   min-height: 330px;
-  height: 40vh;
+  height: 25vw;
   width: 68vw;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
@@ -142,7 +404,7 @@
   background-color: #1efbd3;
   color: #0a434b00;
   min-height: 330px;
-  height: 40vh;
+  height: 25vw;
   width: 50vw;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
@@ -164,7 +426,7 @@
   background-color: #1efbd3;
   color: #0a434b;
   min-height: 330px;
-  height: 40vh;
+  height: 25vw;
   width: 87vw;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
