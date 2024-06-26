@@ -39,7 +39,9 @@ export function Geofences() {
                   <p className="six-header-wide">Dynamic Geo-Fencing</p>
                 </div>
                 <div className="row">
-                  <h3 className="times-p">3X</h3>
+                  <h3 className="times-p" id="large-times-p">
+                    3X
+                  </h3>
                 </div>
               </div>
             </GeofencesThree>
@@ -61,7 +63,9 @@ export function Geofences() {
                 <p className="six-header-small"> Prevention</p>
               </div>
               <div className="row">
-                <h3 className="times-p">1X</h3>
+                <h3 className="times-p" id="small-times-p">
+                  1X
+                </h3>
               </div>
             </div>
           </GeofencesOne>

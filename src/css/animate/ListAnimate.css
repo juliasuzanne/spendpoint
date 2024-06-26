@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-weight: 900;
-  width: 80vwpx;
+  /* width: 80vwpx; */
   transform: translateX(0%);
   animation-duration: 1.5s;
   animation-name: animate-box; 

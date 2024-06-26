@@ -107,7 +107,7 @@
   padding-bottom: 2vh;
   transform: translate(0vw,-18vh);
   z-index: 0;
-  width: 105vw;
+  width: 100vw;
   /* position: absolute; */
 }
 
@@ -386,14 +386,14 @@
   
   .six-header{
     margin: 0;
-    text-align: right;
-    font-size: 3vw;
+    text-align: left;
+    font-size: 4vw;
     padding-top: 4vw;
     padding-right: 4vw;
     font-weight: 700;
     /* max-width: 14.5vw; */
-    float: right;
-    justify-content: right;
+    float: left;
+    justify-content: left;
     word-wrap: wrap;
     /* display: block; */
     bottom: 1em;
@@ -403,31 +403,58 @@
   
   .six-header-small{
     margin: 0;
-    text-align: right;
-    font-size: 3vw;
+    text-align: left;
+    font-size: 4vw;
     font-weight: 700;
     padding-right: 4vw;
     padding-bottom: 2vw;
     /* max-width: 14.5vw; */
-    float: right;
-    justify-content: right;
+    float: left;
+    justify-content: left;
     word-wrap: wrap;
     /* display: block; */
     bottom: 1em;
   
   
   }
+
+  #small-times-p{
+    float: right;
+    position: absolute;
+    padding-top: 0;
+    top: 2vh;
+    left: 0;
+    font-size: 8vw;
+
+  }
+
+  #large-times-p{
+    top: 12vh;
+    font-size:13vw;
+
+  }
+
+  .times-p{
+    font-size: 10vw;
+    font-weight: 700;
+    padding-top: 0vh;
+    padding-right: 2vh;
+    position: absolute;
+    top: 7vh;
+    text-align: right;
+  
+  }
   
   
   .six-header-med{
-    text-align: right;
-    font-size: 3vw;
+    text-align: left;
+    font-size: 5vw;
     padding: 4vw;
     font-weight: 700;
   
     /* max-width: 14.5vw; */
-    float: right;
-    justify-content: right;
+    float: left;
+    justify-content: left;
     word-wrap: wrap;
     /* display: block; */
     bottom: 1em;
@@ -435,12 +462,12 @@
   
   
   .six-header-wide{
-    text-align: right;
-    font-size: 3vw;
-    padding: 4vw;
+    text-align: left;
+    font-size: 6vw;
+    padding-top: 4vw;
     /* max-width: 29vw; */
-    float: right;
-    justify-content: right;
+    float: left;
+    justify-content: left;
     word-wrap: wrap;
     font-weight: 700;
   
@@ -450,13 +477,6 @@
   }
 
   
-  .times-p{
-    font-size: 8vw;
-    padding-top: 2vh;
-    padding-right: 4vh;
-    position: relative;
-    text-align: right;
-  
-  }
+
   
   }
