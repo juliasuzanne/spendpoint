@@ -2,7 +2,6 @@ import { useState, useRef, useEffect } from "react";
 import "./css/animate/GeofenceAnimate.css";
 import "./css/animate/ListAnimate.css";
 
-
 export function GeofencesTwo(props) {
   // const { ref: containerRef, inView: isVisible, entry } = useInView(options);
   const containerRef = useRef(null);
@@ -21,7 +20,7 @@ export function GeofencesTwo(props) {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: 0.7,
+    threshold: 0.3,
   };
 
   useEffect(() => {
