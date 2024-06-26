@@ -51,7 +51,8 @@ export function Right() {
               </ObservedAbc>
             </div>
             <div className="col-sm-12 col-md-4">
-              <ObservedObject>
+              {/* <ObservedObject> */}
+              <div className="box-animate-delay2">
                 <div className="timePersonPlace">
                   <img
                     id="floatLeft"
@@ -61,7 +62,8 @@ export function Right() {
                     Right place.
                   </p>
                 </div>
-              </ObservedObject>
+              </div>
+              {/* </ObservedObject> */}
             </div>
           </div>
         </div>
