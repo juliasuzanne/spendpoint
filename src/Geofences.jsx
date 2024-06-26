@@ -15,6 +15,10 @@ export function Geofences() {
       <div className="bluebox"></div>
       <div className="geofences">
         <h2 className="heading">AI-driven Dynamic Geofences™</h2>
+        <p className="geofencesTextMobile">
+          AI-driven Dynamic Geofences™ change shape based on time of day, spending data and consumer behavior.
+          Proprietary Waste Prevention cuts ads to non-responsive, transitional devices.
+        </p>
         <h2 className="increaseHeader">6X Increase</h2>
         <p className="inClicksSubHeader">In Clicks & Visits Per 1000 Ads</p>
         <div className="curly-braces-container container">
@@ -25,6 +29,8 @@ export function Geofences() {
             <div className="curly-brace4 col-sm-4"></div>
           </div>
         </div>
+        <div className="padding-geofencesMobile"></div>
+
         <div className="boxes">
           <div className="boxes123">
             <GeofencesThree>
@@ -49,7 +55,7 @@ export function Geofences() {
             </div>
           </GeofencesTwo>
           <GeofencesOne>
-            <div className="container">
+            <div className=" container">
               <div className="row">
                 <p className="six-header">Waste</p>
                 <p className="six-header-small"> Prevention</p>

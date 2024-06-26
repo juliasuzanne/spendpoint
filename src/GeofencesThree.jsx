@@ -2,7 +2,6 @@ import { useState, useRef, useEffect } from "react";
 import "./css/animate/GeofenceAnimate.css";
 import "./css/animate/ListAnimate.css";
 
-
 export function GeofencesThree(props) {
   // const { ref: containerRef, inView: isVisible, entry } = useInView(options);
   const containerRef = useRef(null);
@@ -34,12 +33,11 @@ export function GeofencesThree(props) {
   }, [containerRef, options]);
 
   return (
-    <div className="">
+    <div>
       {/* <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div> */}
-      <div className=""></div>
-      <span className={` ${isActivated ? "three-fence-1" : "three-fence"}`}>
+      <div className={` ${isActivated ? "three-fence-1" : "three-fence"}`}>
         <div ref={containerRef}>{props.children}</div>
-      </span>
+      </div>
     </div>
   );
 

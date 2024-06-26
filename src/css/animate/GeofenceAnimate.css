@@ -16,7 +16,7 @@
 
 .three-fence p{
   font-size: 2px;
-  color:#01131500;
+  color: #54c8da00;
 
 }
 
@@ -261,39 +261,79 @@
 }
 
 @media screen and (max-width: 768px){
-
+/* spelled out is before scroll, numbers are after */
   .three-fence{
     background-color: #041c20;
+    min-height: 100px;
+    bottom: 0;
+    left: 40vw;
     color: #54c8da00;
-    width: 20vw;
-    height: 10vh;
+    width: 45vw;
+    height: 5vh;
     z-index: 5;
     position: absolute;
     border-top-right-radius:3cqb;  border-bottom-right-radius:0cqb;
-    transform: translateY(75vh);
     border-top-left-radius:3cqb;
-    padding-bottom: 0;
+    padding-bottom: 4vh;
   }
   
+
+  .three-fence-second{
+    min-height: 100px;
+    bottom: 0;
+    left: 40vw;
+    background-color: #2891a1;
+    color: #01131500;
+    width: 45vw;
+    height: 15vh;
+    border-top-right-radius:3cqb;
+    border-top-left-radius:3cqb;
+    border-bottom-right-radius:0cqb;
+    z-index: 4;
+    position: absolute;
+  
+  }
+
+
+  .three-fence-third{
+    min-height: 100px;
+    bottom: 0;
+    left: 40vw;
+    
+    background-color: #1efbd3;
+    color: #0a434b00;
+    width: 45vw;
+    height: 20vh;
+    border-top-right-radius:3cqb;
+    border-top-left-radius:3cqb;
+    border-bottom-right-radius:0cqb;
+    z-index: 3;
+    position: absolute;
+  
+  
+  }
+
   .three-fence p{
     font-size: 2px;
     color:#01131500;
   
   }
-  
-  
+ 
   .three-fence-1{
     background-color: #041c20;
     color: #54c8da;
+    bottom: 0;
+    min-height: 100px;
+
+    left: 40vw;
     width: 45vw;
-    height: 10vh;
-    transform: translateY(42vh);
+    height: 21vh;
     z-index: 5;
     position: absolute;
     border-top-right-radius:3cqb;
     border-top-left-radius:3cqb;
     border-bottom-right-radius:0cqb;
-    padding-bottom: 4vh;
+    /* padding-bottom: 4vh; */
     animation-duration: 4.5s;
     animation-name: animate-fence1; 
   }
@@ -305,27 +345,55 @@
     animation-name: animate-fence1; 
   }
 
-  .three-fence-second{
-    background-color: #2891a1;
-    color: #01131500;
-    width: 45vw;
-    height: 10vh;
-    transform: translateY(42vh);
-    border-top-right-radius:3cqb;
-    border-top-left-radius:3cqb;
-    border-bottom-right-radius:0cqb;
-    z-index: 4;
-    position: absolute;
+  @keyframes animate-fence1{
+    0%{
+      color:#01131500;
+      font-size: 2vw;
+      background-color: #041c20;
+      min-height: 100px;
+      bottom: 0;
+      left: 40vw;
+      color: #54c8da00;
+      width: 45vw;
+      height: 5vh;
+      z-index: 5;
+      position: absolute;
+      border-top-right-radius:3cqb;  border-bottom-right-radius:0cqb;
+      border-top-left-radius:3cqb;
+      padding-bottom: 4vh;
+    }
+    70%{
+      color:#01131500;
+    }
   
+    100%{
+      height: 21vh;
+      min-height: 100px;
+
+      font-size: 2vw;
+      background-color: #041c20;
+      color: #54c8da;
+      bottom: 0;
+      left: 40vw;
+      width: 45vw;
+      z-index: 5;
+      position: absolute;
+      border-top-right-radius:3cqb;
+      border-top-left-radius:3cqb;
+      border-bottom-right-radius:0cqb;
+    }
   }
   
   
+  
   .three-fence-2{
+    min-height: 100px;
+    bottom: 0;
+    left: 40vw;
     background-color: #2891a1;
-    color: #011315;
-    transform: translateY(17vh);
+    color: #01131500;
     width: 45vw;
-    height: 68vh;
+    height: 35vh;
     border-top-right-radius:3cqb;
     border-top-left-radius:3cqb;
     border-bottom-right-radius:0cqb;
@@ -354,19 +422,6 @@
   }
 
 
-  .three-fence-third{
-    background-color: #1efbd3;
-    color: #0a434b00;
-    width: 45vw;
-    height: 30vh;
-    border-top-right-radius:3cqb;
-    border-top-left-radius:3cqb;
-    border-bottom-right-radius:0cqb;
-    z-index: 3;
-    position: absolute;
-  
-  
-  }
   
   .three-fence-third p{
     font-size: 2px;
@@ -376,10 +431,15 @@
   
   
   .three-fence-3{
+    
     background-color: #1efbd3;
     color: #0a434b;
+    min-height: 100px;
+    bottom: 0;
+    left: 40vw;
+    background-color: #1efbd3;
     width: 45vw;
-    height: 25vh;
+    height: 45vh;
     border-top-right-radius:3cqb;
     border-top-left-radius:3cqb;
     border-bottom-right-radius:0cqb;
@@ -400,34 +460,6 @@
   
   
   
-  @keyframes animate-fence1{
-    0%{
-      height: 10vh;
-      color:#01131500;
-      font-size: 2vw;
-      transform: translateY(70vh);
-      padding-bottom: 0vh;
-
-  
-    }
-    70%{
-      color:#01131500;
-      transform: translateY(42vh);
-
-  
-    }
-  
-    100%{
-      height: 43vh;
-      font-size: 2vw;
-      color: #54c8da;
-      transform: translateY(42vh);
-      padding-bottom: 10vh;
-
-
-  
-    }
-  }
   
   
   
@@ -435,9 +467,21 @@
   
   @keyframes animate-fence-2{
     0%{
-      height: 40vh;
       font-size: 2px;
       color: #01131500;
+
+      min-height: 100px;
+      bottom: 0;
+      left: 40vw;
+      background-color: #2891a1;
+      color: #01131500;
+      width: 45vw;
+      height: 15vh;
+      border-top-right-radius:3cqb;
+      border-top-left-radius:3cqb;
+      border-bottom-right-radius:0cqb;
+      z-index: 4;
+      position: absolute;
   
     }
   
@@ -448,10 +492,20 @@
   }
   
     100%{
-      height: 68vh;
       font-size: 2vw;
       color: #011315;
-  
+      min-height: 100px;
+      bottom: 0;
+      left: 40vw;
+      background-color: #2891a1;
+      color: #01131500;
+      width: 45vw;
+      height: 35vh;
+      border-top-right-radius:3cqb;
+      border-top-left-radius:3cqb;
+      border-bottom-right-radius:0cqb;
+      z-index: 4;
+      position: absolute;
     }
   }
   
@@ -460,11 +514,21 @@
   
   @keyframes animate-fence-3{
     0%{
-      height: 50vh;
       font-size: 2px;
       color: #0a434b00;
-      width: 40vw;
   
+      min-height: 100px;
+      bottom: 0;
+      left: 40vw;
+      background-color: #1efbd3;
+      color: #0a434b00;
+      width: 45vw;
+      height: 20vh;
+      border-top-right-radius:3cqb;
+      border-top-left-radius:3cqb;
+      border-bottom-right-radius:0cqb;
+      z-index: 3;
+      position: absolute;
   
   
     }
@@ -475,12 +539,20 @@
     
     }
     100%{
-      height: 85vw;
+      min-height: 100px;
+      bottom: 0;
+      left: 40vw;
+      background-color: #1efbd3;
+      color: #0a434b00;
+      width: 45vw;
+      height: 45vh;
+      border-top-right-radius:3cqb;
+      border-top-left-radius:3cqb;
+      border-bottom-right-radius:0cqb;
+      z-index: 3;
+      position: absolute;
       font-size: 2vw;
       color: #0a434b;
-      width: 40vw;
-
-  
   
     }
   }

@@ -52,6 +52,14 @@
   visibility: visible;
 }
 
+.geofencesTextMobile{
+  color: black;
+  align-items: end;
+  font-size: 0px;
+  line-height: 0vw;
+  visibility: hidden;
+}
+
 .geofencesTextTop {
   color: black;
   align-items: end;
@@ -63,6 +71,11 @@
   min-height: 350px;
   height: 44vh;
 
+}
+
+.padding-geofencesMobile {
+  min-height: 0px;
+  height: 0vh;
 }
 
 .dramatically {
@@ -250,7 +263,7 @@
     padding-right: 5vw;
     padding-top: 3vh;
     width: 90vw;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
     margin: auto;
     border-radius: 2vw;
     z-index: 1;
@@ -260,6 +273,15 @@
   }
   
   .geofencesText {
+    color: black;
+    align-items: end;
+    font-size: 0vw;
+    line-height: 0vw;
+    visibility: hidden;
+  }
+
+    
+  .geofencesTextMobile{
     color: black;
     align-items: end;
     font-size: 4vw;
@@ -275,13 +297,16 @@
   }
   
   .padding-geofences {
-    min-height: 350px;
-    height: 44vh;
+    min-height: 0px;
+    height: 0vh;
   
   }
-  
-  .dramatically {
+
+  .padding-geofencesMobile {
+    min-height: 150px;
+    height: 45vh;
   }
+  
   
   #right{
     font-style: normal;
@@ -345,7 +370,7 @@
     border-bottom-right-radius:3cqb;
     z-index: 3;
     position: absolute;
-  
+
   
   }
   
@@ -423,6 +448,7 @@
     bottom: 1em;
   
   }
+
   
   .times-p{
     font-size: 8vw;
