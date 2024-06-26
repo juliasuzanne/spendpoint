@@ -534,7 +534,8 @@
     height: 5vh;
     z-index: 5;
     position: absolute;
-    border-top-right-radius:3cqb;  border-bottom-right-radius:0cqb;
+    border-top-right-radius:3cqb;
+    border-bottom-right-radius:0cqb;
     border-top-left-radius:3cqb;
     padding-bottom: 4vh;
   }
@@ -587,8 +588,8 @@
       background-color: #041c20;
       min-height: 100px;
       bottom: 0;
-      left:510vw;
-      width:955vw;
+      left: 15vw;
+      width:59vw;
       height: 5vh;
       border-top-right-radius:3cqb;  border-bottom-right-radius:0cqb;
       border-top-left-radius:3cqb;
@@ -603,8 +604,8 @@
       background-color: #041c20;
       color: #54c8da;
       bottom: 0;
-      left:510vw;
-      width:955vw;
+      left: 15vw;
+      width: 59vw;
       border-top-right-radius:3cqb;
       border-top-left-radius:3cqb;
       border-bottom-right-radius:0cqb;
@@ -653,10 +654,10 @@
       /* font-size: 2px; */
       min-height: 100px;
       bottom: 0;
-      left:510vw;
+      left: 15vw;
       background-color: #2891a1;
       color: #01131500;
-      width:955vw;
+      width: 59vw;
       height: 15vh;
       border-top-right-radius:3cqb;
       border-top-left-radius:3cqb;
@@ -674,10 +675,10 @@
       color: #011315;
       min-height: 100px;
       bottom: 0;
-      left:510vw;
+      left: 15vw;
       background-color: #2891a1;
       color: #011315;
-      width:955vw;
+      width: 59vw;
       height: 35vh;
       border-top-right-radius:3cqb;
       border-top-left-radius:3cqb;
@@ -715,10 +716,10 @@
     0%{
       min-height: 100px;
       bottom: 0;
-      left:510vw;
+      left: 15vw;
       background-color: #1efbd3;
       color: #0a434b00;
-      width:955vw;
+      width: 59vw;
       height: 15vh;
       border-top-right-radius:3cqb;
       border-top-left-radius:3cqb;
@@ -734,10 +735,10 @@
     100%{
       min-height: 100px;
       bottom: 0;
-      left:510vw;
+      left: 15vw;
       background-color: #1efbd3;
       color: #0a434b;
-      width:955vw;
+      width: 59vw;
       height: 45vh;
       border-top-right-radius:3cqb;
       border-top-left-radius:3cqb;
