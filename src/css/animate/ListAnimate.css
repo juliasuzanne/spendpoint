@@ -269,7 +269,7 @@
   
     }
   
-    60%{
+    40%{
       opacity: 0;
       filter: blur(2px);
       transform: translateX(-10%);
@@ -291,7 +291,7 @@
   
     }
   
-    80%{
+    60%{
       opacity: 0;
       filter: blur(2px);
       transform: translateX(-10%);
