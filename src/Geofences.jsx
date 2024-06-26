@@ -34,7 +34,7 @@ export function Geofences() {
         <div className="boxes">
           <div className="boxes123">
             <GeofencesThree>
-              <div className="container">
+              <div className="container-fluid">
                 <div className="row">
                   <p className="six-header-wide">Dynamic Geo-Fencing</p>
                 </div>
@@ -47,7 +47,7 @@ export function Geofences() {
             </GeofencesThree>
           </div>
           <GeofencesTwo>
-            <div className="container">
+            <div className="container-fluid">
               <div className="row">
                 <p className="six-header-med">Spend Data</p>
               </div>
@@ -57,7 +57,7 @@ export function Geofences() {
             </div>
           </GeofencesTwo>
           <GeofencesOne>
-            <div className=" container">
+            <div className="container-fluid">
               <div className="row">
                 <p className="six-header">Waste</p>
                 <p className="six-header-small"> Prevention</p>

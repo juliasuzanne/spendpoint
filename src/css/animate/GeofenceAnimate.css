@@ -165,12 +165,14 @@
   color: #0a434b;
   min-height: 330px;
   height: 40vh;
-  width: 85vw;
+  width: 87vw;
   border-top-right-radius:3cqb;
   border-bottom-right-radius:3cqb;
   z-index: 3;
   position: absolute;
   animation-duration: 2.5s;
+  margin: 0;
+  padding: 0;
   animation-name: animate-fence-3; 
 }
 
@@ -187,7 +189,6 @@
 @keyframes animate-fence-3{
   0%{
     width: 50vw;
-    font-size: 2px;
     color: #0a434b00;
 
 
@@ -200,8 +201,7 @@
   
   }
   100%{
-    width: 85vw;
-    font-size: 2vw;
+    width: 87vw;
     color: #0a434b;
 
 
@@ -260,7 +260,7 @@
 } */
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 760px){
 /* spelled out is before scroll, numbers are after */
   .three-fence{
     background-color: #041c20;

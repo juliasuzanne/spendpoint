@@ -109,7 +109,7 @@ input::-moz-placeholder {
   
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 760px){
   .yourInfo{
     padding-top: 3vh;
     font-size: 3vw;

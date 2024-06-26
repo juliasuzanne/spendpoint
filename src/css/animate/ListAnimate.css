@@ -177,7 +177,7 @@
 } */
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 760px){
   .box {
     display: block;
     color: rgba(255, 255, 255, 0.8);
