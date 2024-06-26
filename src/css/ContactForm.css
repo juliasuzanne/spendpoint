@@ -32,7 +32,7 @@ input::-moz-placeholder {
 @media screen and (max-width: 6008px){
   .blueLine{
     background-color: #299ffd;
-    height: .3vh;
+    height: .5vh;
     margin-bottom: 4vh;
     z-index: 4;
     width: 50vw;
@@ -110,7 +110,7 @@ input::-moz-placeholder {
 @media screen and (max-width: 2008px){
   .blueLine{
     background-color: #299ffd;
-    height: .3vh;
+    height: .5vh;
     margin-bottom: 4vh;
     z-index: 4;
     width: 50vw;
