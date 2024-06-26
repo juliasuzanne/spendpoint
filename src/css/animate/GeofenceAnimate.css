@@ -14,11 +14,11 @@
   
 }
 
-.three-fence p{
+/* .three-fence p{
   font-size: 2px;
   color: #54c8da00;
 
-}
+} */
 
 
 .three-fence-1{
@@ -35,12 +35,12 @@
   animation-name: animate-fence1; 
 }
 
-.three-fence-1 p{
+/* .three-fence-1 p{
   font-size: 2vw;
   color: #54c8da;
   animation-duration: 4.5s;
   animation-name: animate-fence1; 
-}
+} */
 
 
 
@@ -98,7 +98,7 @@
 
 }
 
-.three-fence-second p{
+/* .three-fence-second p{
   font-size: 2px;
   color: #01131500;
 
@@ -112,7 +112,7 @@
   animation-name: animate-fence-2;
   color: #011315;
 
-}
+} */
 
 
 @keyframes animate-fence-2{
@@ -152,11 +152,11 @@
 
 }
 
-.three-fence-third p{
+/* .three-fence-third p{
   font-size: 2px;
   color: #0a434b00;
 
-}
+} */
 
 
 
@@ -174,13 +174,13 @@
   animation-name: animate-fence-3; 
 }
 
-.three-fence-3 p{
+/* .three-fence-3 p{
   font-size: 2vw;
   animation-duration: 2.5s;
   animation-name: animate-fence-3; 
   color: #0a434b;
 
-}
+} */
 
 
 
@@ -278,28 +278,12 @@
   }
   
 
-  .three-fence-second{
-    min-height: 100px;
-    bottom: 0;
-    left: 40vw;
-    background-color: #2891a1;
-    color: #01131500;
-    width: 45vw;
-    height: 15vh;
-    border-top-right-radius:3cqb;
-    border-top-left-radius:3cqb;
-    border-bottom-right-radius:0cqb;
-    z-index: 4;
-    position: absolute;
-  
-  }
 
 
   .three-fence-third{
     min-height: 100px;
     bottom: 0;
     left: 40vw;
-    
     background-color: #1efbd3;
     color: #0a434b00;
     width: 45vw;
@@ -313,11 +297,6 @@
   
   }
 
-  .three-fence p{
-    font-size: 2px;
-    color:#01131500;
-  
-  }
  
   .three-fence-1{
     background-color: #041c20;
@@ -338,29 +317,19 @@
     animation-name: animate-fence1; 
   }
   
-  .three-fence-1 p{
-    font-size: 2vw;
-    color: #54c8da;
-    animation-duration: 4.5s;
-    animation-name: animate-fence1; 
-  }
+
 
   @keyframes animate-fence1{
     0%{
-      color:#01131500;
-      font-size: 2vw;
+      color:rgba(1, 19, 21, 0);
       background-color: #041c20;
       min-height: 100px;
       bottom: 0;
       left: 40vw;
-      color: #54c8da00;
       width: 45vw;
       height: 5vh;
-      z-index: 5;
-      position: absolute;
       border-top-right-radius:3cqb;  border-bottom-right-radius:0cqb;
       border-top-left-radius:3cqb;
-      padding-bottom: 4vh;
     }
     70%{
       color:#01131500;
@@ -369,15 +338,11 @@
     100%{
       height: 21vh;
       min-height: 100px;
-
-      font-size: 2vw;
       background-color: #041c20;
       color: #54c8da;
       bottom: 0;
       left: 40vw;
       width: 45vw;
-      z-index: 5;
-      position: absolute;
       border-top-right-radius:3cqb;
       border-top-left-radius:3cqb;
       border-bottom-right-radius:0cqb;
@@ -385,6 +350,21 @@
   }
   
   
+  .three-fence-second{
+    min-height: 100px;
+    bottom: 0;
+    left: 40vw;
+    background-color: #2891a1;
+    color: #01131500;
+    width: 45vw;
+    height: 15vh;
+    border-top-right-radius:3cqb;
+    border-top-left-radius:3cqb;
+    border-bottom-right-radius:0cqb;
+    z-index: 4;
+    position: absolute;
+  
+  }
   
   .three-fence-2{
     min-height: 100px;
@@ -398,78 +378,17 @@
     border-top-left-radius:3cqb;
     border-bottom-right-radius:0cqb;
     z-index: 4;
+    color: #011315;
     position: absolute;
     animation-duration: 3.5s;
     animation-name: animate-fence-2; 
   
-  
-  }
-  
-  .three-fence-second p{
-    font-size: 2px;
-    color: #01131500;
-  
-  
-  }
-  
-  
-  .three-fence-2 p{
-    font-size: 2vw;
-    animation-duration: 3.5s;
-    animation-name: animate-fence-2;
-    color: #011315;
-  
   }
 
-
-  
-  .three-fence-third p{
-    font-size: 2px;
-    color: #0a434b00;
-  
-  }
-  
-  
-  .three-fence-3{
     
-    background-color: #1efbd3;
-    color: #0a434b;
-    min-height: 100px;
-    bottom: 0;
-    left: 40vw;
-    background-color: #1efbd3;
-    width: 45vw;
-    height: 45vh;
-    border-top-right-radius:3cqb;
-    border-top-left-radius:3cqb;
-    border-bottom-right-radius:0cqb;
-    z-index: 3;
-    position: absolute;
-    animation-duration: 2.5s;
-    animation-name: animate-fence-3; 
-  }
-  
-  .three-fence-3 p{
-    font-size: 2vw;
-    animation-duration: 2.5s;
-    animation-name: animate-fence-3; 
-    color: #0a434b;
-  
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
   @keyframes animate-fence-2{
     0%{
-      font-size: 2px;
-      color: #01131500;
-
+      /* font-size: 2px; */
       min-height: 100px;
       bottom: 0;
       left: 40vw;
@@ -480,8 +399,6 @@
       border-top-right-radius:3cqb;
       border-top-left-radius:3cqb;
       border-bottom-right-radius:0cqb;
-      z-index: 4;
-      position: absolute;
   
     }
   
@@ -492,44 +409,58 @@
   }
   
     100%{
-      font-size: 2vw;
       color: #011315;
       min-height: 100px;
       bottom: 0;
       left: 40vw;
       background-color: #2891a1;
-      color: #01131500;
+      color: #011315;
       width: 45vw;
       height: 35vh;
       border-top-right-radius:3cqb;
       border-top-left-radius:3cqb;
       border-bottom-right-radius:0cqb;
-      z-index: 4;
-      position: absolute;
     }
   }
+  
+  
+  .three-fence-3{
+    min-height: 100px;
+    bottom: 0;
+    left: 40vw;
+    background-color: #1efbd3;
+    color: #0a434b;
+    width: 45vw;
+    height: 45vh;
+    border-top-right-radius:3cqb;
+    border-top-left-radius:3cqb;
+    border-bottom-right-radius:0cqb;
+    z-index: 3;
+    color: #0a434b;
+
+    position: absolute;
+    animation-duration: 2.5s;
+    animation-name: animate-fence-3; 
+  }
+
+
+
   
   
   
   
   @keyframes animate-fence-3{
     0%{
-      font-size: 2px;
-      color: #0a434b00;
-  
       min-height: 100px;
       bottom: 0;
       left: 40vw;
       background-color: #1efbd3;
       color: #0a434b00;
       width: 45vw;
-      height: 20vh;
+      height: 15vh;
       border-top-right-radius:3cqb;
       border-top-left-radius:3cqb;
       border-bottom-right-radius:0cqb;
-      z-index: 3;
-      position: absolute;
-  
   
     }
     
@@ -543,16 +474,12 @@
       bottom: 0;
       left: 40vw;
       background-color: #1efbd3;
-      color: #0a434b00;
+      color: #0a434b;
       width: 45vw;
       height: 45vh;
       border-top-right-radius:3cqb;
       border-top-left-radius:3cqb;
       border-bottom-right-radius:0cqb;
-      z-index: 3;
-      position: absolute;
-      font-size: 2vw;
-      color: #0a434b;
   
     }
   }
