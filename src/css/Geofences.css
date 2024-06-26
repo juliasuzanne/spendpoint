@@ -82,10 +82,10 @@
 .bluebox {
   background-color: #0073cf;
   min-height: 720px;
-  height: 65vh;
+  height: 115vh;
   transform: translateY(10vh);
   z-index: 0;
-  width: 110vw;
+  width: 100vw;
   position: absolute;
 }
 

@@ -39,18 +39,20 @@ input::-moz-placeholder {
     z-index: 4;
     width: 50vw;
     position: absolute;
-
-    transform: translatex(-125px);
+    left: 0;
+    transform: translatex(-15px);
   }
   .blueLine2{
-    background-color: #041C20;
+    /* background-color: #041C20;
     height: 10vh;
     margin-bottom: 4vh;
+    margin-left: 0;
+    left: 0;
     z-index: 5;
-    width: 5.2vw;
+    width: 10vw;
     transform: translatex(-125px);
     position: absolute;
-    opacity: 1;
+    opacity: 1; */
   }
 
   .yourInfo{
