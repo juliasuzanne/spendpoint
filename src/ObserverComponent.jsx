@@ -13,7 +13,10 @@ export function ObserverComponent(props) {
     const [entry] = entries;
     setIsVisible(entry.isIntersecting);
     if (isVisible == true) {
-      props.handleStartAnim();
+      if (isActivated == false) {
+        props.handleStartAnim();
+        setIsActivated(true);
+      }
     }
   };
   const options = {
@@ -34,7 +37,6 @@ export function ObserverComponent(props) {
   return (
     <div className="">
       {/* <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div> */}
-      <div className=""></div>
       <span className={` ${isActivated ? props.afterAnim : props.beforeAnim}`}>
         <div ref={containerRef}>
           {props.textContent}
@@ -43,24 +45,4 @@ export function ObserverComponent(props) {
       </span>
     </div>
   );
-
-  // return (
-  //   <div ref={containerRef}>
-  //     <h1>Welcome to React!</h1>
-  //     <div className="spendpoint-transition2">
-  //       SpendPoint transforms today's inefficient mobile display advertising into must-have, high ROAS marketing.
-  //     </div>
-  //     <div className="spendpoint-transition2">
-  //       AI-driven Dynamic Geofences™ change shape based on time of day, spending data and consumer behavior. Proprietary
-  //       Waste Prevention cuts ads to non-responsive, transitional devices.{" "}
-  //     </div>
-  //     <div className="spendpoint-transition">
-  //       <p>
-  //         Ads delivered to the right person, at the right time, and at the right place dramatically increases clicks,
-  //         store visits and sales.
-  //       </p>
-  //       <p>Perfect for QSR, retail, and supermarkets/CPG.</p>
-  //     </div>
-  //   </div>
-  // );
 }

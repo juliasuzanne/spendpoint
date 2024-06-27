@@ -1,6 +1,4 @@
 import { useState, useRef, useEffect } from "react";
-import { ObservedAbc } from "./ObservedAbc";
-import { ObservedItem } from "./ObservedItem";
 import { Right } from "./Right";
 import { Geofences } from "./Geofences";
 import { Customer } from "./Customer";
