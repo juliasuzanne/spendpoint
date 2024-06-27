@@ -35,7 +35,7 @@ export function Customer() {
                 </ObservedAbc>
               </div>
               <div className="col-sm-12 col-md-4">
-                <ObservedObject>
+                <ObservedObject beforeAnim="box" afterAnim="box-animate-delay2">
                   <div className="timePersonPlace">
                     <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719349890/SpendPointCart_pe4ntb.png"></img>
                     <p className="rightSubtitle">Supermarkets / CPG</p>

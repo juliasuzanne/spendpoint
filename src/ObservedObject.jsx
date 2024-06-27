@@ -35,7 +35,7 @@ export function ObservedObject(props) {
     <div className="">
       {/* <div className="isVisible">{isVisible ? `${name} is visible` : ""}</div> */}
       <div className=""></div>
-      <span className={` ${isActivated ? "box-animate-delay2" : "box"}`}>
+      <span className={` ${isActivated ? props.afterAnim : props.beforeAnim}`}>
         <div ref={containerRef}>
           {props.textContent}
           {props.children}
