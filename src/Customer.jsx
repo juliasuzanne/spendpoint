@@ -12,8 +12,8 @@ export function Customer() {
       <div className="customer">
         <div className="timePP">
           <p className="customerText">
-            SpendPoint is delivering excellent results <br></br>
-            <span className="storeVisits">where store visits matter most.</span>
+            SpendPoint is delivering excellent results where store visits matter most.
+            {/* <span className="storeVisits">where store visits matter most.</span> */}
           </p>
           <div className="timePersonPlaceContainer container-fluid">
             <div className="row">

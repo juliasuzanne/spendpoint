@@ -29,7 +29,7 @@
     font-size: 3.6vw;
     width: 90%;
     padding-bottom: 4vh;
-    color: #5fa3db;
+    color:  #1efbd3;
     font-style: oblique;
   }
   
@@ -46,7 +46,7 @@
     left: 1px;
     font-size: 2.5vw;
     padding-top: .5vh;    
-    color: #5fa3db;
+    color:  #9ebedc;
     padding-left: 0vw;
     font-weight: 700;
   }
@@ -137,8 +137,19 @@
   font-size: 3.6vw;
   width: 90%;
   padding-bottom: 4vh;
-  
-  font-style: oblique;
+  color: #1efbd3;
+  font-style: normal;
+}
+
+
+.rightSubtitle{
+  position: relative;
+  left: 1px;
+  font-size: 2.5vw;
+  padding-top: .5vh;    
+  color:  #9ebedc;
+  padding-left: 0vw;
+  font-weight: 700;
 }
 
 .largeP{
@@ -149,15 +160,6 @@
   z-index: 1;
 }
 
-.rightSubtitle{
-  position: relative;
-  left: 1px;
-  font-size: 2.5vw;
-  padding-top: .5vh;    
-  color: #5fa3db;
-  padding-left: 0vw;
-  font-weight: 700;
-}
 
 .right{
   margin: auto;
@@ -251,6 +253,7 @@
   
   .customerText{
     font-size: 5.8vw;
+    color: #1efbd3;
     line-height: 10vw;
     width: 70vw;
     padding: 0;
@@ -303,7 +306,7 @@
     font-size: 5vw;
     padding-top: 4vh;
     font-weight: 700;
-    color: #5fa3db;
+    color:  #9ebedc;
   }
 
   .ROAS{
