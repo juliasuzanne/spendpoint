@@ -5,6 +5,8 @@ import { ObservedAbc } from "./ObservedAbc";
 import { ObservedObject } from "./ObservedObject";
 
 export function Right() {
+  const containerRef = useRef(null);
+
   return (
     <div className="right">
       <img
@@ -42,7 +44,7 @@ export function Right() {
                 <div className="timePersonPlace">
                   <img
                     id="floatLeft"
-                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-08_dxw7my.png"
+                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719504354/clock_rownxb.png"
                   ></img>
                   <p className="rightSubtitle" id="rightSubtitleLeft">
                     Right time.
@@ -51,19 +53,17 @@ export function Right() {
               </ObservedAbc>
             </div>
             <div className="col-sm-12 col-md-4">
-              {/* <ObservedObject> */}
-              <div className="box-animate-delay2">
+              <ObservedObject>
                 <div className="timePersonPlace">
                   <img
                     id="floatLeft"
-                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-07_sf0yob.png"
+                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719504356/map_wujcc6.png"
                   ></img>
                   <p className="rightSubtitle" id="rightSubtitleLeft">
                     Right place.
                   </p>
                 </div>
-              </div>
-              {/* </ObservedObject> */}
+              </ObservedObject>
             </div>
           </div>
         </div>

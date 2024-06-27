@@ -11,7 +11,10 @@ export function Customer() {
     <div className="app">
       <div className="customer">
         <div className="timePP">
-          <p className="customerText">SpendPoint is delivering excellent results where store visits matter most.</p>
+          <p className="customerText">
+            SpendPoint is delivering excellent results <br></br>
+            <span className="storeVisits">where store visits matter most.</span>
+          </p>
           <div className="timePersonPlaceContainer container-fluid">
             <div className="row">
               <div className="col-sm-12 col-md-4">

@@ -85,8 +85,8 @@ export function Geofences() {
 
       <div className="blueCustomer">
         <h2 className="heading" id="right">
-          Delivering ads to the right person, at the right time, at the right place dramatically increases{" "}
-          <span className="dramatically">clicks, store visits and sales.</span>
+          Delivering ads to the right person, at the right time, at the right place dramatically increases clicks, store
+          visits and sales.
         </h2>
       </div>
       <div className="greenLine"></div>

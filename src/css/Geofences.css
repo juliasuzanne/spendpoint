@@ -473,6 +473,7 @@
 
 #small-times-p{
   padding-right: 2vw;
+  transform: translateY(-1.3vw);
 }
 }
 
