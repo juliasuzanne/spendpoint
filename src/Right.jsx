@@ -1,12 +1,8 @@
 import { useState, useRef, useEffect } from "react";
-import { ObservedItem } from "./ObservedItem";
 import "./css/Right.css";
-import { ObservedAbc } from "./ObservedAbc";
-import { ObservedObject } from "./ObservedObject";
 import { ObserverComponent } from "./ObserverComponent";
 
 export function Right() {
-  const containerRef = useRef(null);
   const [startAnim, setStartAnim] = useState(false);
 
   const startAnimating = () => {
