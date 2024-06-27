@@ -9,10 +9,7 @@
   .storeVisits{
     font-size: 4vw;
     font-style: normal;
-    text-decoration: underline;
     font-weight: 600;
-    color: #bfecf4;
-    text-decoration-color: #1efbd3;
   }
   
   .customer{
@@ -46,7 +43,7 @@
     left: 1px;
     font-size: 2.5vw;
     padding-top: .5vh;    
-    color:  #1efbd3;
+    color:   #1efbd3;
     padding-left: 0vw;
     font-weight: 700;
   }
@@ -115,12 +112,10 @@
 }
 
   .storeVisits{
-    font-size: 5vw;
+    font-size: 4vw;
     font-style: normal;
-    text-decoration: underline;
     font-weight: 600;
-    color: #bfecf4;
-    text-decoration-color: #1efbd3;
+    /* text-decoration-color: #1efbd3; */
   }
 
 .customer{
@@ -147,7 +142,7 @@
   left: 1px;
   font-size: 2.5vw;
   padding-top: .5vh;    
-  color:  #1efbd3;
+  color:   #1efbd3;
   padding-left: 0vw;
   font-weight: 700;
 }
@@ -229,9 +224,7 @@
   .storeVisits{
     font-size: 8vw;
     font-style: normal;
-    text-decoration: underline;
     font-weight: 600;
-    text-decoration-color: #1efbd3;
   }
 
   
@@ -306,7 +299,7 @@
     font-size: 5vw;
     padding-top: 4vh;
     font-weight: 700;
-    color:  #1efbd3;
+    color:   #1efbd3;
   }
 
   .ROAS{
