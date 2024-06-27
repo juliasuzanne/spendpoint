@@ -3,7 +3,7 @@
   .three-fence{
     background-color: #041c20;
     color: #54c8da00;
-    min-height: 500px;
+    min-height: 330px;
     height: 25vw;
     width: 25vw;
     
@@ -189,6 +189,7 @@
   @keyframes animate-fence-3{
     0%{
       width: 50vw;
+      height: 25vw;
       color: #0a434b00;
   
   
@@ -202,6 +203,8 @@
     }
     100%{
       width: 87vw;
+      height: 25vw;
+
       color: #0a434b;
   
   
@@ -265,10 +268,9 @@
 .three-fence{
   background-color: #041c20;
   color: #54c8da00;
-  min-height: 500px;
+  min-height: 330px;
   height: 25vw;
   width: 25vw;
-  
   z-index: 5;
   position: absolute;
   border-top-right-radius:3cqb;

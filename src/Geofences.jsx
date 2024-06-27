@@ -28,9 +28,6 @@ export function Geofences() {
           <p className="inClicksSubHeader">In Clicks & Visits Per 1000 Ads</p>
 
           <div className="curly-braces-container container-fluid">
-            {/* <CurlyAnimScroll>
-            <div className="curly-anim"></div>
-          </CurlyAnimScroll> */}
             <div className="row">
               <div className="curly-brace col-sm-4 col-lg-4"></div>
               <div className="curly-brace2 col-sm-4 col-lg-4"></div>
