@@ -3,9 +3,16 @@ import { ObservedItem } from "./ObservedItem";
 import "./css/Right.css";
 import { ObservedAbc } from "./ObservedAbc";
 import { ObservedObject } from "./ObservedObject";
+import { ObserverComponent } from "./ObserverComponent";
 
 export function Right() {
   const containerRef = useRef(null);
+  const [startAnim, setStartAnim] = useState(false);
+
+  const startAnimating = () => {
+    console.log("startAnimatingRight");
+    setStartAnim(true);
+  };
 
   return (
     <div className="right">
@@ -23,11 +30,12 @@ export function Right() {
           </span>
         </p>
       </div>
+      <ObserverComponent handleStartAnim={startAnimating}></ObserverComponent>
       <div className="timePP">
         <div className="timePersonPlaceContainer container-fluid">
           <div className="row">
             <div className="col-sm-12 col-md-4">
-              <ObservedItem>
+              <div className={`${startAnim ? "box-animate" : "box"}`}>
                 <div className="timePersonPlace">
                   <img
                     id="floatLeft"
@@ -37,10 +45,10 @@ export function Right() {
                     Right person.
                   </p>
                 </div>
-              </ObservedItem>
+              </div>
             </div>
             <div className="col-sm-12 col-md-4">
-              <ObservedAbc>
+              <div className={`${startAnim ? "box-animate-delay" : "box"}`}>
                 <div className="timePersonPlace">
                   <img
                     id="floatLeft"
@@ -50,10 +58,10 @@ export function Right() {
                     Right time.
                   </p>
                 </div>
-              </ObservedAbc>
+              </div>
             </div>
             <div className="col-sm-12 col-md-4">
-              <ObservedObject beforeAnim="box" afterAnim="box-animate-delay2">
+              <div className={`${startAnim ? "box-animate-delay2" : "box"}`}>
                 <div className="timePersonPlace">
                   <img
                     id="floatLeft"
@@ -63,7 +71,7 @@ export function Right() {
                     Right place.
                   </p>
                 </div>
-              </ObservedObject>
+              </div>
             </div>
           </div>
         </div>
