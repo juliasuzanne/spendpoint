@@ -72,6 +72,7 @@ export function Right() {
           </div>
         </div>
       </div>
+      <ObserverComponent handleStartAnim={startAnimating}></ObserverComponent>
     </div>
   );
 }
