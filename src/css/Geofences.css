@@ -176,7 +176,14 @@
     
   
   }
-  
+
+  .six-header-mobile{
+    visibility: hidden;
+    font-size: 0;
+
+
+  }
+
   
   
   .six-header-small{
@@ -185,7 +192,7 @@
     font-size: 3vw;
     font-weight: 700;
     padding-right: 2vw;
-  
+    visibility: visible;
     padding-bottom: 2vw;
     /* max-width: 14.5vw; */
     float: right;
@@ -410,7 +417,11 @@
   
 
 }
+.six-header-mobile{
+  visibility: hidden;
+  font-size: 0;
 
+}
 
 
 .six-header-small{
@@ -419,7 +430,7 @@
   font-size: 3vw;
   font-weight: 700;
   padding-right: 2vw;
-
+  visibility: visible;
   padding-bottom: 2vw;
   /* max-width: 14.5vw; */
   float: right;
@@ -632,7 +643,7 @@
     text-align: left;
     font-size: 4vw;
     padding-top: 4vw;
-    padding-right: 4vw;
+    padding-left: 4vw;
     font-weight: 700;
     /* max-width: 14.5vw; */
     float: left;
@@ -643,17 +654,33 @@
   
   
   }
-  
-  .six-header-small{
+
+  .six-header-mobile{
     margin: 0;
     text-align: left;
     font-size: 4vw;
     font-weight: 700;
     padding-right: 2vw;
     padding-bottom: 2vw;
-
     /* max-width: 14.5vw; */
-    float: left;
+
+    justify-content: left;
+    word-wrap: wrap;
+    /* display: block; */
+    bottom: 1em;
+    visibility: visible;
+
+  }
+  
+  .six-header-small{
+    visibility: hidden;
+    margin: 0;
+    text-align: left;
+    font-size: 4vw;
+    font-weight: 700;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+    /* max-width: 14.5vw; */
     justify-content: left;
     word-wrap: wrap;
     /* display: block; */
