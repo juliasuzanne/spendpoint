@@ -2,7 +2,7 @@
   
   #curly-brace-before1{
     opacity: 1;
-    animation-duration: 5s;
+    animation-duration: 2.5s;
     animation-name: animate-curly-brace; 
   }
 
@@ -134,14 +134,16 @@
 
   #curly-brace-before1{
     opacity: 1;
-    animation-duration: 5s;
+    animation-duration: 2.5s;
     animation-name: animate-curly-brace; 
+    width: 18.75vw;
+
   }
 
 
   @keyframes animate-curly-brace{
     0%{
-      width: 2vw;
+      width: 10.5vw;
       opacity: 0;
   
     }
@@ -152,7 +154,7 @@
   
   
     100%{
-      width: 18vw;
+      width: 18.75vw;
       opacity: 1;
     
   
@@ -177,7 +179,7 @@
 
   #curly-brace-before1{
     opacity: 1;
-    animation-duration: 5s;
+    animation-duration: 2.5s;
     animation-name: animate-curly-brace; 
   }
 
@@ -195,7 +197,7 @@
   
   
     100%{
-      width: 18vw;
+      width: 14vw;
       opacity: 1;
     
   
