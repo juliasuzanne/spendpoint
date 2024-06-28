@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { Right } from "./Right";
 import { Geofences } from "./Geofences";
 import { Customer } from "./Customer";
+import { Punchline } from "./Punchline";
 import { ContactForm } from "./ContactForm";
 import { Footer } from "./Footer";
 
@@ -15,8 +16,7 @@ export function Home() {
       <Right></Right>
       <div className="content-breathe"></div>
       <Geofences></Geofences>
-      <br></br>
-      <Customer></Customer>
+      <Punchline></Punchline>
       {/* <div className="content-breathe2"></div> */}
       <ContactForm></ContactForm>
 

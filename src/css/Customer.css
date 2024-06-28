@@ -3,7 +3,7 @@
   .blueCustomer {
     background-color: #0073cf;
     z-index: -20;
-    padding-left: 10vw;
+    padding-left: 0;
   }
 
   .storeVisits{
@@ -13,7 +13,7 @@
   }
   
   .customer{
-    transform: translateY(-15vh);
+    transform: translateY(-5vh);
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -109,7 +109,7 @@
 .blueCustomer {
   background-color: #0073cf;
   z-index: -20;
-  padding-left: 10vw;
+  padding-left: 0;
 }
 
   .storeVisits{
@@ -120,7 +120,7 @@
   }
 
 .customer{
-  transform: translateY(-15vh);
+  transform: translateY(-5vh);
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -232,11 +232,11 @@
   .blueCustomer {
     background-color: #0073cf;
     z-index: -20;
-    padding-left: 10vw;
+    padding-left: 0;
   }
   
   .customer{
-    transform: translateY(-15vh);
+    transform: translateY(-5vh);
     align-items: center;
     justify-content: center;
     margin: auto;

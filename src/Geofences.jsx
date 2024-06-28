@@ -4,6 +4,7 @@ import "./css/animate/GeofenceAnimate.css";
 import "./css/animate/ListAnimate.css";
 import "./css/CurlyBrace.css";
 import { ObserverComponent } from "./ObserverComponent";
+import { Customer } from "./Customer";
 
 export function Geofences() {
   const [startAnim, setStartAnim] = useState(false);
@@ -84,10 +85,7 @@ export function Geofences() {
       </div>
 
       <div className="blueCustomer">
-        <h2 className="heading" id="right">
-          Delivering ads to the right person, at the right time, at the right place{" "}
-          <span className="dramatically"> dramatically increases clicks, store visits and sales.</span>
-        </h2>
+        <Customer></Customer>
       </div>
       <div className="greenLine"></div>
     </div>

@@ -78,11 +78,6 @@
     height: 0vh;
   }
   
-  .dramatically {
-    text-decoration: underline;
-    text-decoration-color: #1efbd3;
-  }
-  
   /* BADHEADER BLUE BACKGROUND */
   #right{
     font-style: normal;
@@ -320,10 +315,6 @@
   height: 0vh;
 }
 
-.dramatically {
-  text-decoration: underline;
-  text-decoration-color: #1efbd3;
-}
 
 #right{
   font-style: normal;
