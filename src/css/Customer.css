@@ -82,20 +82,20 @@
   
   
   .ROAS{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     color: white;
   
   }
   
   .spentPointP{
-    font-size: 50px;
+    font-size: 36px;
     z-index: 2;
     position: relative;
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 20px;
-    width: 1000px;
+    width: 800px;
     padding-bottom: 80px;
     margin-bottom: 0;
     color: #9ebedc;

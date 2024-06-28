@@ -38,7 +38,7 @@
   color: white;
   z-index: 10;
   width: 12px;
-  height: 800px;
+  height: 600px;
   position: absolute;
   transform: translate(-45px, 45px);
   visibility: visible;
@@ -56,20 +56,20 @@
 
 
 .ROAS{
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   color: white;
 
 }
 
 .spentPointP{
-  font-size: 50px;
+  font-size: 40px;
   z-index: 2;
   position: relative;
   padding-left: 35px;
   padding-top: 35px;
   padding-right: 35px;
-  width: 1000px;
+  width: 800px;
   padding-bottom: 80px;
   margin-bottom: 0;
   color: #9ebedc;
