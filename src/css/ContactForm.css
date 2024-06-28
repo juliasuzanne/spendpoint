@@ -276,11 +276,11 @@ textarea {
 
   .form-styling{
     float: right;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-family: "Arial";
     border-radius: .375rem;
     width: 100%;
-    padding: .375rem .75rem;
+    padding: .375rem .35rem;
     line-height: 1.5;
     font-size: 3.25vw;
     border: none;
@@ -292,11 +292,15 @@ textarea {
 
   .blueLine{
     background-color: #67b8fb;
-    height: .3vh;
+    height: .5vh;
     margin-bottom: 2vh;
     width: 35vw;
-    transform: translatex(10vw);
+    transform: translateX(10vw);
 
+  }
+
+  .lineBreak{
+    height: 30px;
   }
   
 
@@ -306,7 +310,7 @@ textarea {
     background-color: #B3DDFF;
     padding-right: 5vw;
     padding-left: 5vw;
-    padding-top: 2vw;
+    padding-top: 1vw;
     padding-bottom: 0vw;
     border-radius: 2vw;
     transform: translateY(-2vh);
@@ -315,8 +319,8 @@ textarea {
   }
   #contactFormHeader{
     font-size: 15vw;
-    padding-top: 7vw;
-    padding-bottom: 2vw;
+    padding-top: 8vw;
+    padding-bottom: 3vw;
     width: 30%;
   }
 
