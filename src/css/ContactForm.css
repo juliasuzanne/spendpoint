@@ -31,14 +31,14 @@ input::-moz-placeholder {
 }
 @media screen and (max-width: 6008px){
   .blueLine{
-    background-color: #299ffd;
+    background-color: #67b8fb;
     height: .5vh;
     margin-bottom: 4vh;
     z-index: 4;
-    width: 50vw;
+    width: 30vw;
     position: absolute;
     left: 0;
-    transform: translatex(-15px);
+    transform: translatex(85px);
   }
   .blueLine2{
     /* background-color: #041C20;
@@ -109,14 +109,14 @@ input::-moz-placeholder {
 
 @media screen and (max-width: 2008px){
   .blueLine{
-    background-color: #299ffd;
+    background-color: #67b8fb;
     height: .5vh;
     margin-bottom: 4vh;
     z-index: 4;
-    width: 50vw;
+    width: 30vw;
     position: absolute;
     left: 0;
-    transform: translatex(-15px);
+    transform: translatex(85px);
   }
   .blueLine2{
     /* background-color: #041C20;
@@ -193,11 +193,12 @@ input::-moz-placeholder {
   }
 
   .blueLine{
-    background-color: #299ffd;
+    background-color: #67b8fb;
     height: .3vh;
     margin-bottom: 2vh;
-    width: 50vw;
-    transform: translatex(-8vw);
+    width: 35vw;
+    transform: translatex(10vw);
+
   }
   
 
