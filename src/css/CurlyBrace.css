@@ -307,4 +307,19 @@
     animation-duration: 0s;
     animation-name: no-animate; 
   }
+
+  .curly-braces-container-animate{
+    animation-duration: 0s;
+    animation-name: no-animate; 
+  }
+
+  #curly-braces-container{
+    border-color: #2891a1;
+    padding-bottom: 2vh;
+    width: 100vw;
+    margin-left: 11vw;
+  
+  } 
+
+
 }
