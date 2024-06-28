@@ -36,6 +36,7 @@
     width: 220px;
     height: 20px;
     position: relative;
+    transform: translateX(1px);
   }
   
   .curly-brace2{
@@ -71,12 +72,14 @@
     width: 220px;
     height: 20px;
     position: relative;
+    transform: translateX(-1px);
+
     
   
   }
   
   
-  .curly-braces-container{
+  #curly-braces-container{
     border-color: #2891a1;
     padding-bottom: 20px;
     width: 100vw;
@@ -163,18 +166,26 @@
   
   
   
-  .curly-braces-container{
+  #curly-braces-container{
+    border-color: #2891a1;
+    padding-bottom: 2vh;
+    width: 100vw;
+    margin-left: 8vw;
+  } 
+
+  #curly-braces-container-animate{
     border-color: #2891a1;
     padding-bottom: 2vh;
     width: 100vw;
     margin-left: 2vw;
+    animation-duration: 0s;
   } 
 
 
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 760px){
 
 
   #curly-brace-before1{
@@ -253,13 +264,41 @@
   }
   
   
-  .curly-braces-container{
+  #curly-braces-container{
     border-color: #2891a1;
     padding-bottom: 2vh;
     width: 100vw;
-    margin-left: 12vw;
+    margin-left: 24vw;
   
   } 
+
+  #curly-braces-container-animate{
+    border-color: #2891a1;
+    padding-bottom: 2vh;
+    width: 100vw;
+    margin-left: 11vw;
+    animation-duration: 2.5s;
+    animation-name: animate-curly-margin; 
+  } 
+
+
+  @keyframes animate-curly-margin{
+    0%{
+      margin-left: 24vw;
+  
+    }
+
+    10%{
+      margin-left: 24vw;
+  
+    }
+  
+    100%{
+      margin-left: 11vw;
+    }
+  }
+  
+
 }
 
 @media (prefers-reduced-motion) {

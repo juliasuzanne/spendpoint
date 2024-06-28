@@ -26,7 +26,10 @@ export function Geofences() {
         <ObserverComponent handleStartAnim={startAnimating}></ObserverComponent>{" "}
         <h2 className="increaseHeader">6X Increase</h2>
         <p className="inClicksSubHeader">In Clicks & Visits Per 1000 Ads</p>
-        <div className="curly-braces-container container-fluid">
+        <div
+          className="container-fluid"
+          id={`${startAnim ? "curly-braces-container-animate" : "curly-braces-container"}`}
+        >
           <div className="row">
             <div className="curly-brace col-sm-4 col-lg-4" id={`${startAnim ? "curly-brace-before1" : ""}`}></div>
             <div className="curly-brace2 col-sm-4 col-lg-4" id={`${startAnim ? "curly-brace-before1" : ""}`}></div>
