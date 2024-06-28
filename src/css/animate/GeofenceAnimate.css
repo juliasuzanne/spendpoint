@@ -799,3 +799,19 @@
   }
   } */
   }
+
+
+  @media (prefers-reduced-motion) {
+    .three-fence-1{
+      animation-duration: 0s;
+      animation-name: no-animate; 
+    }
+    .three-fence-2{
+      animation-duration: 0s;
+      animation-name: no-animate; 
+    }
+    .three-fence-3{
+      animation-duration: 0s;
+      animation-name: no-animate; 
+    }
+  }

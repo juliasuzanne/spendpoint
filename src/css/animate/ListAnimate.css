@@ -510,3 +510,20 @@
   
 
 }
+
+
+@media (prefers-reduced-motion) {
+  .box-animate{
+    animation-duration: 0s;
+    animation-name: no-animate; 
+  }
+  .box-animate-delay{
+    animation-duration: 0s;
+    animation-name: no-animate; 
+  }
+  .box-animate-delay2{
+    animation-duration: 0s;
+    animation-name: no-animate; 
+  }
+
+}
