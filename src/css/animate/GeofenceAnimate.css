@@ -4,9 +4,8 @@
     background-color: #041c20;
     color: #54c8da00;
     min-height: 330px;
-    height: 25vw;
-    width: 25vw;
-    
+    height: 550px;
+    width: 250px;
     z-index: 5;
     position: absolute;
     border-top-right-radius:3cqb;
@@ -24,9 +23,9 @@
   .three-fence-1{
     background-color: #041c20;
     color: #54c8da;
-    min-height: 330px;
-    height: 25vw;
-    width: 43vw;
+    min-height: 30px;
+    height: 550px;
+    width: 550px;
     z-index: 5;
     position: absolute;
     border-top-right-radius:3cqb;
@@ -46,10 +45,10 @@
   
   @keyframes animate-fence1{
     0%{
-      width: 25vw;
+      width: 250px;
       color:#01131500;
   
-      font-size: 2vw;
+      font-size: 20px;
   
     }
     70%{
@@ -58,8 +57,8 @@
     }
   
     100%{
-      width: 43vw;
-      font-size: 2vw;
+      width: 550px;
+      font-size: 20px;
       color: #54c8da;
   
   
@@ -72,8 +71,8 @@
     background-color: #2891a1;
     color: #01131500;
     min-height: 330px;
-    height: 25vw;
-    width: 40vw;
+    height: 550px;
+    width: 400px;
     border-top-right-radius:3cqb;
     border-bottom-right-radius:3cqb;
     z-index: 4;
@@ -85,9 +84,9 @@
   .three-fence-2{
     background-color: #2891a1;
     color: #011315;
-    min-height: 330px;
-    height: 25vw;
-    width: 68vw;
+    min-height: 30px;
+    height: 550px;
+    width: 860px;
     border-top-right-radius:3cqb;
     border-bottom-right-radius:3cqb;
     z-index: 4;
@@ -117,7 +116,7 @@
   
   @keyframes animate-fence-2{
     0%{
-      width: 40vw;
+      width: 400px;
       font-size: 2px;
       color: #01131500;
   
@@ -130,8 +129,8 @@
   }
   
     100%{
-      width: 68vw;
-      font-size: 2vw;
+      width: 860px;
+      font-size: 20px;
       color: #011315;
   
     }
@@ -142,8 +141,8 @@
     background-color: #1efbd3;
     color: #0a434b00;
     min-height: 330px;
-    height: 25vw;
-    width: 50vw;
+    height: 550px;
+    width: 800px;
     border-top-right-radius:3cqb;
     border-bottom-right-radius:3cqb;
     z-index: 3;
@@ -164,8 +163,8 @@
     background-color: #1efbd3;
     color: #0a434b;
     min-height: 330px;
-    height: 25vw;
-    width: 87vw;
+    height: 550px;
+    width: 1100px;
     border-top-right-radius:3cqb;
     border-bottom-right-radius:3cqb;
     z-index: 3;
@@ -188,8 +187,8 @@
   
   @keyframes animate-fence-3{
     0%{
-      width: 50vw;
-      height: 25vw;
+      width: 800px;
+      height: 550px;
       color: #0a434b00;
   
   
@@ -202,8 +201,8 @@
     
     }
     100%{
-      width: 87vw;
-      height: 25vw;
+      width: 1100px;
+      height: 550px;
 
       color: #0a434b;
   
@@ -263,7 +262,7 @@
   } */
   }
 
-@media screen and (max-width: 2008px){
+@media screen and (max-width: 1425px){
 
 .three-fence{
   background-color: #041c20;

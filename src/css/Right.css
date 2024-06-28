@@ -1,6 +1,83 @@
 
 
-@media screen and (max-width: 5000px){
+@media screen and (max-width: 6000px){
+  #rightSubtitleLeft{
+    color: white;
+    text-align: center;
+  }
+  #floatLeft{
+    float: center;
+  }
+
+
+
+#rightSubtitle{
+  color: white;
+  font-weight: 600;
+
+}
+
+.right{
+  margin: auto;
+  width: 1024px;
+
+}
+
+
+.timePersonPlace{
+  display: block;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+
+
+}
+
+.sideLine{
+  background-color: #193c4c;
+  color: white;
+  z-index: 10;
+  width: 12px;
+  height: 800px;
+  position: absolute;
+  transform: translate(-45px, 45px);
+  visibility: visible;
+}
+
+.timePersonPlaceContainer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 0vh;
+  margin-top: 0;
+  width: 1024px;
+}
+
+
+.ROAS{
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+
+}
+
+.spentPointP{
+  font-size: 50px;
+  z-index: 2;
+  position: relative;
+  padding-left: 35px;
+  padding-top: 35px;
+  padding-right: 35px;
+  width: 1000px;
+  padding-bottom: 80px;
+  margin-bottom: 0;
+  color: #9ebedc;
+  text-align: left;
+}
+}
+
+@media screen and (max-width: 1425px){
   #rightSubtitleLeft{
     color: white;
     text-align: center;

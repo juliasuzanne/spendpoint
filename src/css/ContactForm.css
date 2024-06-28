@@ -10,7 +10,19 @@ input::-moz-placeholder {
 }
 
 .lineBreak{
-  height: 5vh;
+  height: 80px;
+}
+
+  
+textarea {
+  width: 100%;
+  font-size: 1.1em;
+  border-radius: 7px;
+  min-height: 50px;
+  border-width: 0;
+  padding: .4em;
+  font-family: "Arial";
+
 }
 
 
@@ -29,17 +41,48 @@ input::-moz-placeholder {
   color: #299ffd;
   display: block;
 }
+
 @media screen and (max-width: 6008px){
+
+  textarea {
+    width: 100%;
+    font-size: 25px;
+    border-radius: 7px;
+    min-height: 50px;
+    border-width: 0;
+    padding: .4em;
+    font-family: "Arial";
+  
+  }
+
+  .form-styling{
+    float: right;
+    margin-bottom: 30px;
+    font-family: "Arial";
+    border-radius: .375rem;
+    width: 100%;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    font-size: 25px;
+    border: none;
+    background: white;
+    border-width: 0;
+    color: #299ffd;
+    display: block;
+  }
+
+  
   .blueLine{
     background-color: #67b8fb;
-    height: .5vh;
-    margin-bottom: 4vh;
+    height: 6px;
+    margin-bottom: 30px;
     z-index: 4;
-    width: 30vw;
+    width: 600px;
     position: absolute;
     left: 0;
-    transform: translatex(85px);
+    transform: translatex(120px);
   }
+  
   .blueLine2{
     /* background-color: #041C20;
     height: 10vh;
@@ -54,16 +97,16 @@ input::-moz-placeholder {
   }
 
   .yourInfo{
-    padding-top: 3vh;
-    font-size: 1.75vw;
+    padding-top: 40px;
+    font-size: 20px;
     font-style: oblique;
 
   }
   #contactFormHeader{
-    font-size: 7vw;
-    padding-top: 5vw;
-    padding-bottom: 2vw;
-    width: 30%;
+    font-size: 150px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    width: 426px;
   }
 
   .submitbutton{
@@ -92,22 +135,22 @@ input::-moz-placeholder {
   
   }
   #login{
-    width: 90vw;
+    width: 1156px;
     margin: auto;
     background-color: #B3DDFF;
-    padding-right: 5vw;
-    padding-left: 5vw;
-    padding-top: 2vw;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 20px;
     padding-bottom: 0vw;
-    border-radius: 2vw;
-    transform: translateY(-6vh);
+    border-radius: 42px;
+    transform: translateY(-70px);
     color: black; 
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.842);
   }
   
 }
 
-@media screen and (max-width: 2008px){
+@media screen and (max-width: 1425px){
   .blueLine{
     background-color: #67b8fb;
     height: .5vh;
@@ -260,17 +303,6 @@ input::-moz-placeholder {
 }
 
 
-  
-textarea {
-  width: 100%;
-  font-size: 1.1em;
-  border-radius: 7px;
-  min-height: 50px;
-  border-width: 0;
-  padding: .4em;
-  font-family: "Arial";
-
-}
 
 input:focus {
   outline:none;

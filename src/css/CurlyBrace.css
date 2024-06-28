@@ -1,4 +1,62 @@
-@media screen and (max-width: 5000px){
+@media screen and (max-width: 15000px){
+  .curly-brace{
+    border-top-left-radius: 20px;
+    border-color: #2891a1;
+    border-width: 10px;
+    border-top-style: solid;
+    width: 220px;
+    height: 20px;
+    position: relative;
+  }
+  
+  .curly-brace2{
+    border-bottom-right-radius: 20px;
+    border-color: #2891a1;
+    border-width: 10px;
+    border-bottom-style: solid;
+    width: 220px;
+    transform: translateY(-10px);
+    position: relative;
+  
+  }
+  
+  
+  .curly-brace3{
+    border-bottom-left-radius: 20px;
+    border-color: #2891a1;
+    border-width: 10px;
+    border-bottom-style: solid;
+    width: 220px;
+    transform: translateY(-10px);
+    position: relative;
+  
+  
+  }
+  
+  
+  .curly-brace4{
+    border-top-right-radius: 20px;
+    border-color: #2891a1;
+    border-width: 10px;
+    border-top-style: solid;
+    width: 220px;
+    height: 20px;
+    position: relative;
+    
+  
+  }
+  
+  
+  .curly-braces-container{
+    border-color: #2891a1;
+    padding-bottom: 20px;
+    width: 100vw;
+    margin-left: 40px;
+  
+  } 
+}
+
+@media screen and (max-width: 1425px){
   .curly-brace{
     border-top-left-radius: 20px;
     border-color: #2891a1;
