@@ -27,10 +27,10 @@ export function Geofences() {
         <p className="inClicksSubHeader">In Clicks & Visits Per 1000 Ads</p>
         <div className="curly-braces-container container-fluid">
           <div className="row">
-            <div className="curly-brace col-sm-4 col-lg-4"></div>
-            <div className="curly-brace2 col-sm-4 col-lg-4"></div>
-            <div className="curly-brace3 col-sm-4 col-lg-4"></div>
-            <div className="curly-brace4 col-sm-4 "></div>
+            <div className="curly-brace col-sm-4 col-lg-4" id={`${startAnim ? "curly-brace-before1" : ""}`}></div>
+            <div className="curly-brace2 col-sm-4 col-lg-4" id={`${startAnim ? "curly-brace-before1" : ""}`}></div>
+            <div className="curly-brace3 col-sm-4 col-lg-4" id={`${startAnim ? "curly-brace-before1" : ""}`}></div>
+            <div className="curly-brace4 col-sm-4 " id={`${startAnim ? "curly-brace-before1" : ""}`}></div>
           </div>
         </div>
         <div className="padding-geofencesMobile"></div>

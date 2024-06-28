@@ -1,4 +1,33 @@
 @media screen and (max-width: 15000px){
+  
+  #curly-brace-before1{
+    opacity: 1;
+    animation-duration: 5s;
+    animation-name: animate-curly-brace; 
+  }
+
+
+  @keyframes animate-curly-brace{
+    0%{
+      width: 2vw;
+      opacity: 0;
+  
+    }
+
+    50%{
+      opacity: .7;
+    }
+  
+  
+    100%{
+      width: 18vw;
+      opacity: 1;
+    
+  
+    }
+  }
+  
+  
   .curly-brace{
     border-top-left-radius: 20px;
     border-color: #2891a1;
@@ -100,9 +129,36 @@
     width: 18vw;
     height: 20px;
     position: relative;
-    
   
   }
+
+  #curly-brace-before1{
+    opacity: 1;
+    animation-duration: 5s;
+    animation-name: animate-curly-brace; 
+  }
+
+
+  @keyframes animate-curly-brace{
+    0%{
+      width: 2vw;
+      opacity: 0;
+  
+    }
+
+    50%{
+      opacity: .7;
+    }
+  
+  
+    100%{
+      width: 18vw;
+      opacity: 1;
+    
+  
+    }
+  }
+  
   
   
   .curly-braces-container{
@@ -110,12 +166,43 @@
     padding-bottom: 2vh;
     width: 100vw;
     margin-left: 2vw;
-  
   } 
+
+
 }
 
 
 @media screen and (max-width: 700px){
+
+
+  #curly-brace-before1{
+    opacity: 1;
+    animation-duration: 5s;
+    animation-name: animate-curly-brace; 
+  }
+
+
+  @keyframes animate-curly-brace{
+    0%{
+      width: 2vw;
+      opacity: 0;
+  
+    }
+
+    50%{
+      opacity: .7;
+    }
+  
+  
+    100%{
+      width: 18vw;
+      opacity: 1;
+    
+  
+    }
+  }
+  
+
   .curly-brace{
     border-top-left-radius: 20px;
     border-color: #2891a1;
