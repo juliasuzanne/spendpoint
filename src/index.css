@@ -114,7 +114,7 @@ html, body {
 }
 
 .content-breathe{
-  height: 12vw;
+  height: 7vw;
 }
 
 .content-breathe2{
@@ -123,9 +123,9 @@ html, body {
 }
 
 .spendpointLogoTop{
-  width: 45vw;
+  width: 55vw;
   padding-bottom: 5vh;
-  padding: 3vw;
+  padding: 4vw;
   z-index: 2;
   position: relative;
 }
