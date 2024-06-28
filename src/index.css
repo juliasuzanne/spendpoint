@@ -38,7 +38,7 @@
   }
   
   .content-breathe{
-    height: 12vw;
+    height: 120px;
   }
   
   .content-breathe2{
@@ -68,7 +68,7 @@
   
   
   .heading {
-    font-size: 100px;
+    font-size: 90px;
     flex-wrap: wrap;
     padding: 20px;
     font-weight: 700;

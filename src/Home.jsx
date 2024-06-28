@@ -17,6 +17,8 @@ export function Home() {
       <div className="content-breathe"></div>
       <Geofences></Geofences>
       <Punchline></Punchline>
+      <div className="content-breathe"></div>
+
       {/* <div className="content-breathe2"></div> */}
       <ContactForm></ContactForm>
 

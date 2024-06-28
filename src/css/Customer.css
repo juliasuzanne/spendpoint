@@ -26,7 +26,7 @@
     font-size: 3.6vw;
     width: 90%;
     padding-bottom: 4vh;
-    color: #9ebedc;
+    color: #bfecf4;
     font-style: oblique;
   }
   
@@ -38,7 +38,7 @@
     z-index: 1;
   }
   
-  .rightSubtitle{
+  .rightSubtitle-customer{
     position: relative;
     left: 1px;
     font-size: 30px;
@@ -56,11 +56,11 @@
   }
   
   
-  .timePersonPlace img{
+  .timePersonPlace-customer img{
     width: 250px;
   }
   
-  .timePersonPlace{
+  .timePersonPlace-customer{
     display: block;
     text-align: center;
     padding-right: 60px;
@@ -70,7 +70,7 @@
   }
   
   
-  .timePersonPlaceContainer {
+  .timePersonPlaceContainer-customer {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +115,7 @@
   .storeVisits{
     font-size: 4vw;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     /* text-decoration-color: #1efbd3; */
   }
 
@@ -130,24 +130,24 @@
 }
 
 .customerText{
-  font-size: 3.6vw;
+  font-size: 4vw;
   width: 90%;
-  padding-bottom: 4vh;
-  color: #172b3e;
+  padding-bottom:4vh;
+  color: #bfecf4;
   margin: auto;
   font-style: normal;
   text-align: center;
 }
 
 
-.rightSubtitle{
+.rightSubtitle-customer{
   position: relative;
   left: 1px;
-  font-size: 1.5vw;
-  padding-top: .2vh;    
-  color:   #1efbd3;
+  font-size: 2vw;
+  padding-top: 4vh;    
+  color:   #041C20;
   padding-left: 0vw;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .largeP{
@@ -166,21 +166,40 @@
 }
 
 
-.timePersonPlace img{
-  width: 12vw;
+.timePersonPlace-customer img{
+  width: 16vw;
+  justify-content: center;
+  align-items: center;
 }
 
-.timePersonPlace{
+.timePersonPlace-customer{
   display: block;
   text-align: center;
   padding-right: 4.5vw;
   padding-left: 4.5vw;
+  width: 20vw;
+  height: 28vw;
+  padding: 1vw;
+  justify-content: center;
+  align-items: center;
+
 
 
 }
 
+.blue-circle{
+  background-color: #041C20;
+  border-radius: 100%;
+  width: 18vw;
+  height: 18vw;
+  padding: .8vw;
+  padding-top: 1.2vw;
+  justify-content: center;
+  align-items: center;
+}
 
-.timePersonPlaceContainer {
+
+.timePersonPlaceContainer-customer {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -225,9 +244,21 @@
   }
 
   .storeVisits{
-    font-size: 8vw;
+    font-size: 9vw;
     font-style: normal;
     font-weight: 600;
+  }
+
+  .blue-circle{
+    background-color: #041C20;
+    float: left;
+    border-radius: 100%;
+    width: 29vw;
+    height: 29vw;
+    padding: .3vw;
+    padding-top: 1.2vw;
+    margin: auto;
+
   }
 
   
@@ -242,43 +273,58 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 80%;
+    width: 85vw;
     color: #bfecf4;
 
   }
   
   .customerText{
-    font-size: 5.8vw;
-    color: #9ebedc;
+    font-size: 6.8vw;
+    color: #bfecf4;
     line-height: 10vw;
-    width: 70vw;
+    width: 80vw;
     padding: 0;
     margin: 0;
   }
 
   .customerSubtitle{
     padding-top: 3vh;
+    float: center;
+
 
   }
 
-  .timePersonPlace img{
-    width: 30vw;
-    float: left;
+  .timePersonPlace-customer img{
+    width: 28vw;
+    float: center;
+    padding: 2vw;
+
+
+  }
+
+
+  .timePersonPlace-customer{
+    display: block;
+    text-align: left;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    width: 60vw;
+    height: 38vw;
+    margin: auto;
+    transform: translateX(-4vw);
+    padding: 0vw;
+    justify-content: center;
+    align-items: center;
   }
 
   #customerImage{
     width: 34vw;
-  }
-  
-  .timePersonPlace{
-    display: relative;
-    margin-bottom: 5vw;
-    margin-top: 5vw;
-    text-align: left;
-    padding-left: 0vw;
-  
+    margin: auto;
+
   }
 
+  
+ 
 
   .right{
     margin: auto;
@@ -287,23 +333,34 @@
   }
 
 
-  .timePersonPlaceContainer {
-    display: inline-flex;
-    justify-content: left;
-    align-items: left;
-    /* margin: auto; */
+  .timePersonPlaceContainer-customer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     padding-top: 4vh;
     margin-top: 0;
-    /* width: 80vw; */
+    padding: 10vw;
   }
 
-  .rightSubtitle{
+  .rightSubtitle-customer{
     position: relative;
-    font-size: 5vw;
+    left: 22px;
+    font-size: 4.5vw;
     padding-top: 4vh;
-    font-weight: 700;
-    color:   #1efbd3;
+    color: #041C20;
+    font-weight: 500;
+
   }
+
+  #rightSubtitleLeft-customer{
+    color: #041C20;
+    text-align: left;
+    font-weight: 700;
+
+    
+  }
+
 
   .ROAS{
     font-size:6.9vw;

@@ -27,8 +27,8 @@
 .timePersonPlace{
   display: block;
   text-align: center;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 60px;
+  padding-left: 60px;
 
 
 }
@@ -110,6 +110,11 @@
 
 }
 
+.timePersonPlace img{
+  width: 16vw;
+
+}
+
 .sideLine{
   background-color: #193c4c;
   color: white;
@@ -156,12 +161,7 @@
 
 @media screen and (max-width: 760px){
 
-  
-  #rightSubtitleLeft{
-    color: white;
-    text-align: left;
-    font-weight: 500;
-  }
+
   #floatLeft{
     float: left;
   }
@@ -175,8 +175,6 @@
 
   .timePersonPlace{
     display: relative;
-
-  
   }
 
   .sideLine{
@@ -199,7 +197,9 @@
 
   
   .timePersonPlace{
-    display: block;
+    display: relative;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
     text-align: left;
     padding-left: 0vw;
   
@@ -222,6 +222,12 @@
     padding-top: 4vh;
     padding-left: 0vw;
     color: white;
+    font-weight: 500;
+  }
+
+  #rightSubtitleLeft{
+    color: white;
+    text-align: left;
     font-weight: 500;
   }
 
