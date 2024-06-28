@@ -331,6 +331,8 @@
   width: 80%;
   line-height: 8vw;
   color: #bfecf4;
+  margin: 0;
+
 
 }
 
@@ -568,7 +570,9 @@
     font-size: 6vw;
     width: 80%;
     line-height: 10vw;
+    margin: 0;
     color: #bfecf4;
+
   }
   
   .bluebox {

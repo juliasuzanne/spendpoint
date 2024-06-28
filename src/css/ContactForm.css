@@ -235,6 +235,33 @@ textarea {
     font-style: oblique;
   }
 
+  textarea {
+    width: 100%;
+    font-size: 3.25vw;
+    border-radius: 7px;
+    min-height: 50px;
+    border-width: 0;
+    padding: .4em;
+    font-family: "Arial";
+  
+  }
+
+  .form-styling{
+    float: right;
+    margin-bottom: 30px;
+    font-family: "Arial";
+    border-radius: .375rem;
+    width: 100%;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    font-size: 3.25vw;
+    border: none;
+    background: white;
+    border-width: 0;
+    color: #299ffd;
+    display: block;
+  }
+
   .blueLine{
     background-color: #67b8fb;
     height: .3vh;
@@ -259,7 +286,7 @@ textarea {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.842);
   }
   #contactFormHeader{
-    font-size: 10vw;
+    font-size: 15vw;
     padding-top: 7vw;
     padding-bottom: 2vw;
     width: 30%;
