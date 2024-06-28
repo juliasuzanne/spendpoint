@@ -81,11 +81,20 @@
   
   #curly-braces-container{
     border-color: #2891a1;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     width: 100vw;
     margin-left: 40px;
   
   } 
+
+  #curly-braces-container-animate{
+    border-color: #2891a1;
+    padding-bottom: 15px;
+    width: 100vw;
+    margin-left: 2vw;
+    animation-duration: 0s;
+  } 
+
 }
 
 @media screen and (max-width: 1455px){
@@ -269,7 +278,6 @@
     padding-bottom: 2vh;
     width: 100vw;
     margin-left: 24vw;
-  
   } 
 
   #curly-braces-container-animate{
@@ -318,8 +326,6 @@
     padding-bottom: 2vh;
     width: 100vw;
     margin-left: 11vw;
-  
   } 
-
 
 }

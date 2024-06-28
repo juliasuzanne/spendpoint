@@ -6,28 +6,43 @@
     padding-left: 0;
   }
 
+  .blue-circle{
+    background-color: #041C20;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    padding-top: 17px;
+    justify-content: center;
+    align-items: center;
+  }
+
   .storeVisits{
-    font-size: 4vw;
+    font-size: 60px;
     font-style: normal;
     font-weight: 600;
+    color: #041C20;
+
   }
   
   .customer{
-    transform: translateY(-5vh);
+    transform: translateY(80px);
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 1024px;
+    width: 1224px;
+    min-height: 970px;
     color: #041C20;
   
   }
   
   .customerText{
-    font-size: 3.6vw;
-    width: 90%;
-    padding-bottom: 4vh;
-    color: #bfecf4;
-    font-style: oblique;
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+    color: #041C20;
+    font-style: normal;
   }
   
   .largeP{
@@ -43,13 +58,13 @@
     left: 1px;
     font-size: 30px;
     padding-top: 10px;    
-    color:   #1efbd3;
-    padding-left: 0vw;
+    color: #041C20;
+    padding-left: 0;
     font-weight: 700;
   }
   
   .right{
-    width: 1024px;
+    width: 1124px;
     margin: auto;
 
   
@@ -63,8 +78,8 @@
   .timePersonPlace-customer{
     display: block;
     text-align: center;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 100px;
+    padding-left: 100px;
   
   
   }
@@ -77,7 +92,7 @@
     margin: auto;
     padding-top: 0vh;
     margin-top: 0;
-    width: 1024px;
+    width: 1224px;
   }
   
   
@@ -98,7 +113,7 @@
     width: 800px;
     padding-bottom: 80px;
     margin-bottom: 0;
-    color: #9ebedc;
+    color: #B6F1FF;
     text-align: left;
   }
   
@@ -227,7 +242,7 @@
   width: 60%;
   padding-bottom: 5vh;
   margin-bottom: 0;
-  color: #9ebedc;
+  color: #B6F1FF;
   text-align: left;
 }
 
@@ -374,6 +389,7 @@
     font-weight: 500;
     width: 90%;
     z-index: 2;
+    color: #B6F1FF;
     position: relative;
     padding-left: 6vw;
     padding-top: 2vh;
