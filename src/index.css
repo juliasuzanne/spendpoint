@@ -57,10 +57,11 @@
   }
   
     .bottom-logo{
-      width: 100vw;
+      width: 100%;
+      padding-top: 10vh;
       justify-content: center;
       align-items: center;
-      transform: translate(-720px, 250px);
+      margin: auto;
       overflow-x: hidden;
     }
   
@@ -130,11 +131,11 @@ html, body {
 }
 
   .bottom-logo{
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    transform: translate(-10vw, 13vh);
     overflow-x: hidden;
+    padding-bottom: 2vh;
   }
 
 
@@ -214,10 +215,10 @@ footer {
   
   
     .bottom-logo{
-      width: 100vw;
+      width: 100%;
+      padding-top: 3vw;
       justify-content: center;
       align-items: center;
-      transform: translate(-10vw, 5vh);
       overflow-x: hidden;
     }
 

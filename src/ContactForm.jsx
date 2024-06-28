@@ -92,14 +92,13 @@ export function ContactForm() {
             <div className="row">
               <input type="submit" value="CONTACT" className="submitbutton btn btn-secondary mt-3 submit " />
               <p className="yourInfo">Your information will only be used to contact you about a follow-up meeting.</p>
+              <img
+                className="bottom-logo"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-03_ohzr8c.png"
+              ></img>
             </div>
           </div>
         </form>
-
-        <img
-          className="bottom-logo"
-          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718898397/SpendPointL_pn5zt0.png"
-        ></img>
       </div>
     </>
   );
