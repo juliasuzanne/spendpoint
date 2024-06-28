@@ -179,6 +179,7 @@
 
   #curly-brace-before1{
     opacity: 1;
+    width: 14vw;
     animation-duration: 2.5s;
     animation-name: animate-curly-brace; 
   }
@@ -200,7 +201,6 @@
       width: 14vw;
       opacity: 1;
     
-  
     }
   }
   
