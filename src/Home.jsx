@@ -16,6 +16,8 @@ export function Home() {
       <Right></Right>
       <div className="content-breathe"></div>
       <Geofences></Geofences>
+      <div className="content-breathe"></div>
+
       <Punchline></Punchline>
       <div className="content-breathe"></div>
 

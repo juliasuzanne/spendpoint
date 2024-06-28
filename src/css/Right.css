@@ -4,6 +4,7 @@
   #rightSubtitleLeft{
     color: white;
     text-align: center;
+    font-weight: 500;
   }
   #floatLeft{
     float: center;
@@ -13,7 +14,7 @@
 
 #rightSubtitle{
   color: white;
-  font-weight: 600;
+  font-weight: 500;
 
 }
 
@@ -81,6 +82,8 @@
   #rightSubtitleLeft{
     color: white;
     text-align: center;
+    font-weight: 500;
+    font-size: 2.2vw;
   }
   #floatLeft{
     float: center;
@@ -90,7 +93,7 @@
 
 #rightSubtitle{
   color: white;
-  font-weight: 600;
+  font-weight: 500;
 
 }
 
@@ -229,6 +232,9 @@
     color: white;
     text-align: left;
     font-weight: 500;
+    font-size:4.3vw;
+
+
   }
 
   .ROAS{

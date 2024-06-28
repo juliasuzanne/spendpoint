@@ -13,17 +13,28 @@ export function Punchline() {
   return (
     <div className="punchline">
       <ObserverComponent handleStartAnim={startAnimating}></ObserverComponent>{" "}
+      <div className="spendpoint-icon">
+        <img
+          className={`${startAnim ? "spend-map-anim" : "spend-map"}`}
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719612263/maplogo-18_y9niom.png"
+        ></img>
+        <img
+          className={`${startAnim ? "spend-map-shadow-anim" : "spend-map-shadow"}`}
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719613559/SpendPoint-shadow-tall_zvvo6t.png"
+        ></img>
+      </div>
       <h2 className="heading" id="punchline-main">
-        Delivering ads to the right person,
-        <br></br>at the right time,
-        <br></br> at the right place <br></br>
-        <span className="dramatically"> dramatically increases clicks, store visits and sales.</span>
+        Delivering ads to the right person, at the right time, at the right place dramatically increases
+        <br></br>{" "}
+        <span className="dramatically">
+          {" "}
+          clicks, <br></br>store visits <br></br>and sales.
+        </span>
       </h2>
-      <div className={`${startAnim ? "punchline-person-anim" : "punchline-person"}`}></div>
+      {/* <div className={`${startAnim ? "punchline-person-anim" : "punchline-person"}`}></div>
       <div className={`${startAnim ? "punchline-time-anim" : "punchline-time"}`}></div>
       <div className="punchline-image-container">
-        <div className={`${startAnim ? "punchline-image-anim" : "punchline-image"}`}></div>
-      </div>
+        <div className={`${startAnim ? "punchline-image-anim" : "punchline-image"}`}></div> */}
     </div>
   );
 }
