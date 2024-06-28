@@ -150,7 +150,7 @@ textarea {
   
 }
 
-@media screen and (max-width: 1425px){
+@media screen and (max-width: 1455px){
   .blueLine{
     background-color: #67b8fb;
     height: .5vh;
@@ -176,13 +176,13 @@ textarea {
 
   .yourInfo{
     padding-top: 3vh;
-    font-size: 1.75vw;
+    font-size: 1em;
     font-style: oblique;
 
   }
   #contactFormHeader{
     font-size: 7vw;
-    padding-top: 5vw;
+    padding-top: 2vw;
     padding-bottom: 2vw;
     width: 30%;
   }
@@ -212,8 +212,36 @@ textarea {
 
   
   }
+
+  .form-styling{
+    float: right;
+    margin-bottom: 30px;
+    font-family: "Arial";
+    border-radius: .375rem;
+    width: 100%;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    font-size: 1.2em;
+    border: none;
+    background: white;
+    border-width: 0;
+    color: #299ffd;
+    display: block;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 1.2em;
+    border-radius: 7px;
+    min-height: 50px;
+    border-width: 0;
+    padding: .4em;
+    font-family: "Arial";
+  
+  }
+
   #login{
-    width: 90vw;
+    width: 80vw;
     margin: auto;
     background-color: #B3DDFF;
     padding-right: 5vw;

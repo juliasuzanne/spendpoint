@@ -245,7 +245,7 @@
   }
   }
 
-@media screen and (max-width: 1425px){
+@media screen and (max-width: 1455px){
 
 .geofences{
   background-color: white;
@@ -253,7 +253,7 @@
   padding-left: 5vw;
   padding-right: 5vw;
   padding-top: 4vh;
-  width: 90vw;
+  width: 70vw;
   padding-bottom: 5vh;
   margin: auto;
   border-radius: 2vw;
@@ -265,7 +265,7 @@
 
 .inClicksSubHeader{
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.5vw;
   color: #2891a1;
 
 }
@@ -274,7 +274,7 @@
   color: #2891a1;
   text-align: center;
   font-weight: 700;
-  font-size: 3.8vw;
+  font-size: 3.3vw;
   line-height: 2vw;
   padding-top: 3vh;
 
@@ -284,8 +284,8 @@
 .geofencesText {
   color: black;
   align-items: end;
-  font-size: 2.5vw;
-  line-height: 4.5vw;
+  font-size: 2vw;
+  line-height: 3.5vw;
   visibility: visible;
 }
 
@@ -399,7 +399,7 @@
 .six-header{
   margin: 0;
   text-align: right;
-  font-size: 3vw;
+  font-size: 2.2vw;
   padding-top: 4vw;
 
   padding-right: 2vw;
@@ -422,7 +422,7 @@
 .six-header-small{
   margin: 0;
   text-align: right;
-  font-size: 3vw;
+  font-size: 2.2vw;
   font-weight: 700;
   padding-right: 2vw;
   visibility: visible;
@@ -440,7 +440,7 @@
 
 .six-header-med{
   text-align: right;
-  font-size: 3vw;
+  font-size: 2.2vw;
   padding: 4vw;
   font-weight: 700;
 
@@ -455,7 +455,7 @@
 
 .six-header-wide{
   text-align: right;
-  font-size: 3vw;
+  font-size: 2.2vw;
   padding: 4vw;
   /* max-width: 29vw; */
   float: right;
@@ -469,7 +469,7 @@
 }
 
 .times-p{
-  font-size: 8vw;
+  font-size: 6.5vw;
   padding-top: 2vh;
   padding-right: 4vw;
   position: relative;
@@ -479,7 +479,7 @@
 
 #small-times-p{
   padding-right: 2vw;
-  transform: translateY(-1.3vw);
+  transform: translateY(0);
 }
 }
 

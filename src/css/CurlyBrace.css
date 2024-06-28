@@ -85,13 +85,13 @@
   } 
 }
 
-@media screen and (max-width: 1425px){
+@media screen and (max-width: 1455px){
   .curly-brace{
     border-top-left-radius: 20px;
     border-color: #2891a1;
     border-width: 10px;
     border-top-style: solid;
-    width: 18vw;
+    width: 7.5vw;
     height: 20px;
     position: relative;
   }
@@ -101,7 +101,7 @@
     border-color: #2891a1;
     border-width: 10px;
     border-bottom-style: solid;
-    width: 18vw;
+    width: 7.5vw;
     transform: translateY(-10px);
     position: relative;
   
@@ -113,7 +113,7 @@
     border-color: #2891a1;
     border-width: 10px;
     border-bottom-style: solid;
-    width: 18vw;
+    width: 7.5vw;
     transform: translateY(-10px);
     position: relative;
   
@@ -126,7 +126,7 @@
     border-color: #2891a1;
     border-width: 10px;
     border-top-style: solid;
-    width: 18vw;
+    width: 7.5vw;
     height: 20px;
     position: relative;
   
@@ -136,14 +136,14 @@
     opacity: 1;
     animation-duration: 2.5s;
     animation-name: animate-curly-brace; 
-    width: 18.75vw;
+    width: 13.5vw;
 
   }
 
 
   @keyframes animate-curly-brace{
     0%{
-      width: 10.5vw;
+      width: 7.5vw;
       opacity: 0;
   
     }
@@ -154,7 +154,7 @@
   
   
     100%{
-      width: 18.75vw;
+      width: 13.5vw;
       opacity: 1;
     
   

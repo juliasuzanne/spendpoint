@@ -77,7 +77,7 @@
 }
 }
 
-@media screen and (max-width: 1425px){
+@media screen and (max-width: 1455px){
   #rightSubtitleLeft{
     color: white;
     text-align: center;
@@ -115,9 +115,9 @@
   color: white;
   z-index: 10;
   width: .5vw;
-  height: 45vw;
+  height: 35vw;
   position: absolute;
-  transform: translate(-2vw, 2vw);
+  transform: translate(-20px, 30px);
   visibility: visible;
 }
 
@@ -133,20 +133,20 @@
 
 
 .ROAS{
-  font-size: 4.4vw;
+  font-size: 3.1vw;
   font-weight: 700;
   color: white;
 
 }
 
 .spentPointP{
-  font-size: 3vw;
+  font-size: 2vw;
   z-index: 2;
   position: relative;
   padding-left: 2vh;
   padding-top: 2vh;
   padding-right: 2vh;
-  width: 70%;
+  width: 60%;
   padding-bottom: 5vh;
   margin-bottom: 0;
   color: #9ebedc;

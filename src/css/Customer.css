@@ -104,7 +104,7 @@
   
   }
 
-@media screen and (max-width: 1425px){
+@media screen and (max-width: 1455px){
 
 .blueCustomer {
   background-color: #0073cf;
@@ -133,19 +133,21 @@
   font-size: 3.6vw;
   width: 90%;
   padding-bottom: 4vh;
-  color: #9ebedc;
+  color: #172b3e;
+  margin: auto;
   font-style: normal;
+  text-align: center;
 }
 
 
 .rightSubtitle{
   position: relative;
   left: 1px;
-  font-size: 2.5vw;
-  padding-top: .5vh;    
+  font-size: 1.5vw;
+  padding-top: .2vh;    
   color:   #1efbd3;
   padding-left: 0vw;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .largeP{
@@ -165,7 +167,7 @@
 
 
 .timePersonPlace img{
-  width: 16vw;
+  width: 12vw;
 }
 
 .timePersonPlace{
@@ -190,20 +192,20 @@
 
 
 .ROAS{
-  font-size: 4.4vw;
+  font-size: 3.1vw;
   font-weight: 700;
   color: white;
 
 }
 
 .spentPointP{
-  font-size: 3vw;
+  font-size: 2vw;
   z-index: 2;
   position: relative;
   padding-left: 2vh;
   padding-top: 2vh;
   padding-right: 2vh;
-  width: 70%;
+  width: 60%;
   padding-bottom: 5vh;
   margin-bottom: 0;
   color: #9ebedc;
