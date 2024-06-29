@@ -170,8 +170,6 @@
     width: 25vw;
     height: 40vw;
 
-
-
   }
   .spend-map {
     width: 20vw;
@@ -287,7 +285,7 @@
   font-size: 3vw;
   line-height: 4.5vw;
   margin-left: 17vw;
-  min-height: 65vh;
+  min-height: 25vh;
 
 
 }
@@ -455,11 +453,11 @@
 }
 
 @media (prefers-reduced-motion) {
-  .animate-shadow{
+  .spend-map-shadow-anim{
     animation-duration: 0s;
     animation-name: no-animate; 
   }
-  .animate-point{
+  .spend-map-anim{
     animation-duration: 0s;
     animation-name: no-animate; 
   }
