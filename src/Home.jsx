@@ -11,7 +11,7 @@ export function Home() {
     <div className="app">
       <img
         className="spendpointLogoTop"
-        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808894/SpendPointimage-10_wivase.png"
+        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719619596/SpendPoint-logo-alternateshadows-10_drokny.png"
       ></img>
       <Right></Right>
       <div className="content-breathe"></div>

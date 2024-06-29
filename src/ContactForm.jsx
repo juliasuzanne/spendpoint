@@ -94,7 +94,7 @@ export function ContactForm() {
               <p className="yourInfo">Your information will only be used to contact you about a follow-up meeting.</p>
               <img
                 className="bottom-logo"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718808892/SpendPointimage-03_ohzr8c.png"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719619596/SpendPoint-logo-alternateshadows-03_hh1ahr.png"
               ></img>
             </div>
           </div>

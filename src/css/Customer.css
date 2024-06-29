@@ -141,6 +141,8 @@
   margin: auto;
   width: 80%;
   color: #bfecf4;
+  min-height: 200px;
+
 
 }
 
@@ -290,6 +292,7 @@
     margin: auto;
     width: 85vw;
     color: #bfecf4;
+    min-height: 200px;
 
   }
   
