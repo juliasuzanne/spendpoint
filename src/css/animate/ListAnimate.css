@@ -24,7 +24,7 @@
   font-weight: 900;
   /* width: 80vwpx; */
   transform: translateX(0%);
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-name: animate-box; 
 }
 
@@ -38,7 +38,7 @@
   font-weight: 900;
   /* width: 80vwpx; */
   transform: translateX(0%);
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-name: animate-box-delay2; 
 }
 
@@ -52,7 +52,7 @@
   font-weight: 900;
   opacity: 1;
   /* width: 80vw; */
-  animation-duration: 1.5s;
+  animation-duration: 3s;
   animation-name: animate-box-delay3; 
 }
 
@@ -67,7 +67,7 @@
 
   }
 
-  20%{
+  50%{
     opacity: 0;
     filter: blur(2px);
     transform: translateX(-10%);
@@ -90,7 +90,7 @@
 
   }
 
-  60%{
+  50%{
     opacity: 0;
     filter: blur(2px);
     transform: translateX(-10%);
@@ -112,7 +112,7 @@
 
   }
 
-  80%{
+  50%{
     opacity: 0;
     filter: blur(2px);
     transform: translateX(-10%);
@@ -201,7 +201,7 @@
     font-weight: 900;
     /* width: 80vwpx; */
     transform: translateX(0%);
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-name: animate-box; 
   }
   
@@ -215,7 +215,7 @@
     font-weight: 900;
     /* width: 80vwpx; */
     transform: translateX(0%);
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-name: animate-box-delay2; 
   }
   
@@ -229,7 +229,7 @@
     font-weight: 900;
     opacity: 1;
     /* width: 80vw; */
-    animation-duration: 1.5s;
+    animation-duration: 3s;
     animation-name: animate-box-delay3; 
   }
   
@@ -244,7 +244,7 @@
   
     }
   
-    20%{
+    50%{
       opacity: 0;
       filter: blur(2px);
       transform: translateX(-10%);
@@ -267,7 +267,7 @@
   
     }
   
-    60%{
+    50%{
       opacity: 0;
       filter: blur(2px);
       transform: translateX(-10%);
@@ -289,7 +289,7 @@
   
     }
   
-    80%{
+    50%{
       opacity: 0;
       filter: blur(2px);
       transform: translateX(-10%);
@@ -376,7 +376,7 @@
     justify-content: center;
     font-weight: 900;
     transform: translateX(0%);
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-name: animate-box; 
   }
   
@@ -390,7 +390,7 @@
     font-weight: 900;
     /* width: 80vwpx; */
     transform: translateX(0%);
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-name: animate-box-delay2; 
   }
   
@@ -405,7 +405,7 @@
     font-weight: 900;
     opacity: 1;
     /* width: 80vw; */
-    animation-duration: 1.5s;
+    animation-duration: 3s;
     animation-name: animate-box-delay3; 
   }
 
@@ -422,7 +422,7 @@
   
     }
   
-    20%{
+    50%{
       opacity: 0;
       filter: blur(2px);
       transform: translateX(-10%);
@@ -445,7 +445,7 @@
   
     }
   
-    40%{
+    50%{
       opacity: 0;
       filter: blur(2px);
       transform: translateX(-10%);
@@ -467,7 +467,7 @@
   
     }
   
-    60%{
+    50%{
       opacity: 0;
       filter: blur(2px);
       transform: translateX(-10%);
