@@ -316,9 +316,11 @@
     animation-name: no-animate; 
   }
 
-  .curly-braces-container-animate{
+  #curly-braces-container-animate{
     animation-duration: 0s;
     animation-name: no-animate; 
+    margin-left: 11vw;
+
   }
 
   #curly-braces-container{
@@ -327,5 +329,7 @@
     width: 100vw;
     margin-left: 11vw;
   } 
+
+
 
 }
