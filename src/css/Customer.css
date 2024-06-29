@@ -128,7 +128,7 @@
 }
 
   .storeVisits{
-    font-size: 4vw;
+    font-size: 4.25vw;
     font-style: normal;
     font-weight: 700;
     /* text-decoration-color: #1efbd3; */
@@ -137,6 +137,7 @@
 .customer{
   transform: translateY(-5vh);
   align-items: center;
+  
   justify-content: center;
   margin: auto;
   width: 80%;
@@ -147,7 +148,7 @@
 }
 
 .customerText{
-  font-size: 4vw;
+  font-size: 3.5vw;
   width: 90%;
   padding-bottom:4vh;
   color: #041C20;
