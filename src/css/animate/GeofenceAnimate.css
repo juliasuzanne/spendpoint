@@ -22,7 +22,7 @@
   
   .three-fence-1{
     background-color: #041c20;
-    color: #54c8da;
+    color: #01FFFF;
     min-height: 30px;
     height: 550px;
     width: 550px;
@@ -286,7 +286,7 @@
 
 .three-fence-1{
   background-color: #041c20;
-  color: #54c8da;
+  color: #01FFFF;
   min-height: 330px;
   height: 25vw;
   width: 33vw;
@@ -564,7 +564,7 @@
  
   .three-fence-1{
     background-color: #041c20;
-    color: #54c8da;
+    color: #01FFFF;
     bottom: 0;
     min-height: 100px;
 
@@ -603,7 +603,7 @@
       height: 30vh;
       min-height: 100px;
       background-color: #041c20;
-      color: #54c8da;
+      color: #01FFFF;
       bottom: 0;
       left: 15vw;
       width: 59vw;
@@ -718,7 +718,7 @@
       min-height: 100px;
       bottom: 0;
       left: 15vw;
-      background-color: #1efbd3;
+      background-color: #01FFFF;
       color: #0a434b00;
       width: 59vw;
       height: 30vh;
@@ -737,7 +737,7 @@
       min-height: 100px;
       bottom: 0;
       left: 15vw;
-      background-color: #1efbd3;
+      background-color: #01FFFF;
       color: #0a434b;
       width: 59vw;
       height: 60vh;
