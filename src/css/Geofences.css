@@ -241,6 +241,8 @@
     text-align: right;
     font-size: 40px;
     padding: 50px;
+    padding-right: 50px;
+
     /* max-width: 29vw; */
     float: right;
     justify-content: right;
@@ -501,6 +503,8 @@
   text-align: right;
   font-size: 2.2vw;
   padding: 4vw;
+  padding-right: 2vw;
+
   /* max-width: 29vw; */
   float: right;
   justify-content: right;
@@ -515,7 +519,7 @@
 .times-p{
   font-size: 6.5vw;
   padding-top: 2vh;
-  padding-right: 4vw;
+  padding-right: 2vw;
   position: relative;
   text-align: right;
 
@@ -801,6 +805,7 @@
     text-align: left;
     font-size: 6vw;
     padding-top: 4vw;
+    
     /* max-width: 29vw; */
     float: left;
     justify-content: left;
