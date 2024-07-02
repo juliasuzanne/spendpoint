@@ -56,7 +56,10 @@ export function Geofences() {
           <div className={`${startAnim ? "three-fence-2" : "three-fence-second"}`}>
             <div className="container-fluid">
               <div className="row">
-                <p className="six-header-med">Spend Data</p>
+                <p className="six-header-med">
+                  Response<span className="six-header-med-mobile"> Data</span>
+                </p>
+                <p className="six-header-med2">Data</p>
               </div>
               <div className="row">
                 <h3 className="times-p">2X</h3>
@@ -67,7 +70,7 @@ export function Geofences() {
             <div className="container-fluid">
               <div className="row">
                 <p className="six-header">
-                  Waste <span className="six-header-mobile">Prevention</span>
+                  Waste<span className="six-header-mobile"> Prevention</span>
                 </p>
                 <p className="six-header-small"> Prevention</p>
               </div>
