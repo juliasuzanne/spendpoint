@@ -16,7 +16,7 @@ export function ContactForm() {
     setErrors([]);
 
     emailjs
-      .sendForm("service_c18cpdm", "template_mhj2x7o", form.current, {
+      .sendForm("service_372suhv", "template_mhj2x7o", form.current, {
         publicKey: "wtqlY2oQZE-VvZPjG",
       })
       .then(
